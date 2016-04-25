@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>AWS Weekly Update &#8211; 云知道</title>
+<title>AWS Weekly Update 3 &#8211; 云知道</title>
 <meta name="description" content="速递新知，解析本质，通过分享生产价值">
 <meta name="keywords" content="">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="/images/">
-<meta name="twitter:title" content="AWS Weekly Update">
+<meta name="twitter:title" content="AWS Weekly Update 3">
 <meta name="twitter:description" content="速递新知，解析本质，通过分享生产价值">
 <meta name="twitter:creator" content="@zliu">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AWS Weekly Update">
+<meta property="og:title" content="AWS Weekly Update 3">
 <meta property="og:description" content="速递新知，解析本质，通过分享生产价值">
-<meta property="og:url" content="/aws/aws-weekly-update/">
+<meta property="og:url" content="/aws/aws-weekly-update-3/">
 <meta property="og:site_name" content="云知道">
 
 
 
 
 
-<link rel="canonical" href="/aws/aws-weekly-update/">
+<link rel="canonical" href="/aws/aws-weekly-update-3/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -123,52 +123,26 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/aws/aws-weekly-update/" rel="bookmark" title="AWS Weekly Update">AWS Weekly Update</a></h1>
+          <h1 class="entry-title"><a href="/aws/aws-weekly-update-3/" rel="bookmark" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h1>
         
-        <h2><span class="entry-date date published"><time datetime="2016-04-24T23:33:40+08:00">April 24, 2016</time></span></h2>
+        <h2><span class="entry-date date published"><time datetime="2016-04-25T12:01:07+08:00">April 25, 2016</time></span></h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-Reading time ~2 minutes
+Reading time ~1 minute
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <h2 id="section">本周的跟新是</h2>
+      <p>#add a post to martinliu/yunzd.github.io</p>
 
-<p>Apache HBase is a distributed, scalable big data store designed to support tables with billions of rows and millions of columns. HBase runs on top of Hadoop and HDFS and can also be queried using MapReduce, Hive, and Pig jobs.</p>
+<p>this post is AWS weekly update 3</p>
 
-<iframe width="510" height="498" src="http://player.youku.com/embed/XMTU0MzgxMjkzMg==" frameborder="0"> </iframe>
+<p>I have a picture to share with you.</p>
 
-<p>AWS customers use HBase for their ad tech, web analytics, and financial services workloads. They appreciate its scalability and the ease with which it handles time-series data.
-HBase 1.2 on Amazon EMR
-Today we are making version 1.2 of HBase available for use with Amazon EMR.  Here are some of the most important and powerful features and benefits that you get when you run HBase:
-Strongly Consistent Reads and Writes – When a writer returns, all of the readers will see the same value.</p>
-
-<p>Scalability – Individual HBase tables can be comprised of billions of rows and millions of columns. HBase stores data in a sparse form in order to conserve space. You can use column families and column prefixes to organize your schemas and to indicate to HBase that the members of the family have a similar access pattern. You can also use timestamps and versioning to retain old versions of cells.
-Backup to S3 – You can use the HBase Export Snapshot tool to backup your tables to Amazon S3. The backup operation is actually a MapReduce job and uses parallel processing to adeptly handle large tables.
-Graphs And Timeseries – You can use HBase as the foundation for a more specialized data store. For example, you can use Titan for graph databases and OpenTSDB for time series.
-Coprocessors – You can write custom business logic (similar to a trigger or a stored procedure) that runs within HBase and participates in query and update processing (read The How To of HBase Coprocessors to learn more).
-You also get easy provisioning and scaling, access to a pre-configured installation of HDFS, and automatic node replacement for increased durability.
-Getting Started with HBase
-HBase 1.2 is available as part of Amazon EMR release 4.6. You can, as usual, launch it from the Amazon EMR Console, the Amazon EMR CLI, or through the Amazon EMR API. Here’s the command that I used:
-$ aws –region us-east-1 emr create-cluster \
-  –name “MyCluster” –release-label “emr-4.6.0” \
-  –instance-type m3.xlarge –instance-count 3 –use-default-roles \
-  –ec2-attributes KeyName=keys-jbarr-us-east \
-  –applications Name=Hadoop Name=Hue Name=HBase Name=Hive
-This command assumes that the EMR_DefaultRole and EMR_EC2_DefaultRole IAM roles already exist. They are created automatically when you launch an EMR cluster from the Console (read about Create and Use Roles for Amazon EMR and Create and Use Roles with the AWS CLI to learn more).
-I  found the master node’s DNS on the Cluster Details page and SSH’ed in as user hadoop. Then I ran a couple of HBase shell commands:
-<img src="/images/emr_hbase_simple_commands_1-1.png" alt="emr_hbase_simple_commands_1" /></p>
-
-<p>Following the directions in our new HBase Tutorial, I created a table called customer, restored a multi-million record snapshot from S3 into the table, and ran some simple queries:
-<img src="/images/emr_hbase_simple_commands_1-1-1.png" alt="emr_hbase_simple_commands_1-1" /></p>
-
-<p>Available Now
-You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazon EMR Documentation.
-— Jeff;</p>
+<p><img src="/images/emr_hbase_customer_table_1-1.png" alt="emr_hbase_customer_table_1" /></p>
 
 
       <footer class="entry-meta">
@@ -176,9 +150,9 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/aws/aws-weekly-update/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/aws/aws-weekly-update/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=/aws/aws-weekly-update/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/aws/aws-weekly-update-3/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/aws/aws-weekly-update-3/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/aws/aws-weekly-update-3/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
       </footer>
@@ -187,18 +161,18 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="/background-image/" class="read-more-btn">Read More</a>
+      <a href="/aws/aws-weekly-update-2/" class="read-more-btn">Read More</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="/aws/aws-weekly-update-3/" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h3>
-      <p>#add a post to martinliu/yunzd.github.iothis post is AWS weekly update 3I have a picture to share with you.![emr_hbase_customer_table_1](...&hellip; <a href="/aws/aws-weekly-update-3/">Continue reading</a></p>
+      <h3><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h3>
+      <p>测试&hellip; <a href="/aws/aws-weekly-update-2/">Continue reading</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h4>
-        <span>Published on April 25, 2016</span>
+        <h4><a href="/aws/aws-weekly-update/" title="AWS Weekly Update">AWS Weekly Update</a></h4>
+        <span>Published on April 24, 2016</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
