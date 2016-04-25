@@ -4,13 +4,39 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-25T11:21:17+08:00</updated>
+<updated>2016-04-25T12:02:47+08:00</updated>
 <id>/</id>
 <author>
   <name>Martin Liu</name>
   <uri>/</uri>
   <email>martin@aws-faq.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[AWS Weekly Update 3]]></title>
+ <link rel="alternate" type="text/html" href="/aws/aws-weekly-update-3/" />
+  <id>/aws/aws-weekly-update-3</id>
+  <published>2016-04-25T12:01:07+08:00</published>
+  <updated>2016-04-25T12:01:07+08:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>martin@aws-faq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;#add a post to martinliu/yunzd.github.io&lt;/p&gt;
+
+&lt;p&gt;this post is AWS weekly update 3&lt;/p&gt;
+
+&lt;p&gt;I have a picture to share with you.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/emr_hbase_customer_table_1-1.png&quot; alt=&quot;emr_hbase_customer_table_1&quot; /&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/aws/aws-weekly-update-3/&quot;&gt;AWS Weekly Update 3&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on April 25, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
