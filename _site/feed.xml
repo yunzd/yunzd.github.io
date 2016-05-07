@@ -4,25 +4,50 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-25T12:20:02+08:00</updated>
+<updated>2016-05-07T11:43:29+00:00</updated>
 <id>/</id>
 <author>
   <name>Martin Liu</name>
   <uri>/</uri>
-  <email>martin@aws-faq.com</email>
+  <email>67120666@qq.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Rancher 开源中文电子书征集参与者]]></title>
+ <link rel="alternate" type="text/html" href="/books/test2/" />
+  <id>/books/test2</id>
+  <published>2016-05-02T16:27:09+00:00</published>
+  <updated>2016-05-02T16:27:09+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Rancher 开源中文电子书已经上线, 欢迎参与协作。
+http://hidocker.io/book/ 是本站电子书汇总页面。&lt;/p&gt;
+
+&lt;h2 id=&quot;github-&quot;&gt;电子书在线协作 github 网页版&lt;/h2&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.youku.com/embed/XMTU1NDk4Mzc2OA==&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/books/test2/&quot;&gt;Rancher 开源中文电子书征集参与者&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 02, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
   <title type="html"><![CDATA[AWS Weekly Update 3]]></title>
  <link rel="alternate" type="text/html" href="/aws/aws-weekly-update-3/" />
   <id>/aws/aws-weekly-update-3</id>
-  <published>2016-04-25T12:01:07+08:00</published>
-  <updated>2016-04-25T12:01:07+08:00</updated>
+  <published>2016-04-25T04:01:07+00:00</published>
+  <updated>2016-04-25T04:01:07+00:00</updated>
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;#add a post to martinliu/yunzd.github.io&lt;/p&gt;
@@ -43,12 +68,12 @@
   <title type="html"><![CDATA[AWS Weekly Update 2]]></title>
  <link rel="alternate" type="text/html" href="/aws/aws-weekly-update-2/" />
   <id>/aws/aws-weekly-update-2</id>
-  <published>2016-04-25T11:18:48+08:00</published>
-  <updated>2016-04-25T11:18:48+08:00</updated>
+  <published>2016-04-25T03:18:48+00:00</published>
+  <updated>2016-04-25T03:18:48+00:00</updated>
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;测试&lt;/p&gt;
@@ -63,12 +88,12 @@
   <title type="html"><![CDATA[AWS Weekly Update]]></title>
  <link rel="alternate" type="text/html" href="/aws/aws-weekly-update/" />
   <id>/aws/aws-weekly-update</id>
-  <published>2016-04-24T23:33:40+08:00</published>
-  <updated>2016-04-24T23:33:40+08:00</updated>
+  <published>2016-04-24T15:33:40+00:00</published>
+  <updated>2016-04-24T15:33:40+00:00</updated>
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;h2 id=&quot;section&quot;&gt;本周的跟新是&lt;/h2&gt;
@@ -112,15 +137,1348 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
 
 
 <entry>
-  <title type="html"><![CDATA[Post with a Background Image]]></title>
- <link rel="alternate" type="text/html" href="/background-image/" />
-  <id>/background-image</id>
-  <published>2013-10-26T00:00:00+08:00</published>
-  <updated>2013-10-26T00:00:00+08:00</updated>
+  <title type="html"><![CDATA[线上会议-Rancer中的Kubernetes技术预览]]></title>
+ <link rel="alternate" type="text/html" href="/cluster-management/introducing-kubernetes-environments-in-rancher/" />
+  <id>/cluster-management/introducing-kubernetes-environments-in-rancher</id>
+  <updated>2016-03-07 03:48:54 +0000T00:00:00-00:00</updated>
+  <published>2016-03-07T00:00:00+00:00</published>
+  
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;这是二月的一次重要的线上会议，主讲人是&lt;a href=&quot;http://rancher.com/author/smw355/&quot;&gt;Shannon Williams&lt;/a&gt;，他的一个同事帮助做了产品演示。Rancher 此次融入 Kubernetes 的支持是一个重大的功能增强，这个功能会在三月份的第二或者第三周发布。&lt;/p&gt;
+
+&lt;p&gt;下面是这次会议的主要内容：
+-  在Rancher中部署Kubernets群集
+-  启动 Pods 和 Replication Controllers
+-  在Kubernetes中使用Rancher的服务
+-  理解Kubernetes和原生docker环境的区别
+-  服务发现、调度和高可用性&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;会议的视频&lt;/h2&gt;
+
+&lt;p&gt;vimeo观看回放。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rancher-2-meetup.jpg&quot; alt=&quot;Rancher Meetup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;YouTube &lt;a href=&quot;https://youtu.be/WU8bWR_XP9s&quot;&gt;观看网址&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;会议讲义&lt;/h2&gt;
+
+&lt;p&gt;百度网盘下载：  &lt;a href=&quot;http://pan.baidu.com/s/1c1eLivQ&quot;&gt;http://pan.baidu.com/s/1c1eLivQ&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/cluster-management/introducing-kubernetes-environments-in-rancher/&quot;&gt;线上会议-Rancer中的Kubernetes技术预览&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on March 07, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[为容器而定制的超融合基础架构]]></title>
+ <link rel="alternate" type="text/html" href="/container/rancher-all-in-one/" />
+  <id>/container/rancher-all-in-one</id>
+  <published>2015-12-19T00:00:00+00:00</published>
+  <updated>2015-12-19T00:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;转载自：&lt;a href=&quot;http://rancher.com/introducing-hyper-converged-infrastructure-for-containers-powered-by-rancher-and-redapt/&quot;&gt;Rancher Blog&lt;/a&gt;
+原文作者 Liang Sheng&lt;/p&gt;
+
+&lt;p&gt;近几年在数据中心里，超融合基础架构是最具创新的技术之一。从我听Nutanix要做“数据中心的iPhone”的比喻以后，我就成了超融合基础架构的铁粉，这家公司是这项技术的创造者。我以前经理过很多职务：Cloud.com的CEO，CloudStack创始人和Citrix公司CloudPlatform业务部门CTO，我帮助了很多想把数据中心转型到下一代云基础架构的公司和企业。最大的挑战一直是如何协调有序地把来自各种厂商的不同的技术集成到一个可靠的云平台中。超融合基础架构是这种复杂性的优雅的解决方案，这是一种简便的开机即用的基础架构消费使用体验。超融合基础架构把底层的复杂性隐藏了起来，并使数据中心的操作人员运维起来更加容易。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/12/converged-nodes-300x122.png&quot; alt=&quot;逻辑架构图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;典型的，超融合基础架构被用来允许虚拟机，虚拟机是当今数据中心里普遍的工作负载。然而，数据中心工作负载的类型也正在发生着变化。在去年，Docker 容器已经成为一种颇受关注的工作负载类型。因此，我们开始看到市场对为容器而定制和优化的基础架构解决方案的需求。&lt;/p&gt;
+
+&lt;p&gt;今天，&lt;a href=&quot;http://www.businesswire.com/news/home/20151111006591/en/Rancher-Labs-Redapt-Introduce-Hyper-Converged-Infrastructure-Platform&quot;&gt;我们Rancher团队和Redapt联合发布了容器超融合基础架构平台&lt;/a&gt;。这个解决方案可以在数据中心里一键式地开启一套完整的容器服务平台，并集成了容器的自动化配置部署的工具。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;支持虚拟机和容器&lt;/h2&gt;
+
+&lt;p&gt;我们的解决方案设计为同时支持虚拟机和容器，这种实现方式是被 &lt;a href=&quot;http://www.enterprisetech.com/2014/05/28/google-runs-software-containers/&quot;&gt;Google使用且验证过的&lt;/a&gt;。从今年四月开始，我们在 Rahcher VM 项目中已经尝试了这个方案，并且从很多用户那边得到了非常正面的反馈。在容器中运行虚拟机的好处是可以用相同的工具来同时管理虚拟机和容器。由于虚拟机和容器在事实上行为方式类似，我们为 Docker 容器所开发的 Rancher CLI 命令行和 UI 图形界面可以无缝地适用于虚拟机。&lt;/p&gt;
+
+&lt;p&gt;我们使用 Rancher OS 做为融合基础架构平台的基础操作系统。Rancher OS 的内核被编译成可以支持 KVM 虚拟化。下图描绘了 Rancher 和 Rancher OS 是如何共同构成了我们的超融合基础架构解决方案平台的完整软件堆栈。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/12/graphicv4_redaptv2.png&quot; alt=&quot;Rancher Coverged Infrastructure&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;容器化的存储服务&lt;/h2&gt;
+
+&lt;p&gt;所有超融合基础架构方案包含一个分布式存储的组件。通过利用到 &lt;a href=&quot;http://rancher.com/how-rancher-storage-services-unleash-the-power-of-software-defined-storage/&quot;&gt;我们今天的另外一项重大发布——持久存储服务&lt;/a&gt;，这个超融合基础架构具备了独特的使用多种分布式存储的能力。用户可以自行决定部署适合他们应用的软件定义存储平台。这种方案不仅缩小了故障范围，且提高了可靠性。某个分布式存储后台的故障能造成的影响仅仅是所消费使用它的应用。&lt;/p&gt;
+
+&lt;p&gt;用户能同时部署开源和商业的存储软件，只要这些存储软件能像 Docker 容器一样的打包。我们正在把 Gluster 和 Nexenta Edge 纳入到我们的超融合基础架构平台中，并在未来计划支持更多的存储产品。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/12/converged-infrastructure-for-containers.png&quot; alt=&quot;Storage Services&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;docker-&quot;&gt;引入Docker 镜像生态系统&lt;/h2&gt;
+
+&lt;p&gt;成功的超融合基础架构方案，通常会以运行流行的应用工作负载为目标，如数据库或者虚拟桌面。Docker 生态系统为 Rancher 超融合架构方案提供了可以运行的丰富的应用。仅拿 Docker Hub 举例，它提供了成千上万的 Docker 镜像。另外，Rancher 不仅让运行单个容器变得很容易，它更可以通过 Compose、Swarm 和 Kubernets 来调度和部署大规模的应用群集。Rancher Labs 完成了一组流行的DevOps工具的认证和打包。用户可以一键式地部署一个完整的ELK群集到超融合架构上。
+&lt;img src=&quot;/images/2015/12/catalog1-1024x438.png&quot; alt=&quot;应用商店&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;redapt&quot;&gt;我们与Redapt成为合作伙伴&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/12/redaptlogo-300x101.png&quot; alt=&quot;Redapt logo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;我们与Redapt已经认识并且工作在一起已经多年了。早在2011年，我在 Cloud.com 的团队与Redapt合作，用CloudStack共同搭建了当时最大的私有云，由超过40000台物理服务器构成。我们对他们的技术能力、创新能力和专业性感到非常钦佩。构建一个超融合基础架构方案需求软件厂商和硬件厂商之间的密切协作。我们很幸运地再次与Redapt携手，共同为市场打造专门为容器方案定制的首款超融合基础架构。&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/rancher-all-in-one/&quot;&gt;为容器而定制的超融合基础架构&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on December 19, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[仅Docker还不够]]></title>
+ <link rel="alternate" type="text/html" href="/container/docker-is-not-enough/" />
+  <id>/container/docker-is-not-enough</id>
+  <published>2015-10-04T16:00:00+00:00</published>
+  <updated>2015-10-04T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;If you’re here, you might know about docker, if you don’t know about docker, please refer to the following articles, videos and slides about docker, which might capture your interest [0].&lt;/p&gt;
+
+&lt;p&gt;This article is not about docker, it’s more about the Co., the eCosystem around docker and dockerization of your apps, services and last but not least about bringing the DevOps style and a new way of thinking to your business.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/docker-is-not-enough.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The following list below provides an overview of the Co., the eCosystem around docker, which for sure is not complete and is intended only as a reference for my own observation and research about these systems and why the eCosystem around docker is embracing and integrating docker and how we can use and combine them together for different use cases.&lt;/p&gt;
+
+&lt;p&gt;So let’s have a look on this short list:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Ansible &amp;amp; Docker
+Amazon EC2 &amp;amp; Docker
+Apache Brooklyn &amp;amp; Docker
+Apache Hadoop &amp;amp; Docker
+Apache Storm &amp;amp; Docker
+AppScale &amp;amp; Docker
+Atomic Hosts &amp;amp; Docker
+Chef &amp;amp; Docker
+Clocker &amp;amp; Docker
+Cloud &amp;amp; Docker
+Cloud Foundry &amp;amp; Docker
+CloudStack &amp;amp; Docker
+CoreOS &amp;amp; Docker
+Deis &amp;amp; Docker
+Decker &amp;amp; Docker
+Docker &amp;amp; Docker
+Dokku &amp;amp; Docker
+Eucalyptus &amp;amp; Docker
+Flynn &amp;amp; Docker
+Google Compute Platform &amp;amp; Docker
+IBM Bluemix &amp;amp; Docker
+Kubernetes &amp;amp; Docker
+Mesos &amp;amp; Docker
+Mesosphere &amp;amp; Docker
+Microsoft Azure &amp;amp; Docker
+OpenCamp &amp;amp; Docker
+OpenShift &amp;amp; Docker
+OpenStack &amp;amp; Docker
+Panamax &amp;amp; Docker
+Puppet &amp;amp; Docker
+SaltStack &amp;amp; Docker
+Shipyard &amp;amp; Docker
+Stackato &amp;amp; Docker
+Tsuru &amp;amp; Docker
+VMware &amp;amp; Docker
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As we can see, these eCosystems have Docker in common, but you might ask if and how all these implement the integration and enhance their own system with Docker and play with others and which of them might be the right solution for different use cases, i.e. to build (web-) apps, services or a whole cloud platform to provide for instance SaaS offerings or to help to achieve higher density in data centers and control the VM sprawl, etc..&lt;/p&gt;
+
+&lt;p&gt;Well, first I’m going to classify these eCosystems in the following categories:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Big Data
+Cloud Platform
+IaaS
+Data Center Operating System
+Docker Operating System
+Docker Management
+PaaS
+Orchestration and Configuration Management Engines
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;which leads to the following table matrix:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/docker_and_co.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One row, one column and one cell might capture your eye here and someone might argue that “Docker &amp;amp; Docker” doesn’t make any sense and why I’m classifying docker as IaaS, PaaS, Docker OS and as an Orchestration and Configuration Management Engine all together, well if we agree with the fact that we can build our IaaS and PaaS with docker and we can leverage the docker engine to orchestrate itself and run docker containers in docker containers, then I guess you’ll agree with this view.&lt;/p&gt;
+
+&lt;p&gt;The other interesting point is the PaaS column, which shows that most of these eCosystems are trying to address the PaaS challenge in different ways with docker. But as Ben Gloub, CEO of Docker Inc. states in [15] “a lot of people are questioning whether they really need a full PaaS to build a flexible app environment” and exactly here enterprises need to re-think thier strategies, whether they need to use Macro PaaSes such as Cloud Foundry or OpenShift, or should they build more efficient lightweight custom PaaS solutions with docker and the ecosystem arround it, we refer to such a custom made PaaS solution as OpenCamp, the Open Cloud Application Management Platform.&lt;/p&gt;
+
+&lt;p&gt;But what about the one cell, what is Mesos or Mesosphere and what is a “Data Center Operating System”? Well, that’s the new way of thinking, which I’m going to address in my next blog post.&lt;/p&gt;
+
+&lt;p&gt;But for now, if you ask me which of these systems are my favorites, I’d say Docker followed by Mesosphere, OpenStack, Kubernetes, Panamax and Deis!&lt;/p&gt;
+
+&lt;p&gt;Last but not least, I’d like to invite you to have a look on why “Docker Is Not Enough”.&lt;/p&gt;
+
+&lt;p&gt;[0] Docker related articles&lt;/p&gt;
+
+&lt;p&gt;[1] Introduction to Docker by Solomon Hykes, Docker Founder and CTO at Docker Inc.
+https://www.youtube.com/watch?v=Q5POuMHxW-0&lt;/p&gt;
+
+&lt;p&gt;[2] What is Docker
+https://www.docker.com/whatisdocker/&lt;/p&gt;
+
+&lt;p&gt;[3] WHAT IS DOCKER AND WHEN TO USE IT
+http://www.centurylinklabs.com/what-is-docker-and-when-to-use-it/&lt;/p&gt;
+
+&lt;p&gt;[4] How Docker Was Born | Leanstack
+http://blog.leanstack.io/how-docker-was-born&lt;/p&gt;
+
+&lt;p&gt;[5] How Docker Fits Into The Current DevOps Landscape
+http://blog.leanstack.io/how-docker-fits-into-the-current-devops-landscape&lt;/p&gt;
+
+&lt;p&gt;[6] Crash Course: Next Generation Servers With Containers by Sébastien Han:
+http://www.sebastien-han.fr/blog/2014/02/03/crash-course-next-generation-servers-with-containers/&lt;/p&gt;
+
+&lt;p&gt;[7] Docker drops LXC as default execution environment
+http://www.infoq.com/news/2014/03/docker_0_9&lt;/p&gt;
+
+&lt;p&gt;[8] The key differentiators of Docker technology by Pethuru Raj
+http://thoughtsoncloud.com/2014/09/docker-managing-excitement/&lt;/p&gt;
+
+&lt;p&gt;[9] Docker is the Heroku Killer
+http://www.brightball.com/devops/docker-is-the-heroku-killer&lt;/p&gt;
+
+&lt;p&gt;[10] KVM and Docker LXC Benchmarking with OpenStack
+http://bodenr.blogspot.de/2014/05/kvm-and-docker-lxc-benchmarking-with.html&lt;/p&gt;
+
+&lt;p&gt;[11] VMware buys into Docker containers
+http://www.zdnet.com/vmware-buys-into-docker-containers-7000032947/&lt;/p&gt;
+
+&lt;p&gt;[12] 4 ways Docker fundamentally changes application development
+http://www.infoworld.com/article/2607128/application-development/4-ways-docker-fundamentally-changes-application-development.html&lt;/p&gt;
+
+&lt;p&gt;[13] The Docker exploit and the security of containers
+https://blog.xenproject.org/2014/06/23/the-docker-exploit-and-the-security-of-containers/&lt;/p&gt;
+
+&lt;p&gt;[14] OpenShift v3 Platform Combines Docker, Kubernetes, Atomic and More
+https://www.openshift.com/blogs/openshift-v3-platform-combines-docker-kubernetes-atomic-and-more&lt;/p&gt;
+
+&lt;p&gt;[15] Simplifying and securing multicloud development&lt;/p&gt;
+
+&lt;p&gt;http://www.pwc.com/en_US/us/technology-forecast/2014/issue1/interviews/interview-ben-golub-docker.jhtml&lt;/p&gt;
+
+&lt;p&gt;[16]  OpenStack &amp;amp; Docker&lt;/p&gt;
+
+&lt;p&gt;https://wiki.openstack.org/wiki/Docker&lt;/p&gt;
+
+&lt;p&gt;[17] Docker Jump Start by Andreaw Odewahn&lt;/p&gt;
+
+&lt;p&gt;https://github.com/odewahn/docker-jumpstart-source&lt;/p&gt;
+
+&lt;p&gt;From : https://www.cloudssky.com/en/blog/Docker-Is-Not-Enough/&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/docker-is-not-enough/&quot;&gt;仅Docker还不够&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[为什么微软欲10亿收购Mesosphere]]></title>
+ <link rel="alternate" type="text/html" href="/cluster-management/why-microsoft-want-to-buy-mesophere/" />
+  <id>/cluster-management/why-microsoft-want-to-buy-mesophere</id>
+  <published>2015-10-04T16:00:00+00:00</published>
+  <updated>2015-10-04T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;具报道微软正在和一家快速增长的云计算创业公司 &lt;a href=&quot;https://mesosphere.com/&quot;&gt;Mesosphere&lt;/a&gt; 商讨并购事宜。根据湾区行业媒体 “The Information” 记者 Amir Efrati 的报道，这家创业公司目前估值接近10亿美元。&lt;/p&gt;
+
+&lt;p&gt;交易的细节目前还不清楚 —— 记者没有说明交易进行到哪个阶段，也没有说明微软内部对于这个估值的态度。 Mesosphere 和微软都对这个消息表示无可奉告。&lt;/p&gt;
+
+&lt;p&gt;让微软开出如此天价的除了 Mesosphere 的技术，最近硅谷对于软件定义的数据中心的热情肯定也是个因素。数十亿美元的热钱涌入这个领域，创业公司门前排满了传统 IT 巨头，谁也不想在制定行业标准和抢占行业制高点方面丢了先机。到底 Mesosphere 到底是何方神圣，为何能十亿级别估值？&lt;/p&gt;
+
+&lt;h2 id=&quot;mesosphere-&quot;&gt;Mesosphere 这个公司是干啥的？&lt;/h2&gt;
+
+&lt;p&gt;作为一家飞速增长的创业公司，自 2013 年来 Mesosphere 专注于围绕开源软件 Apache Mesos 开发产品和服务。Twitter 这样的巨头为了应对集群的飞速膨胀，借助 Mesos 将数以千计的服务器整合地像使用一台电脑，同时还管理运行这台“电脑”中成千上万的任务。 另外一家独角兽公司 Docker，则支持将他们火爆的容器产品部署到 Mesos 集群中。Docker 依靠其简单灵活的容器产品一夜成名，开发者终于能够在统一的环境中开发、测试和发布应用，将过去数周的工作缩减到几个小时。Yelp 这样的巨头就将 Mesos 和 Docker 组合起来，使用 Mesos 将整个数据中心变成一个资源池，然后通过 Docker 将应用部署到整个集群。&lt;/p&gt;
+
+&lt;p&gt;类似其他提供基础设施和数据的管理软件的创业公司，Mesosphere 也来自真正拥有“大数据”的门派。CEO Florian Leibert 在独立创业之前，曾经是 Airbnb 和 Twitter 的技术负责人（就连巨头 Google 内部也有一个功能类似 Mesos 的管理平台 Borg）。Leibert 将 Mesos 引入了 Airbnb，这样技术团队可以轻松地在其上搭建 Spark 大数据运算系统。&lt;/p&gt;
+
+&lt;p&gt;今年春天在一次福布斯杂志采访中，Leibert 告诉记者他们的产品能让数据中心非常容易管理，不论里面有五台还是五千台机器。一个佐证是掌管着 Twitter 数千台服务器仅仅是屈指可数的几位运维工程师。&lt;/p&gt;
+
+&lt;p&gt;说起他们创业最苦逼的事情，Leibert 苦笑道 “怎么和大家说明白我们是干啥的”。最后总结成一句话，让你们服务器的利用率提高两三倍。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;微软 看上她哪点了？&lt;/h2&gt;
+
+&lt;p&gt;从微软的角度来说，通过并购获得 Mesos 技术，就能够迅速在这一波软件定义的基础设施大潮中站稳脚跟。之前 LinkedIn 已经天使投资了另外一家相同领域的创业公司 Confluent，Google 和 IBM 则联合 Docker、Mesosphere 一起来制定新的容器标准（Open Container Project），微软至今毫无建树。正如 Efrati 在他的访谈中提到，虽然微软已经参与了 Docker 项目，但在上述大领域中还没有能占一席之地的项目。&lt;/p&gt;
+
+&lt;p&gt;大家不要忘记，六月份的时候坊间曾经流传微软要并购 Docker。根据微软的风格，在做出并购决定之前，还会仔细评估这些创业公司一阵。&lt;/p&gt;
+
+&lt;p&gt;2014年底，Mesosphere 得到了 Khosla Venture 的3600万美元B轮融资，之前A轮则是由 Andreessen Horowitz 领投。根据 Pitchbook 的数据，Mesosphere 的 A 轮估值约为 4500 万美元，B 轮之后增加到数亿美元。同期 Docker 公司经过 C 轮融资估值达到 4 亿美元，随后四月份更是加入了独角兽俱乐部（十亿美元）。&lt;/p&gt;
+
+&lt;p&gt;虽然我们现在还不确定未来 Docker 被巨头并购时的估值，但是 Mesospher 如果能够比 Docker 成长地更快，那么虽然盈利不大，但足以让它的估值从一亿美元猛增到十亿美元（在新兴产业领域，人们对增长速度的关注远远高于现实盈利）。如果最终证实了 The Information 报道的估值，也算是个合情合理的价格。&lt;/p&gt;
+
+&lt;p&gt;大家都拭目以待的是微软是否真的下定决心在这个新兴领域放手一搏，就算竞争对手已经找好了同盟军。当然大家也关心 Mesosphere 是否现在就想卖，即使这个估值听起来已经不太小。&lt;/p&gt;
+
+&lt;p&gt;来自：2015-08-19 福布斯记者 Alex Konrad
+http://www.forbes.com/sites/alexkonrad/2015/08/18/why-microsoft-could-reportedly-want-to-buy-cloud-startup-mesosphere-even-at-1-billion/#rd&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/cluster-management/why-microsoft-want-to-buy-mesophere/&quot;&gt;为什么微软欲10亿收购Mesosphere&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[国内Docker服务和产品初探]]></title>
+ <link rel="alternate" type="text/html" href="/container/china-docker-service-product-overview/" />
+  <id>/container/china-docker-service-product-overview</id>
+  <published>2015-10-03T16:00:00+00:00</published>
+  <updated>2015-10-03T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;section&quot;&gt;各家产品感受&lt;/h2&gt;
+
+&lt;p&gt;我知道的Docker创业团队一共五个：DaoCloud、cSphere、Alauda、TenxCloud、DataMan，除了最后一个数人重点在Mesos+Docker，没找到在线试用的门路，其它几个都初步试了一下，下面分别说明。&lt;/p&gt;
+
+&lt;p&gt;说明：Docker相关产品变化很快，我只能说自己试用时的情况，在文章发出后读者看到的功能可能会有所不同&lt;/p&gt;
+
+&lt;h2 id=&quot;daocloud&quot;&gt;DaoCloud&lt;/h2&gt;
+
+&lt;p&gt;似乎不能直接用 hub.docker.com 上的镜像制作服务集成只能依赖源码中或者线上编写的 docker-compose.yml ，对线上操作有些不便有些时候访问比较慢在有限的几次操作中，发现构建速度比 alauda 快一开始没找到提 bug/issue 的地方，后来找到后觉得界面融合的很好只能部署在自己注册的宿主机上，好处是可以保持控制力，缺点是缺省没有跨主机的部署方案集成测试仅仅是一个容器内玩点脚本，如果想要做微服务的集成似乎不可行。&lt;/p&gt;
+
+&lt;h2 id=&quot;csphere&quot;&gt;cSphere&lt;/h2&gt;
+
+&lt;p&gt;系列培训做的很不错，但是每一次时间有些长，对学习者的要求比较高，建议切割成几部分提供了一个完整的产品可以用于自己搭建，用户容易有掌控感安装很简单，交付的产品上手很容易（同类产品没有找到安装私有云环境的方法）不知道如何进行跨单机的容器协作有些小问题需要处理（比如 web 界面上 hostname 同名时的选择问题），但没有源码无法提 patch 以机器/容器视角进行管控，显得抽象不足，期望是结合 compose 以镜像/服务视角进行管理。&lt;/p&gt;
+
+&lt;h2 id=&quot;alauda&quot;&gt;Alauda&lt;/h2&gt;
+
+&lt;p&gt;不知道LB用的是什么方案？是否能跨机操作构建时选择国内和国际两种情况比较赞，有些镜像是在国内构建比较快提供存储卷服务，便于应用服务编排，但是不知道如何跨机构建服务，设定环境变量值的时候需要设置一个较长的字符串（secret seed），结果显示不太好看缺省的服务数量有上限，最多 4 个服务，2 个 cpu工单系统看上去有点low，如果不能做漂亮，不如学csphere直接搭一个开源论坛进行互动。&lt;/p&gt;
+
+&lt;h2 id=&quot;tenxcloud&quot;&gt;TenxCloud&lt;/h2&gt;
+
+&lt;p&gt;字体比灵雀云好看些，比较舒心与 DaoCloud 类似，也不能直接用 hub.docker.com 上的镜像制作服务获取github上的项目列表时有数量限制，已经修复不能获取源码仓库的分支内容，已经修复构建系统支持国际/国内节点的区分构建系统可以选择程序类型，感觉这个功能会成为鸡肋对 IAAS 厂商仅支持AWS，期待支持 qingcloud、ucloud、aliyun 服务编排的 UI 界面看似很好，但其实用处不大&lt;/p&gt;
+
+&lt;h2 id=&quot;docker&quot;&gt;对Docker服务的整体探讨&lt;/h2&gt;
+
+&lt;p&gt;从知道Docker这个产品开始，我就一直期望Docker能够为软件/互联网企业带来一些有价值的东西。现有的场景下，Docker既是一个软件，又是一个技术生态，围绕这一技术，各家公司都在努力解决Docker集群的管理问题，希望为软件和互联网企业带来价值，而具体做法各有异同。&lt;/p&gt;
+
+&lt;p&gt;下面进行一些综合性质的讨论，为了方便，我们把基于docker技术来管理镜像、构建过程和各种服务编排的平台称为Docker云平台。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;产品形态&lt;/h3&gt;
+
+&lt;p&gt;目前主要有两种产品交付方式——&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;开发 Docker 云平台，以 image 交付产品，支持用户自建 Docker 管理集群，公司提供培训和软件咨询服务&lt;/li&gt;
+  &lt;li&gt;在线提供 Docker 云平台，以 SaaS 形式交付服务，底层可以使用 IaaS 服务，通过用户账号接入其它 IaaS 平台&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;前一种可以给予用户更多的掌控，但从长远考虑，如果由客户自己运维Docker云平台，势必需要一个专业的运维团队，这会给企业带来很大的运作成本，所以前一种方式仅仅有利于客户培养，未来应该以后一种方式为主。&lt;/p&gt;
+
+&lt;p&gt;后一种方式的主要代价是企业不好控制自己的数据安全，后来了解到的一种办法是使用所谓的 hosted private cloud ，这样企业仍然需要做一些基础运维工作，但是主要局限于软件环境，可以看做是安全和成本的一种平衡。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;网络解决方案&lt;/h3&gt;
+
+&lt;p&gt;Docker 由于其轻量级的特点，很容易就可以在一个宿主机上运行多个容器，这使得我们可以用低廉的成本在单机上进行分布式集成测试，但这是研发和测试的需求，线上的着眼点必然要支持跨宿主机，以支持包括弹性扩容之类的运维能力。&lt;/p&gt;
+
+&lt;p&gt;目前已知的网络方案尚无公认的最佳实践，我看到的方式大都还是以 bridge+NAT 为主，这块期待突破，也希望了解各家 Docker 团队对 Swarm 的支持。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;服务编排&lt;/h3&gt;
+
+&lt;p&gt;服务编排是 Docker 类应用从玩具到真正系统的一个分水岭，但是各家支持不尽相同。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;不支持&lt;/strong&gt; 仅支持Docker的单个容器视角，这样会让用户把Docker当做简化的虚拟机来使用，特别是功能菜单也类似IaaS系统的信息结构时。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;简单支持&lt;/strong&gt; 借助 Docker Compose ，在同一个宿主机上使用 docker-compose.yml 文件做服务编排，未来也可以借助 swarm + compose 组合跨越宿主机。&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;较高级功能支持&lt;/strong&gt; 将 compose 中的各种要素进行拆解，用户使用web表单提交需要的编排方式，这个做法简化了用户编写 yaml 文件的工作，但是需要对 compose 的信息结构进行消化，使之适应 web 表单的展现方式。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;服务编排的结构对线上和开发测试可能有所差异，所以有一种做法是对不同的环境编写不同的 yaml 文件，但我对这个做法持保留态度，因为这会让各种环境的一致性受到破坏。&lt;/p&gt;
+
+&lt;p&gt;目前比较好的做法可能是分析 yaml 文件中的服务依赖，然后利用 external_links 建立对外部资源的依赖，而在不同的环境下，自然有不同的外部资源来提供。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;存储解决方案&lt;/h3&gt;
+
+&lt;p&gt;docker 本身应该是无状态服务，所以状态的管理非常重要，通常做法是在宿主机上提供挂载卷，由 docker 云平台提供存储迁移和备份服务，这应该是 docker 云平台的一个重要功能。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;跨越地理节点&lt;/h3&gt;
+
+&lt;p&gt;这里指的是跨机房协作，通常仅与线上运维相关，而与开发和测试关系不大。&lt;/p&gt;
+
+&lt;p&gt;这块工作对 Docker 云平台有所要求，若要协作不同机房的 docker 容器，势必需要一个建立在公共域的管控中心，那么安全策略和模型、网络管理方式都会与同网段宿主机群的时候大为不同。&lt;/p&gt;
+
+&lt;p&gt;同网段宿主机群是可以互相网络可达的，所以一般是这样：&lt;/p&gt;
+
+&lt;p&gt;Host A &amp;lt;–(控制)— Controller Node
+Host B &amp;lt;–(控制)—
+Host C &amp;lt;–(控制)—&lt;/p&gt;
+
+&lt;p&gt;跨机房的时候，控制中心通常不能直连宿主机群，所以需要变通：&lt;/p&gt;
+
+&lt;p&gt;Host A —(agent上报，查询并执行命令) –&amp;gt; Controller Node
+Host B —(agent上报，查询并执行命令) –&amp;gt;
+Host C —(agent上报，查询并执行命令) –&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;当然，如果对自己的控制链路有信心，我其实更倾向于免agent的方案，即将sshd看做缺省就有的agent，只是在每个机房留一个broker即可，好处是减少对宿主机的干预和维护成本。&lt;/p&gt;
+
+&lt;p&gt;Host A &amp;lt;–(管控)– Broker –(查询并执行命令) –&amp;gt; Controller Node
+Host B &amp;lt;–(管控)—
+Host C &amp;lt;–(管控)—&lt;/p&gt;
+
+&lt;p&gt;实践中的这块情况了解有限，目前仅知道 Mesos 是模式一，因此不能跨机房，而k8s是模式二，可以很容易的跨越机房和IaaS服务商。&lt;/p&gt;
+
+&lt;p&gt;文章来源：&lt;a href=&quot;http://dockone.io/article/707&quot;&gt;http://dockone.io/article/707&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/china-docker-service-product-overview/&quot;&gt;国内Docker服务和产品初探&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[FAQ： 关于 Union Filesystems, Storage 和 Volumes]]></title>
+ <link rel="alternate" type="text/html" href="/container/uninofs-storage-volume-faq/" />
+  <id>/container/uninofs-storage-volume-faq</id>
+  <published>2015-10-01T16:00:00+00:00</published>
+  <updated>2015-10-01T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;docker-image-&quot;&gt;Docker image 是分层的意味着什么?&lt;/h2&gt;
+
+&lt;p&gt;It literally means that a docker images is built on layers. Each layer represents a portion of the images file system that either adds to or replaces the layer below it. For instance you might start with a Debian image, and then add Emacs, and the Apache. Finally, when you instantiate a container a final read-write layer to capture any changes that are made to the container.&lt;/p&gt;
+
+&lt;h2 id=&quot;union-file-system-&quot;&gt;Union file system 是什么?&lt;/h2&gt;
+
+&lt;p&gt;A union file system is a file system that amalgamates a collection of different file systems and directories (called branches) into a single logical file system.&lt;/p&gt;
+
+&lt;h2 id=&quot;unionfs-&quot;&gt;UnionFS 是分布式文件系统么？&lt;/h2&gt;
+
+&lt;p&gt;No, it is not.&lt;/p&gt;
+
+&lt;h2 id=&quot;docker-storage-drivers--volumes-&quot;&gt;Docker Storage Drivers 和 Volumes 是一回事么？&lt;/h2&gt;
+
+&lt;p&gt;No, they are actually quite different.&lt;/p&gt;
+
+&lt;p&gt;A storage driver is how docker implements a particular union file system. Keeping with are “batteries included, but replaceable” philosophy, Docker supports a number of different union file systems. For instance, Ubuntu’s default storage driver is AUFS, where for Red Hat and Centos it’s Device Mapper.&lt;/p&gt;
+
+&lt;p&gt;A volume is subdirectory in a container’s file system that exists outside of the union file system.  Unless you explicitly commit changes made to a Docker container during run time to a new image, they are lost when the container is destroyed. Volumes, by contrast, will not be automatically deleted when a container is removed (you can, of course, tell Docker to remove any volumes when removing a container).&lt;/p&gt;
+
+&lt;h2 id=&quot;nfs&quot;&gt;用NFS共享卷作为容器的卷有什么问题么？&lt;/h2&gt;
+
+&lt;p&gt;Not really. This is a pretty common scenario.&lt;/p&gt;
+
+&lt;h2 id=&quot;dockerimage&quot;&gt;如何将更新后的Docker容器导出为可以重用的新的Image？&lt;/h2&gt;
+
+&lt;p&gt;You can do this by using docker commit. In an example where you have a container named “mywebsite” the following command would create a new image named “mikegcoleman\mynginx” from that container&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;docker commit mywebsite mikegcoleman&lt;span class=&quot;se&quot;&gt;\m&lt;/span&gt;ynginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;如何对容器做安全加固？&lt;/h2&gt;
+
+&lt;p&gt;Visit the Docker Security resource center to get access to tools and best practices in securing your Docker implementation.&lt;/p&gt;
+
+&lt;h2 id=&quot;ram--cpu&quot;&gt;如何配置容器对(RAM 和 CPU)资源的用量？&lt;/h2&gt;
+
+&lt;p&gt;CPU and RAM can be configured via the docker run command. You can read about memory here, and CPU here.&lt;/p&gt;
+
+&lt;h2 id=&quot;rhel-based-image-&quot;&gt;我想用 RHEL based image 怎么办？&lt;/h2&gt;
+
+&lt;p&gt;Red Hat hosts a variety of docker images, but you must be a Red Hat subscriber to access them.&lt;/p&gt;
+
+&lt;h2 id=&quot;rhel-containers-vs-docker-containers-&quot;&gt;RHEL containers vs. Docker containers 他们的区别？&lt;/h2&gt;
+
+&lt;p&gt;The Docker engine that runs on Red Hat Enterprise Linux (RHEL), offers the same functionality as the Docker engine running on any other Linux distribution. Additionally, If you are a Red Hat subscriber, you can run RHEL inside of a container on any host running Docker engine.&lt;/p&gt;
+
+&lt;h2 id=&quot;solaris-os--docker--centos&quot;&gt;如果，我用 Solaris OS 运行 Docker 是支持的, 这意味这我能用来跑CentOS的容器么？&lt;/h2&gt;
+
+&lt;p&gt;We are working with Oracle to implement Docker with &lt;a href=&quot;https://blog.docker.com/2015/08/docker-oracle-solaris-zones/&quot;&gt;Solaris Zones&lt;/a&gt;, but this funcitonaity is not yet generally available. When it does ship, however, it will allow Docker to run Solaris workloads on Solaris, but it won’t allow to run Linux workloads on Solaris. Similarly, the Docker Engine that will run on Windows when Microsoft ships its container support with Windows Server 2016 will run Windows workloads, not Linux workloads.&lt;/p&gt;
+
+&lt;p&gt;That being said, the Illumos kernel has support for a feature called “BrandZ,” which allows running Linux binaries on the Illumos kernel. Joyent’s Triton product leverages on this feature to run Linux containers on their SmartDataCenter platform, which uses the Illumos kernel.&lt;/p&gt;
+
+&lt;h2 id=&quot;oracle-12g-rac---fencing-docker&quot;&gt;少数象 Oracle 12g RAC 这样的应用需要动态的调整 内核参数，而且有 fencing 的概念，Docker将会支持么？&lt;/h2&gt;
+
+&lt;p&gt;It might work, but it’s not something we advocate as  a good use case. Docker is designed for microservices or distributed applications. Each container should, ideally, perform a single function. You tie those containers together to create complex applications. Large monolithic applications like Oracle, are not a particularly good use case for containers.&lt;/p&gt;
+
+&lt;h2 id=&quot;web--glusterfs-&quot;&gt;当运行10个Web容器，如何为他们设置共享文件系统数据，例如上传的文件？ 能用类似 GlusterFS 的文件系统么？&lt;/h2&gt;
+
+&lt;p&gt;Without knowing more specifics on the use case, it’s hard to say exactly what the best approach would be. However, using a shared data-only container with volumes mounted to house the shared data would be a good place to start.&lt;/p&gt;
+
+&lt;p&gt;As for Gluster, I’m not sure it’ll solve the problem you’re trying to solve by itself. That being said, customers have deployed Docker volumes to GlusterFS with success. Just make sure you understand the characteristics of the file system – in particular how to tune it appropriately.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;如果你去配置和映射一个本地目录作为容器的一个卷，当你需要让这个应用上生产环境，最佳实践是什么？&lt;/h2&gt;
+
+&lt;p&gt;The app code should be copied into the Docker image. The idea is that your Docker image includes everything the app needs to execute including the code and any libraries or dependencies.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-only-containers--host-mounting-&quot;&gt;由于 data-only containers 依然存储数据在运行的主机上，为什么这还是会比 host-mounting 方式要好？&lt;/h2&gt;
+
+&lt;p&gt;Host mounting  ties the volume mount point to one specific Docker host. With data-only containers, the volume is mounted to a container, and that abstraction works across different Docker hosts.&lt;/p&gt;
+
+&lt;p&gt;Wouldn’t a data container suffer from the same problem as writing data to a container over time? I.e. the build up of diffs may cause longer look up times due to folder traversal.&lt;/p&gt;
+
+&lt;p&gt;When we talk about data-only containers, we talk about them in the context of hosting a volume in that container. Since we’re using a volume, it bypasses the union file system, and isn’t affected by some of the performance issues.&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;备份和版本控制的最佳实践是什么？&lt;/h2&gt;
+
+&lt;p&gt;These are pretty broad topics, but I’ll give a couple quick answers with the fact that we’re doing a session on October 27th that will talk about backups in pretty good detail.&lt;/p&gt;
+
+&lt;p&gt;Part of the reason for storing your data in volumes is it makes it fairly trivial to backup. Information on the hows and whats can be found in the Docker documentation.&lt;/p&gt;
+
+&lt;p&gt;As for version control, I’m not exactly sure what you mean, but I’ll take a crack at it anyway. As a best practice we recommend using Dockerfiles to control the creation of new Docker images. Those Dockerfiles should be stored in GitHub, and treated like any other source code. Additionally, when images are pushed to a registry, they can be tagged with a version number so you can keep older versions around or be explicit about which version you wish to use in the future.&lt;/p&gt;
+
+&lt;p&gt;来源：&lt;a href=&quot;http://blog.docker.com/2015/10/docker-basics-webinar-qa/&quot;&gt;http://blog.docker.com/2015/10/docker-basics-webinar-qa/&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/uninofs-storage-volume-faq/&quot;&gt;FAQ： 关于 Union Filesystems, Storage 和 Volumes&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Container 101 - Bob Reselman]]></title>
+ <link rel="alternate" type="text/html" href="/container/containers-101-bob-reselman/" />
+  <id>/container/containers-101-bob-reselman</id>
+  <published>2015-09-30T16:00:00+00:00</published>
+  <updated>2015-09-30T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;阅读提示：在看一些翻译文章的时候，需要看看是什么人？什么时候？在那里发布的文章？为什么发布这个文章？特别是对不熟悉的作者还是有必要去linkedin查一下这个人的工作记录，曾经的就职情况，曾经的出版物主要有那些？以上都是看看此人的江湖地位和背景，主要是看它写文章是否带有某种立场和角度；这年头毕竟枪文太多，还是需要有防胡悠的意识。&lt;/p&gt;
+
+&lt;p&gt;作者简介：Bob Reselman 目前是Edmunds公司的技术流程架构师。Edmunds公司是一家知名发布商，专门发布高容量、高可用性、最先进的、基于Java的网站，这些网站专门面向汽车消费者。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Bob-Reselman.jpg&quot; alt=&quot;Bob Reselman&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/in/bobreselman&quot;&gt;Linkedin profile&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;本文正文的出处：&lt;a href=&quot;http://www.developer.com/design/containers-101.html&quot;&gt;http://www.developer.com/design/containers-101.html&lt;/a&gt; 下面是云头条的中文翻译。&lt;/p&gt;
+
+&lt;p&gt;大概六个月前，我就开始注意到业界在容器方面的动静很大，容器被誉为是一种处理虚拟计算的新方法。我生性喜欢探究新技术，于是这几个开始研究容器技术的细枝末节。我可以告诉各位的是，容器是不会很快销声匿迹的一项重要技术。这个领域有许多玩家，新厂商一直在涌进来。如果你是与时俱进的开发人员，学会使用容器是职业生涯中必不可少的技能。&lt;/p&gt;
+
+&lt;p&gt;所以，本着倡导一种优秀技术概念的宗旨，我想回答下列问题，为各位介绍容器技术的基本知识：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;何谓容器？&lt;/li&gt;
+  &lt;li&gt;容器有何特别之处？&lt;/li&gt;
+  &lt;li&gt;该如何使用容器？&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我希望，回答这些问题后，你对容器有一个基本的了解和认识，以便开发和部署代码时可以开始使用容器。&lt;/p&gt;
+
+&lt;p&gt;还是言归正传吧。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;何谓容器？&lt;/h2&gt;
+
+&lt;p&gt;容器技术是通过使用主机上的隔离进程，建立虚拟环境的一种方法。这种隔离进程就叫容器，它有自己的一套文件系统资源和从属进程。容器不会侵扰主机系统，主机系统也不会侵扰容器。&lt;/p&gt;
+
+&lt;p&gt;容器在主机内核上运行（见图1）。一个名为容器管理器的组件确保容器可以在主机上运行（文章后面对容器管理器会有详细介绍）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain1.jpg&quot; alt=&quot;图1：&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图1：容器提供了运行孤立进程的功能，孤立进程在共享环境下有自己的资源。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;容器有何特别之处？&lt;/h2&gt;
+
+&lt;p&gt;想了解什么让容器如此特别，我们就需要审视虚拟机这个概念。虚拟机是一个模拟计算机的软件。虚拟机的优点在于，可以大大提高使用硬件的效率。你可以让好多虚拟机在单单一个硬件上运行（见图2）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain2.gif&quot; alt=&quot;图2&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图2：如果你使用虚拟机，针对每个虚拟机的资源分配是固定的。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;然而，虚拟机技术有其缺点。不妨看一下图2。你会注意到，在图中，三个虚拟机在一台计算机上运行，该计算机配备48 GB内存、12核处理器和3TB磁盘存储空间。每个虚拟机被分配了16 GB内存、4核和1TB存储空间。到目前为此很好。但是这里有个缺点。无论任何一个虚拟机使用它的全部资源，还是只是一小部分资源，硬件分配是静态的。换句话说，如果其中一个虚拟机使用的内存从不超过1GB，只存储100MB的文件系统，该虚拟机仍占用4 GB内存和整整1TB的存储空间，尽管该虚拟机只使用25%的内存和1%的存储空间。这就不太好。&lt;/p&gt;
+
+&lt;p&gt;另一方面，容器并不死死占用资源。你构建一个容器时，不用为它分配内存、处理器或存储空间。事实上，容器以共享方式使用主机上的内存、处理器和存储空间。只要物理机处理得了，可以将好多个容器装入到该物理机上。容器只有在需要资源时才占用所需的那部分资源。不存在资源分配是固定的说法。&lt;/p&gt;
+
+&lt;p&gt;好处不止这些。运行容器的硬件通常使用轻量版Linux作为操作系统。这个轻量级主机操作系统提供了内核级服务。CoreOS是流行的主机操作系统之一。还有其他主机操作系统，比如Ubuntu Snappy和Red Hat Atomic。&lt;/p&gt;
+
+&lt;p&gt;你在构建容器时，可以添加所选择的操作系统；比如说，你想使用Ubuntu。容器里面的Ubuntu操作系统会充分利用主机内核，不过会有属于Ubuntu一部分的程序包。比如说，虽然内核对软件包管理一无所知，但Ubuntu会提供软件包管理工具apt-get。此外，你可以配置容器，以便使用特殊的Web服务器和脚本解释器等等。结果就是，你获得了虚拟机提供的环境配置，又不因静态分配而死死占用主机系统上的资源。另外，容器会有一个主机里面可见的IP地址。因而，主机可以通过容器的IP地址，直接访问容器（见图3）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain3.jpg&quot; alt=&quot;图3&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图3：容器共享主机资源，并充分利用主机操作系统提供的内核级服务。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;windows&quot;&gt;附文：使用Windows怎么样？&lt;/h2&gt;
+
+&lt;p&gt;容器面临的一个约束是，无法混合搭配多个操作系统。在虚拟机领域，让Windows主机支持运行Linux的虚拟机或者让OS X系统运行Windows虚拟机相当常见。而容器就不是这样了；原因是，就本身而言，容器使用主机内核。因而，你要做到操作系统相互匹配。也就是说，Linux容器在Linux主机上运行。你可以在Windows Server（直至Windows Server 2016）上运行Windows容器。另外，还有Windows版的容器管理器：Docker。&lt;/p&gt;
+
+&lt;p&gt;要是你发现自己需要在Windows上运行Linux容器，总是可以在Windows下启动Linux虚拟机，使用Linux虚拟机作为主机系统。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;该如何使用容器？&lt;/h2&gt;
+
+&lt;p&gt;为了使用容器，你就要明白三个概念。第一个概念是容器管理器。第二个是了解容器层架构。第三个是容器注册中心。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;容器管理器&lt;/h3&gt;
+
+&lt;p&gt;容器管理器是一种工具，可用来构建容器、部署容器，让容器在主机上运行。截至本文截稿时，市面上最流行的容器管理器是Docker和Rocket。&lt;/p&gt;
+
+&lt;p&gt;容器管理器的工作方式如下：假设你用PHP编写了一个短小的Hello World Web应用程序。你要创建一个容器配置文件，你会在其中描述应用程序所需的PHP文件。同样在该配置文件中，你要定义应用程序所需的各层。在这里，假设你的应用程序需要PHP 5.6解释器，你想要在Apache网站服务器下运行。到时就可以通过容器管理器，发出命令来运行你的应用程序。容器管理器在后台会执行这些操作：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;读取配置文件，确定需要从注册中心获得的各层；&lt;/li&gt;
+  &lt;li&gt;创建容器映像；&lt;/li&gt;
+  &lt;li&gt;添加应用程序源文件；以及&lt;/li&gt;
+  &lt;li&gt;在主机上启动容器（见图4）。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain4.jpg&quot; alt=&quot;图4&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图4：配置文件、映像和注册中心都是容器生态系统的一部分。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;听起来觉得很简单？你可能会问：“层是什么？映像是什么？注册中心是什么？怎么回事？”这些问题提得好，有必要回答。下面我就逐一回答。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;了解层和映像&lt;/h3&gt;
+
+&lt;p&gt;容器由一个个层组成。层就是容器映像（没错，容器由其他容器组成这个概念一开始可能让人困惑）。可能先是操作系统底层。然后，你声明其他层，比如说Web服务器和脚本运行时环境。一旦定义好了容器，就可以在已定义容器的基础上构建映像。映像是容器的模板，你可以在一个或多个主机上重复使用它。&lt;/p&gt;
+
+&lt;p&gt;图5表明了主机运行CoreOS、使用Docker作为容器管理器的一种场景。有三个容器在主机上运行。一个容器使用Debian作为基本的操作系统层，Apache用作网站服务器，PHP 5.5用作脚本运行时环境，还使用自定义PHP应用程序（已为它构建了容器）。另一个容器用于额外的自定义PHP应用程序，使用nginx作为网站服务器，PHP 5.6作为脚本解释器，它们都在RHEL基本映像上运行。最后，第三个容器有一个JSP应用程序在Tomcat和Apache上运行，位于Ubuntu基本映像上。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain5.jpg&quot; alt=&quot;图5&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图5：容器映像可以定义某个特殊主机为基本映像，然后分别为网站服务器、脚本运行时环境和脚本文件添加层。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;正如你所见，每个容器都不一样。不过，它们都作为孤立进程而并行驻留在主机上，可以利用CoreOS内核。没有实施硬件分配机制。所有环境资源都可以共享。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-5&quot;&gt;了解注册中心&lt;/h3&gt;
+
+&lt;p&gt;容器映像存储在注册中心里面。对熟悉Java框架的人而言，注册中心概念好比是Maven注册中心概念。而.NET环境中的类似技术就是NuGet服务器。&lt;/p&gt;
+
+&lt;p&gt;有许多公开的注册中心，你可以将容器映像存储在里面。Docker有Docker Hub，还有其他公开的注册中心。另外，如今出现了越来越多的私有注册中心提供商。&lt;/p&gt;
+
+&lt;p&gt;使用注册中心几乎自动会收到神奇效果。你告诉容器管理器运行容器后，它会检查配置文件，确定容器需要哪几个层，然后检查注册中心上面的所需层映像，或者是默认注册中心，或者是你定义的注册中心。容器管理器会组装你的容器从注册中心需要获取的几个层，然后将容器装入到主机上。&lt;/p&gt;
+
+&lt;p&gt;使用注册中心让你在容器映像方面拥有高度可重用性。另外，使用容器映像意味着，你可以扩展应用程序，如下文所示。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-6&quot;&gt;扩展容器&lt;/h3&gt;
+
+&lt;p&gt;容器在需要根据需求扩增或缩减资源的动态环境下表现很出色。不像虚拟机要花很长时间才能装入到主机环境，容器可以迅速装入。装入迅速，加上无所不在的容器注册中心，这意味着你可以迅速构建起高可用性、负载均衡的环境。&lt;/p&gt;
+
+&lt;p&gt;请看一下图6。该图显示了基于容器的应用程序集群环境。如今，让负载均衡系统协调从同一映像生成的许多容器之间的负载相当常见。实际上，负载均衡系统本身可以是个容器。换句话说，你可以使用nxginx容器作为负载均衡系统，负责协调相同应用程序节点组成的集群之间的流量。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/10/Contain6.jpg&quot; alt=&quot;图6&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;图6：你可以使用充当负载均衡系统的容器来管理应用程序容器集群。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;section-7&quot;&gt;现在怎么办？&lt;/h2&gt;
+
+&lt;p&gt;容器生态系统在迅速发展壮大。比如说，有谷歌的开源项目Kubernetes，该项目提供了一个平台，可用于在企业层面，跨主机集群部署和扩展应用程序容器。另一个开源项目etcd让你可以共享容器之间的键值信息。如果你需要让容器使用统一的数据存储区或缓存，共享键值信息就很重要。还有fleet，它确保了这一点：如果你在诸多机器上运行许多同样的容器，其中一个机器出现故障，容器可以转移到另一个机器上。这在大规模计算环境下是一种非常有效的技术；在这种环境下，你的容器始终运行至关重要。这方面的项目和产品在迅速涌现。&lt;/p&gt;
+
+&lt;p&gt;正如我在文章开头所说，容器不会很快销声匿迹。实际上，微软、谷歌、IBM、红帽、亚马逊及其他许多知名科技公司已联合起来，组建了开放容器项目（Open Container Initiative），这是在Linux基金会下面成立的。设想一下：微软与Linux领导厂商合作。所以，如果雷德蒙德的人全力搭上容器这趟快车，容器进入到你我的世界只是个时间问题。所以，如果你还没有开始接触容器，现在正是时候。&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/containers-101-bob-reselman/&quot;&gt;Container 101 - Bob Reselman&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Container技术栈概述]]></title>
+ <link rel="alternate" type="text/html" href="/container/container-tech-stack/" />
+  <id>/container/container-tech-stack</id>
+  <published>2015-09-30T00:00:00+00:00</published>
+  <updated>2015-09-30T00:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;应用架构驱动着基础设施架构的发展。下一代应用架构聚焦于社交、移动、大数据、智能硬件，驱动应用向着更好的用户体验发展，也对传统的技术架构产生了冲击。&lt;/p&gt;
+
+&lt;p&gt;本文我们将看下新一代技术架构的元素，以及公司在下一代应用和基础设施中，应当如何进行架构选型。&lt;/p&gt;
+
+&lt;p&gt;在过去的6-12个月里，Container技术引起了企业的CIO、架构师和开发人员的极大兴趣。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Container技术引起CIO兴趣的原因在于，他们找到了向现代应用框架快速转型的方法，从而驱动业务的发展。&lt;/li&gt;
+  &lt;li&gt;对于架构师来说，Container技术增强了应用的可移植性，适用于混合云架构。&lt;/li&gt;
+  &lt;li&gt;而开发人员通过Container技术，可以快速地应用微服务架构，增强应用的可扩展性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DockerCon 和 Red Hat Summit 中，都曾讨论过这一趋势。但是每种新技术，都会带来新的挑战和利弊权衡。本文将对container技术架构中的元素逐一进行分析。&lt;/p&gt;
+
+&lt;p&gt;下图为Docker技术人员 Patrick Chanezon 总结的Container技术栈：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/09/docker-stack.png&quot; alt=&quot;docker tech stack&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;在深入了解Container技术架构之前，有必要先理解以下几个基本问题：
+   * Container技术非常适用于分布式应用框架中，这意味着底层的Container基础架构必须是模块化和非常灵活的；
+   * 以下所探讨的核心概念，很多来源于如今的虚拟化架构，比如服务发现（Service Discovery），集群管理（Cluster Management）和资源调度（Resource Scheduling）；
+   * 围绕整个container技术架构的公司生态也在快速发展，多数情况下，他们都从单一的工具开始，慢慢发展为一个全栈服务。&lt;/p&gt;
+
+&lt;h2 id=&quot;container&quot;&gt;深入Container技术架构&lt;/h2&gt;
+
+&lt;p&gt;从单一的Container到服务于产品的架构，需要一系列的工具和配置。从这些工具和配置上，我们可以看出下一代基于Container的应用需要哪些组件：&lt;/p&gt;
+
+&lt;p&gt;首先，要进行以下声明：
+  * 所有这些组件都不是硬件的，也不依赖于云服务；
+  * 在实现时，可能会结合一些组件到一个软件中；
+  * 并非所有组件都是必须的。&lt;/p&gt;
+
+&lt;p&gt;下面是对整个技术栈自下而上的分析。&lt;/p&gt;
+
+&lt;h3 id=&quot;devops&quot;&gt;DevOps工具&lt;/h3&gt;
+
+&lt;p&gt;叫“开发工具”和“运维工具”更加直观，他们运行在本地机器上，用来启动Container，虚拟机或初始化应用包。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hashicorp Vagrant，Docker Machine，VMware AppCatalyst, Shippable, Wercker
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;vm&quot;&gt;物理宿主机（或VM）&lt;/h3&gt;
+
+&lt;p&gt;Container实际运行的机器，可能是一个本地的笔记本电脑，一个数据服务器或一个公有云实例。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;VMware ESX，Microsoft Hyper-V，KVM，LXD
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-os&quot;&gt;Container OS&lt;/h3&gt;
+
+&lt;p&gt;负责和底层物理宿主机交互的操作系统（Linux或Windows），还负责提供所有container共享的OS级别的服务。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CoreOS，RedHat Atomic Host，Rancher OS，Canonical Snappy，VMware Photo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-runtime&quot;&gt;Container Runtime&lt;/h3&gt;
+
+&lt;p&gt;创建、启动、停止、销毁Container的软件层。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker，Rkt，Lattice
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-1&quot;&gt;Container&lt;/h3&gt;
+
+&lt;p&gt;管理着应用和Container OS之间的交互。也有人将其类比为虚拟机，但是container并不包含一个完整的操作系统。&lt;/p&gt;
+
+&lt;h3 id=&quot;marketplace&quot;&gt;Marketplace/镜像管理&lt;/h3&gt;
+
+&lt;p&gt;储存和管理container镜像的服务器（自己搭建或采用云端的SaaS应用）。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker Registry，CoreOS Registry
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;configuration-management&quot;&gt;配置管理（Configuration Management）&lt;/h3&gt;
+
+&lt;p&gt;管理和自动化配置文件和部署的工具。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;比如Ansible，Chef，Puppet，Docker Compose，Terraform
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-networking&quot;&gt;Container Networking&lt;/h3&gt;
+
+&lt;p&gt;SDN，管理container之间包路由的网络框架。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker Networking，WeaveWorks，Flannel (CoreOS), Calico
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-2&quot;&gt;Container集群管理&lt;/h3&gt;
+
+&lt;p&gt;帮助建立Container集群，形成服务，管理集群资源，保障可用性。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker Swarm, Hashicorp Serf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;服务发现&lt;/h3&gt;
+
+&lt;p&gt;随着更多的元素/微服务 被加入到应用中，找到这些服务并确认其是否可用变得很困难。服务发现可以在其加入网络中时，管理广播和服务许可。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker Swarm, Hashicorp Serf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-&quot;&gt;Container 调度&lt;/h3&gt;
+
+&lt;p&gt;这项服务保障了container在宿主机中处于最高效的位置，容量规划，失败时重启container，需求变化时扩展应用等。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Kubernetes，Mesos
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;应用调度&lt;/h3&gt;
+
+&lt;p&gt;和container调度的功能类似，是一系列面向应用的服务，描述应用被部署时所需的资源，时间，依赖等。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Marathon，Chronos，Hadoop，Spark
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;安全&lt;/h3&gt;
+
+&lt;p&gt;在container架构中，同样需要所有的安全组件，从OS到认证服务，到数据管理。&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CoreOS Linux，Intel Clear Containers，Docker Notary，Hashicorp Vault, OpenSCAP, Twistlock, Scalock, Conjur, Lynis
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;日志管理&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker logs, logspout
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;section-4&quot;&gt;监控/可视化&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Docker ps/top/stats, Docker stats API, sysdig, cAdvisor, Weave Scope
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;container-3&quot;&gt;Container实现——灵活性，交互性以及挑战&lt;/h3&gt;
+
+&lt;p&gt;对于企业来说，Container技术的挑战之一在于，选择Container技术栈意味着舍弃传统的，由ISV提供的一站式“单块架构”，通常会令企业望而生畏。&lt;/p&gt;
+
+&lt;p&gt;第二个挑战在于，初创公司常常将个人项目作为工具，许多情况下，要么是某公司在主导这个项目，要么由一个开源社区主导。&lt;/p&gt;
+
+&lt;p&gt;第三个挑战在于许多工具是彼此协作和可替代的。许多早期用户会试用不同项目的组件，而不是由一个供应商或开源项目提供的技术栈。短期来讲，有助于早期采用者实现灵活性和技术的多样性。长期来看，不利于企业对稳定环境的需求，同时也会增加对新技术的学习成本。相关的公有云服务，比如Amazon Elastic Cloud Services和 Google Container Engine，可以帮助用户屏蔽技术上的复杂性。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-5&quot;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;Container技术和架构产生和发展都很迅速。许多初创企业都在驱动新工具和框架的产生，能够将合适的架构组件组合起来的技术，将为企业带来很多优势。不管基于已有的基础架构还是公有云，随着更多的解决方案级别的产品被推向市场，Container技术的发展脉络也将逐步清晰。&lt;/p&gt;
+
+&lt;p&gt;本文译自wikibon文章《Evolving Container Architectures》，原文请点击 &lt;a href=&quot;http://wikibon.com/evolving-container-architectures/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/container-tech-stack/&quot;&gt;Container技术栈概述&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[红帽的OpenShift V3进入市场]]></title>
+ <link rel="alternate" type="text/html" href="/container/redhat-openshift-v3-paas/" />
+  <id>/container/redhat-openshift-v3-paas</id>
+  <published>2015-09-29T16:00:00+00:00</published>
+  <updated>2015-09-29T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Red Hat在今年7月底的红帽峰会上发布了重要的战略级新产品 OpenShift v3；没错是v3。由于它和v2相比是重新基于Docker相关技术开发的，也就是说是实际上的 v 1.0; 红帽在这样的市场氛围里是不会在Docker方面没有作为的。不仅如此，还发布了与之配套的 Red Hat Enterprise Linux Atomic Host 作为容器运行的专有主机平台。&lt;/p&gt;
+
+&lt;p&gt;相关这个红帽大会的ppt 可以在这里下载 [http://www.redhat.com/summit/2015/presentations/ ](http://www.redhat.com/summit/2015/presentations/&lt;/p&gt;
+
+&lt;p&gt;作为这个新产品的发布，全球的roadshow是必须的，在中国也做了，相关资料可以在这里下载：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;红帽中国网站  &lt;a href=&quot;http://chinahall.redhat.com/productInformation/index.jhtml&quot;&gt;http://chinahall.redhat.com/productInformation/index.jhtml&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;OpenShift v3 roadshow 网站  &lt;a href=&quot;http://training.runcloudrun.com/roadshow/&quot;&gt;http://training.runcloudrun.com/roadshow/&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;在中国做Roadshow的重量级人物是Ashesh Badani （红帽云产品事业部的GM）&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/09/AsheshBadani-linkedin.jpg&quot; alt=&quot;Ashesh Badani&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.linkedin.com/profile/view?id=ADEAAAAAL18BB78IcUAmQa01ERGH4igDOiUfVc8&amp;amp;authType=NAME_SEARCH&amp;amp;authToken=-2iD&amp;amp;locale=en_US&amp;amp;srchid=258886861443620960498&amp;amp;srchindex=1&amp;amp;srchtotal=1&amp;amp;trk=vsrp_people_res_name&amp;amp;trkInfo=VSRPsearchId%3A258886861443620960498%2CVSRPtargetId%3A12127%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH&quot;&gt;他在Linkedin的页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在中国期间他接受了CSDN的专访，专访内容如下， &lt;a href=&quot;http://www.csdn.net/article/2015-09-28/2825811&quot;&gt;转自CSDN网站&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Ashesh Badani首先表示，红帽一直坚信软件会颠覆各行各业，每一家公司最终都可能成为软件公司，不能参与到颠覆大潮的公司，就会被别人颠覆。&lt;/p&gt;
+
+&lt;p&gt;他认为，软件市场未来的盈利点在PaaS和SaaS层，PaaS的利润率将在40%到60%之间。而面向DevOps的PaaS，需要集成对SDN，以及Docker、Kubernetes等新兴技术的支持，把公有云的体验通过开源技术带到企业私有云环境里，同时兼容现有的技术架构，这是因为混合云同样是未来的一大趋势，应用是分布式应用，它既可以存在于传统环境中，也可以在异构环境中。红帽OpenShift的卖点，就是借助于容器技术，把应用开发速度和运营效率结合起来，充分体现DevOps模式的高效性。&lt;/p&gt;
+
+&lt;p&gt;Ashesh Badani还回答了OpenShift与CloudFoundry竞争的问题。他表示，CloudFoundry提出来了一套兼容Docker格式的技术，但并不是Docker，并且对传统有状态的应用程序的处理技术不是很清晰；最关键的，是目前OpenShift 3已经是GA，已经可以发行给企业客户使用，而CloudFoundry并没有GA。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;云计算市场趋势&lt;/h2&gt;
+
+&lt;p&gt;Ashesh Badani分析了如下的云计算市场趋势：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;PaaS市场的竞争。高盛与Gartner共同进行的一项调查显示，IaaS和PaaS未来五年的复合增长率将会达到30%。但由于亚马逊、谷歌、微软的出现，传统软件行业面临着很多来自价格的压力，要向着份额更多、利润率更大的行业领域发展，比如PaaS和SaaS方向。根据行业分析，IaaS的利润率在5%到20%之间，而PaaS的利润率更是在40%到60%之间。&lt;/li&gt;
+  &lt;li&gt;越来越多的工作负载向云迁移。在未来五年，会有更多的工作负载和流量向云端迁移。根据Gartner的预测，到2020年混合云结构会成型，其中一部分是我们传统的架构，此外还有私有云、公有云两大组成部分。&lt;/li&gt;
+  &lt;li&gt;容器技术备受关注。因为容器技术具备高敏捷性、灵活性，并且它的效率非常高。&lt;/li&gt;
+  &lt;li&gt;微服务架构。SaaS和服务提供商都非常关注微服务的概念，把过去一套服务分隔成微小的服务单元，这样能够大大增加服务的灵活性和灵敏度。&lt;/li&gt;
+  &lt;li&gt;CIO主要关注两个话题：1.关于价格成本的压力；2. 关于DevOps模式。DevOps模式可以使他们的操作更加灵活。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;面向DevOps，红帽PaaS产品OpenShift的设计理念包括：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OpenShift具有自助式特征，很多事情它都可以自动完成。&lt;/li&gt;
+  &lt;li&gt;OpenShift支持多语言、多框架，不管是Java，还是Ruby。&lt;/li&gt;
+  &lt;li&gt;支持自动化和团队协调与协作能力，在运营方面可以达到较高的可靠性、安全性、可预测性以及可扩展性。&lt;/li&gt;
+  &lt;li&gt;一切都是基于开源，都可以在开源社区中分享。同时尽量让它基于一种统一的标准，以免出现被锁定的现象。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;openshift-3&quot;&gt;OpenShift 3的主要特点&lt;/h2&gt;
+
+&lt;p&gt;红帽公司在6月份发布了OpenShift 3，其首要目的就是保证平台上大量的功能模块和组件具备跨平台、跨环境的可迁移性。此外，作为一个轻量级操作系统，OpenShift 3也充分使用了容器技术。并希望该技术也能够应用在红帽其它产品上。在初始阶段就已经设计，让容器技术使用行业标准的编排和管理工具Kubernetes，从而得到一个很好的服务和生态系统。&lt;/p&gt;
+
+&lt;p&gt;OpenShift 3集成了Docker技术， Docker格式任何的镜像都可以在OpenShift 3上来运行，可以更快地对软件进行打包，然后在红帽的平台上运行。另外有一个Atomic部署模式，只有在Docker或者镜像里面发生了变化，它才会进行变动，在其它时候就不会浪费时间和资源。这也使平台有了一个更大的生态系统——Docker hub上面可以看到来自于很多软件公司的几百甚至几千个镜像。&lt;/p&gt;
+
+&lt;p&gt;Ashesh Badani强调了使用容器技术的主要好处：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;减少基础设施的成本。一般而言，在一个VM上运行应用程序时，虚拟机容量被浪费掉。而当运用了容器技术，一个VM上可以运行几百个或者更多的容器，容量的使用率和效率也会大大的提高，而且这些容器是由我们自己进行管理的，可以有更多的主动权。&lt;/li&gt;
+  &lt;li&gt;由于是轻量级的操作系统，所以对开发者来说体验是非常好的，因为它的开发速度加快了很多。&lt;/li&gt;
+  &lt;li&gt;从运营的角度来说，也更安全，而且运营的效率和管理效率也会更高。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;为保证公有云中的安全性，镜像的可信任，红帽已经在和几百个ISV软件提供商进行容器认证方面的合作，并为提供一些开发包，如红帽的容器开发包工具，使他们能够更容易的创建容器。此外，红帽的Kinect计划，在实际操作中能够帮助合作伙伴来分享他们在镜像或容器方面的一些最佳方法。他们可以列出镜像目录，或者直接到红帽注册器进行注册。&lt;/p&gt;
+
+&lt;p&gt;具体的方法，就是镜像的内容和元数据是分开的（镜像元数据包含谁创造了镜像、这些镜像之间是怎样进行互动等信息）。在搜索一个镜像的时候，它就会根据镜像元数据中包含的信息来你匹配搜索结果。然后再根据搜索结果把内容提出来，再和搜索结果的元数据进行匹配。&lt;/p&gt;
+
+&lt;p&gt;当有复杂应用的时候，就会需要多个容器，并且他们之间需要互相配合。所以对于一个运行复杂应用的平台来说，它会涉及到多个云环境。在这种情况下，我们就需要编配很多容器。红帽利用了谷歌的Kubernetes管理技术来编配和管理容器。它的管理方式主要是管理一些超大规模并且有多个容器的环境，尤其是在主机集群的环境下，能更好的发挥它的管理作用。比如其中一个容器要宕掉的话，很快其它的容器就会填补上，这种调配和编配能力非常强。它把这层抽象出来，而且是基于预先设定的规则进行处理的。&lt;/p&gt;
+
+&lt;p&gt;涉及混合云的环境还需要跨主机、跨平台、跨环境来管理这些容器。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;在运行这些容器的时候，红帽还可以根据不同客户的不同规则和需求，把它分为不同的区域，在不同的区域之间进行容器的管理。&lt;/li&gt;
+  &lt;li&gt;对于多个容器运行在多个主机的情况，还需要解决IP寻址和SDN的问题。红帽通过内置OpenShift OVS产品来支持SDN，接下来还会支持包括思科在内的新的虚拟网络技术。&lt;/li&gt;
+  &lt;li&gt;存储扩展也涉及多种选择，比如说NFS的扩展方式，或者像亚马逊、谷歌所提供的其它一些云存储方式，以确保容器宕掉的时候不会因为没有持久化的存储而丢失数据。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;不过，一个实际的问题，是如果现在企业使用的Git来管理它的代码，使用Jenkens来做CI，那么他们用OpenShift就会非常得心应手，很好迁移。但如果企业用的是其它的源代码库，迁移到OpenShift应该注意哪些方面的问题呢？&lt;/p&gt;
+
+&lt;p&gt;Ashesh Badani认为，这其实很简单，包括网络、存储和源代码管理，目前整个应用程序是一种框架型的，都是标准接口模式，要想支持新的东西，只要有人去实现就可以了。至于是不是红帽要去开发SVN、CVS的支持，就要看有没有这种诉求。他表示，绝大多数软件开发都是社区模式，只要有人对这个方向感兴趣，并且能够做出足够好的贡献，红帽就会把它们放到一起。&lt;/p&gt;
+
+&lt;p&gt;换言之，企业用户如果想支持自己内部传统的某些东西，只要遵循这个标准去开发就可以了。就Jenkens而言，Jenkens公司现在与红帽是技术合作伙伴关系，可以自己开发一个接口和红帽的平台进行对接。&lt;/p&gt;
+
+&lt;h2 id=&quot;openshiftkubernetes&quot;&gt;OpenShift与Kubernetes&lt;/h2&gt;
+
+&lt;p&gt;Ashesh Badani表示，整个容器技术是由三部分组成的，其中Cgroup和NameSpace这两部分技术是由谷歌提出的，但是谷歌并没有提出一个完整的容器解决方案。由谷歌提供的这两个基础技术跟红帽结合在一起成就了Linux Container技术。谷歌提供的是容器编排的技术，是构建在容器之上的，但是谷歌的解决方案只是到了容器编排这一层，在这个基础上红帽提供了PaaS的方案。可以说谷歌提供的是细节技术，红帽提供的是整体技术。&lt;/p&gt;
+
+&lt;p&gt;其实目前在中间编排这层上也还有其它的选择，但是目前在市场上最有影响力的是谷歌。所以红帽选择最成熟的技术。现在谷歌尝试解决问题的前提仍然是应用要运行在其数据中心里面，但是红帽已经把公有云的体验通过开源技术带到企业私有云环境里，这一点是红帽和谷歌的不同之处。&lt;/p&gt;
+
+&lt;h2 id=&quot;openshift-3-1&quot;&gt;OpenShift 3案例&lt;/h2&gt;
+
+&lt;p&gt;Ashesh Badani分享了一个OpenShift 3的客户案例——欧洲旅游订票业务公司——Amadeus（类似于中国的中航信+携程+去哪网），其在线机票订购量占全球总业务量的95%，还需要处理酒店预订、租车业务等。Amadeus会不断收到来自全球的数据更新需求，需要足够快的反应速度。另外还要保证高度的一致性，因为客户会从任何地方接入多种系统，比如航空系统、旅店系统、旅行社系统甚至保险系统。&lt;/p&gt;
+
+&lt;p&gt;因为它的处理量非常大，在高峰期每秒可能会接收21万个请求，同时可能需要处理的应用服务器达上千个。他们要如何应对呢？首先，Amadeus需要建立一个非常庞大的分布式系统，这当中承载着5000多个微服务。这些可能在传统数据中心来部署，也可能在私有云或者公有云的环境下部署。在目前的状态下，它要运行几千台X86服务器。现在针对具体的任务或者请求，Amadeus有事先设定好的配置，而且改变起来并没有那么灵活，这也是他们的挑战之一。Amadeus现在想要做的就是改变这样一种状态，也就是说把那些运行的数据和运行地点分开，把所有的服务器作为一个整体来进行管理，任何一个任务在任何服务器上都能运行，也可以在任何的集群来启动这个任务。&lt;/p&gt;
+
+&lt;p&gt;当红帽公布V3的时候，Amadeus也发布了基于OpenShift V3的云服务平台，并充分利用了容器技术和Kubernetes容器编排技术。Amadeus觉得Kubernetes容器编排技术非常强大，可以根据事先设定好的规则进行编排，而且具备非常强的自愈能力，一旦某一个容器宕掉，就可以自动进行另一种编排管理。有了容器技术，就非常容易在不同环境下进行部署。&lt;/p&gt;
+
+&lt;p&gt;从开发到上线再到最后的产品，他们的整个流程非常清晰，而且非常统一。从开发环境转变到不同的IaaS环境，像公有云、私有云等等，最终Amadeus生产环境是基于OpenStack或者其它。红帽和Amadeus已经进行了一年多的合作，双方的软件工程师交叉在双方的团队中工作。&lt;/p&gt;
+
+&lt;h2 id=&quot;openshift-vs-cloudfoudry&quot;&gt;OpenShift vs CloudFoudry&lt;/h2&gt;
+
+&lt;p&gt;OpenShift与CloudFoudry是两大开源PaaS，后者在中国也有一些案例，红帽如何看待OpenShift与CloudFoudry的竞争？&lt;/p&gt;
+
+&lt;p&gt;Ashesh Badani从如下几点进行了比较，核心观点是说，红帽的一切都是基于最受认可的开源技术构建，生态支持更加强大，而CloudFoundry则趋于自成体系的专有软件，但以前自成体系的微软现在都已经拥抱开源。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;技术方面：第一，OpenShift 3底层容器技术是Docker，CloudFoundry提出来了一套兼容Docker格式的技术，但并不是Docker，“是宝马”和“像宝马”是两回事。第二，到目前为止，CloudFoundry解决问题是云化的应用程序可以并行在它上面，但是对于传统的有状态的应用程序怎么处理， CloudFoundry并没有给出一个清晰的技术性方案，相比之下红帽是给出了解决方案的。&lt;/li&gt;
+  &lt;li&gt;市场方面：CloudFoundry在国内有一些应用案例。但实际上CloudFoundry背后的Heroku公司，大概在去年12月份全球裁员80人左右。如果它发展足够好的话，肯定会扩大阵容（当然这也是和大数据相关的，它之前失败的大数据投资造成了这种损失，云计算是另外一个话题）。反观红帽，过去12年每一个季度都在持续增长，整体客户数量和市场份额增速也许不像友商发展的这么快，但是红帽非常清晰地知道每个项目内容及进程，以及红帽在其中所作出的努力和结果。包括OpenShift Online里面有多少个应用程序，有多少人注册，这些信息是可以公开并讨论的。对于CloudFoundry，目前很难详细的描述清楚，这些具体案例是怎么做的、具体做了哪些、做了多少。尽管确实在国内能够听到许多关于他们的市场声音，而且他们确实聚集了很多开发人员和社区人员在做这个事情。&lt;/li&gt;
+  &lt;li&gt;社区基础：在Docker社区里面，除了Docker公司之外，红帽在企业里的贡献程度是位居第二的。这方面跟Heroku一点关系都没有。Pivotal还在做自己的那一套技术。大家都认为Docker是一个方向，也许Pivotal做的东西更好，但是这个技术没有被大家认可。另外CloudFoundry自己有一些编排技术，但是红帽用的是谷歌的编排技术，这个编排技术在整个社区里面被公认为是最好的。在Kubernetes社区，红帽是仅次于谷歌公司之后的第二大贡献者。&lt;/li&gt;
+  &lt;li&gt;产品就绪：最关键一点，目前OpenShift 3已经是GA了，已经可以发行给企业客户来使用，但是CloudFoundry并没有GA。&lt;/li&gt;
+  &lt;li&gt;路线选择：红帽是一家开源公司，是社区驱动的。而Pivotal在CloudFoundry产品上越来越趋向于传统的专有软件公司，就是说它所有的东西，从底层技术到中间技术，再到上层技术，都自成体系。其实传统公司有传统公司的优势，但开源公司有开源的优势，只不过红帽一直保持开源的思路，通过开源的方式，充分把企业客户提出的要求，在上游社区中得以体现。这样的社区可以保证例如OpenShift这样的应用服务，不仅来自于红帽，也有来自于其它社区的合作伙伴以及ISV的贡献。&lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/redhat-openshift-v3-paas/&quot;&gt;红帽的OpenShift V3进入市场&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 29, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Docker官方进军中国]]></title>
+ <link rel="alternate" type="text/html" href="/container/docker-come-to-china/" />
+  <id>/container/docker-come-to-china</id>
+  <published>2015-09-26T16:00:00+00:00</published>
+  <updated>2015-09-26T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Docker 是一种基于轻量级虚拟化技术 LXC 开发的容器管理技术，它通过高级 API 为进程单独提供了一个轻量级的虚拟环境。Docker 以其方便、快捷、高效的运行方式，获得了很多公司的青睐。&lt;/p&gt;
+
+&lt;p&gt;2015 五一假期，Docker 公司宣布扩大在中国的办事处，招聘中国区主管，负责国内日常事务的运作、与美国管理层合作拓展中国市场。国内的开发者社区已经对 Docker 技术很熟悉了，但这次Docker品牌的所有者正式进入中国，意味深长。这份声明对中国的 Docker 社区发展会产生怎样的影响？如何评价这次进军中国的官方行为？让我们来解读一下。&lt;/p&gt;
+
+&lt;p&gt;转帖：&lt;a href=&quot;http://www.infoq.com/cn/articles/docker-to-china&quot;&gt;http://www.infoq.com/cn/articles/docker-to-china&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;docker&quot;&gt;Docker官方为什么进军中国？&lt;/h2&gt;
+
+&lt;p&gt;长大了——对于大部分云计算厂商来说，中国是除美国之外的第二大市场，这也是国外的各大云厂商一直在竭力落地中国的原因。而作为云计算的某种意义上的颠覆者，Docker公司已经度过了两岁生日，并且势头如日中天，在可见的未来，暂时看不到能够撼动其地位的其他技术，所以进军中国理所当然。其官方要加强Docker技术在中国的传播和落地，促进和国内IT公司的合作，确立其在中国的容器技术领导地位，找到和获取更多的商机和利益。&lt;/p&gt;
+
+&lt;p&gt;有钱了——由此，我们也可以解释为何Docker频频融资。就在上月中旬，Docker公司宣布获得9500万美元的D轮融资，与很多企业融资处境不同的是，Docker公司并没有在资金方面有很迫切的需求。目前，公司仍然在使用B轮融资的资金作为花费支出。公司首席执行官Ben Golub在采访时曾表示，（融资）是为了确保有足够的资金应对公司未来的重大发展机遇。而“进军中国”无疑是机遇之一，而且中国的市场拓展和竞争是需要靠烧钱来维持的，现在有了足够的粮草，Docker公司也有胆进军中国市场。&lt;/p&gt;
+
+&lt;p&gt;侵权了——除此之外，国内的社区对于Docker品牌的使用也是Docker公司最直接的原因之一。众所周知，Docker技术在中国的传播一直处于“野蛮生长”阶段，从个人到社区再到大小公司，都在通过各种形式讨论Docker，而其中一些形式比如会议和网站等以Docker冠名（感兴趣的读者可以搜索Docker公司的官方声明，里面专门有一段），这些方式从法律上讲侵犯了Docker公司的权利，其担心长期下去局面得不到控制，分不到利益的蛋糕，或者失去主导地位。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;进军的时机合适吗？&lt;/h2&gt;
+
+&lt;p&gt;这个很难讲，鱼和熊掌不可兼得。我们可以分析一下进入早晚的优缺点。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;早进入&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;优点：及时抓住Docker品牌和技术在中国的主导权，清理国内各种支流，以统一的形式和声音传播Docker。&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;缺点：以中国复杂的IT发展环境，年轻的Docker公司是否有能力驾驭Docker技术在国内的发展方向，能否和国内的技术人、技术社区合作共赢，是个很大的问题。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;晚进入&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;优点：等Docker技术和商业模式在国内发展相对成熟，以法律的大棒扫除杂音，坐享成功的果实&lt;/li&gt;
+      &lt;li&gt;缺点：同样是中国复杂的IT发展环境，Docker公司能否有足够的能力和手段收割果实而不是被收割，同样是巨大的挑战。&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;目前看来，Docker公司选择了前者——早进入，而且也意识到了问题的严重性，在中国主管（Director）的招聘启事，特别强调了这是一个富于挑战性和关键性的职位，Be the face of Docker China，担子不轻。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;对国内技术人和社区有什么影响？&lt;/h2&gt;
+
+&lt;p&gt;对于技术人来说，大家会看到更加系统化的Docker活动出现在中国各地，我们也期望Docker公司能够担当起相应的职责来，促进而不是限制技术的发展。&lt;/p&gt;
+
+&lt;p&gt;国内的技术社区在学习和推广Docker技术时对Docker名字的使用需要更加小心一点，毕竟Docker品牌的所有者已经落地中国，目前Docker已经启动了对国内相关技术活动的授权，在其授权之下进行的活动，Docker公司是支持的。&lt;/p&gt;
+
+&lt;p&gt;除此之外的活动主办方要谨慎一些，尽早搞清楚是否侵权，别等着自己辛苦打造的事业起来之后，因为一些法律问题而受影响。如果不敢用“Docker”，那么“容器”也许是个不错的选择。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;结尾&lt;/h2&gt;
+
+&lt;p&gt;就在发布中国区主管招聘启事的当天，我正在旧金山微软Build大会的现场，彼时Docker公司CEO Ben Golub正上台与Microsoft Azure的负责人握手致意，宣布与微软的合作。现在想来，也许Docker与其合作的不应该仅仅是技术，更多的是应该学习微软深耕中国几十年的运营经验。&lt;/p&gt;
+
+&lt;p&gt;总的来说，Docker公司此时进入中国似乎是个必然的选择，不过前面是条漫长而又艰巨的路，好不好走、能不能走过去还要观察，Docker技术一定会发扬光大，Docker公司则需要继续努力。&lt;/p&gt;
+
+&lt;p&gt;Docker技术相关数据&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;诞生两年&lt;/li&gt;
+  &lt;li&gt;贡献者数量1200+&lt;/li&gt;
+  &lt;li&gt;Hub中利用Docker的应用程序10万+&lt;/li&gt;
+  &lt;li&gt;容器的下载量3亿+&lt;/li&gt;
+  &lt;li&gt;GitHub上Docker相关的项目32000+&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container/docker-come-to-china/&quot;&gt;Docker官方进军中国&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Docker 1.8发布带来的新工具]]></title>
+ <link rel="alternate" type="text/html" href="/container-runtime/docker-1-8-release/" />
+  <id>/container-runtime/docker-1-8-release</id>
+  <published>2015-09-26T16:00:00+00:00</published>
+  <updated>2015-09-26T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Docker公司宣布Docker 1.8发布，该版本包括工具的新增和更新，同时带来了新的引擎特性。Docker工具箱（Docker Toolbox）提供了打包的系统，目标是成为“获取和使用Docker开发环境运行的最快方式”，并替换Boot2Docker。Docker内容信任（Docker Content Trust）是Docker引擎最重大的变化，它提供了镜像签名和验证。&lt;/p&gt;
+
+&lt;p&gt;Docker工具箱为Windows和Mac用户捆绑了这些组件：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;VirtualBox：运行包含Docker引擎的轻量Linux虚拟机&lt;/li&gt;
+  &lt;li&gt;Docker Machine：一个配置工具，用于将Docker安装到VirtualBox（同样可以将Docker安装到多个云服务上）。&lt;/li&gt;
+  &lt;li&gt;操作系统使用的Docker客户端&lt;/li&gt;
+  &lt;li&gt;Kitematic：Docker图形用户界面&lt;/li&gt;
+  &lt;li&gt;Mac版本包括Docker Compose合成工具（来自他们为Fig收购的Orchard Labs），帮助多容器应用配置。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;安装指南为使用Boot2Docker或者已经安装VirtualBox的用户提供了迁移指导。在Windows和Mac系统上使用其他虚拟化环境的，如Hyper-V、Parallels、VMware工作站或Fusion平台，没有包括在迁移指导内（和这些平台的潜在冲突也没有提及）。Windows 10暂时还不支持。&lt;/p&gt;
+
+&lt;p&gt;Docker内容信任基于Notary项目，它是更新框架（The Update Framework，TUF）的一种“自以为是的实现”，是一个“可以添加到软件更新器上的弹性安全框架”。它通过使用签名，为在不安全介质上分发镜像提供安全保障。它同样提供了新鲜度保证，因此当有人在下载一个镜像时，能够知道不会获取到可能包含隐患的旧版本。这套系统使用了三种密钥类型：用于离线保存的根内容信任密钥、每个镜像仓库独立的标签密钥和时间戳密钥。当内容信任开启时（目前由环境变量控制），离线密钥和标签密钥在镜像第一次推送是自动生成。该系统还没有完全集成到Docker Hub服务上，因此自动构建无法签名。Docker Hub中的库镜像（如Ubuntu）目前已经签名，对推送到Docker Hub的用户镜像也可以进行签名了。Docker公司的David Lawrence提供一个在线聚会上录制的演示。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2015/09/1ContentTrustKeys.jpg&quot; alt=&quot;docker Notary&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Docker引擎更新后，将对卷插件的支持从“实验性”改成了“稳定”，表明存储能够和生态系统提供者提供的存储介质集成，如Blockbridge、Ceph、ClusterHQ、EMC和Portworx。日志驱动增加了一些特性，包括对Graylog扩展日志格式(Graylog Extended Log Format，GELF)支持、Fluentd和syslogd结合（从1.6版本开始支持）。由于有推送镜像相关缺陷，Docker 1.8.1已经发布，用于替换Docker 1.8.0。&lt;/p&gt;
+
+&lt;p&gt;由于docker二进制文件同时充当了客户端和后台，一些努力已经花费在在区分这两个角色和明确各自文档上。最显著的区别是“-d”命令行开关已经被废弃，转而使用“daemon”参数，后者也有了自己的帮助文档。目前也支持通过“docker cp”命令从宿主机向容器复制文件（之前版本已经支持从容器向宿主机复制文件）。&lt;/p&gt;
+
+&lt;p&gt;对于Linux用户，Debian和Ubuntu发行版有了新的apt仓库，RHEL、CentOS和Fedora有了新的yum仓库。两个仓库中的安装包，都从“lxc-docker”重命名称了“docker-engine”，主要考虑到Docker已经抛弃LXC作为默认执行驱动16个月，避免因此产生迷惑。切换到新的仓库需要特别小心，因为一些Docker配置文件中的自定义内容可能会丢失，且需要列出当前运行的容器时“docker”命令可能会不存在。&lt;/p&gt;
+
+&lt;p&gt;Docker的流程控制工具也已经更新，Compose升级到1.4版本，Machine和Swarm发布了0.4版本。这些工具新版本有许多功能提升，包括一些为了工具箱实现的功能，其中一些功能将会吸引那些通过类似Mesos将Docker运行在大规模集群中的用户。2.1版本的Docker注册中心已经发布，提供了更快的操作和一些新特性。&lt;/p&gt;
+
+&lt;p&gt;此次发布的重要主题是安全和易用性。前者主要针对大企业用户，后者主要目的是让更多开发者上手Docker。Docker将会找到自己的方式运行在Windows Server 2016上，对此现在已经有技术预览版。因此Docker公司无疑将会把目光投向Windows用户群。&lt;/p&gt;
+
+&lt;p&gt;转帖：http://www.infoq.com/cn/news/2015/09/Docker-1-8
+原文：http://www.infoq.com/news/2015/08/Docker-1-8&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container-runtime/docker-1-8-release/&quot;&gt;Docker 1.8发布带来的新工具&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[从Linux进程的角度看Docker]]></title>
+ <link rel="alternate" type="text/html" href="/container-runtime/use-linux-eye-to-see-docker/" />
+  <id>/container-runtime/use-linux-eye-to-see-docker</id>
+  <published>2015-09-25T16:00:00+00:00</published>
+  <updated>2015-09-25T16:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;整个分享过程中有以下几个关键词：Linux、Docker、fork、exec、task_struct、namespace 以及 dockerinit。分享内容可能比较底层，但对大家理解 Docker 的本质会很有帮助，大家要有耐心哦。&lt;/p&gt;
+
+&lt;p&gt;分享的内容包含三部分：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Linux进程的基本知识；&lt;/li&gt;
+  &lt;li&gt;Docker与Linux进程的关系；&lt;/li&gt;
+  &lt;li&gt;Docker中dockerinit，entrypoint和cmd三者的关系。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;part-1--linux&quot;&gt;Part 1  Linux进程的基本知识&lt;/h2&gt;
+
+&lt;p&gt;Linux 进程的基本知识(这部分我们会比较基础地介绍 Linux 进程管理中的 fork、exec、进程描述符 task_struct 以及 namespace。)&lt;/p&gt;
+
+&lt;h3 id=&quot;linux-&quot;&gt;1.1 Linux 中创建进程的基本模型&lt;/h3&gt;
+
+&lt;p&gt;Linux 操作系统中，由父进程创建并执行子进程，创建通过 fork 完成，执行通过 exec 完成。简单示意图如下：&lt;/p&gt;
+
+&lt;p&gt;在上图中，我们看到进程 A 创建了一个新的进程 B，最终两个进程各自运行。创建时，进程 A 通过 fork 系统调用来完成。fork 之后，两个进程最大的区别就是：进程 A 依然拥有原来的 PID，新创建的进程 B 会占用一个全新的 PID，两者的 PID 不同。&lt;/p&gt;
+
+&lt;p&gt;并且 Linux 内核会在 fork 系统调用时，会拷贝进程 A 的 task_struct，拷贝的副本是为进程 B 准备的。完成 fork 操作之后，拥有全新 PID 的进程 B 会执行 exec 操作，保证执行新的程序，真正开始进程 B 的运行逻辑。&lt;/p&gt;
+
+&lt;p&gt;进程 B 运行过程中，假若 B 正常或者异常退出，那么内核就会给进程 B 的父进程 A，发送一个 SIGHOLD 信号，父进程 A 则对退出的进程 B 执行 wait 操作，实现对 B 进程资源的回收，如进程描述符 task_struct 等。&lt;/p&gt;
+
+&lt;p&gt;如此一来，Linux 系统中进程最基本的生命周期就完整了。大家不要觉得这和 Docker 没有什么关系，其实我也卖个关子，Docker 容器的底层实现原理，就是基于 Linux 进程的 fork 和 exec。&lt;/p&gt;
+
+&lt;h3 id=&quot;linuxfork--dofork&quot;&gt;1.2 Linuxfork 的具体实现细节 do_fork&lt;/h3&gt;
+
+&lt;p&gt;Linux 操作系统在实现 fork 时，其实更为底层的是：实现一个名为 do_fork 的函数。Do_fork 函数是在内核态，完成了新进程的创建流程。do_fork 函数的运行流程可以如下图：&lt;/p&gt;
+
+&lt;p&gt;上图中，我们最关心的 Linux 内核为子进程，拷贝父进程内容的环节（copy_process）。这个环节中，Linux 会：首先，查看传入的 flag 参数，为后续是否创建新 namespace 做准备；随后，拷贝父进程的进程描述符 task_struct；接着查看系统的资源限制；而后，拷贝父进程的具体细节，这个环节也是本次分享的一个重点，因为其中涉及了命令空间的拷贝（copy_namespaces）;最后，内核仍会完成一些其他操作。&lt;/p&gt;
+
+&lt;p&gt;在这里，我们已经多次强调了task_struct 和 namespace，那不妨对两者多做一些介绍。简单理解，task_struct 唯一地定义了一个进程的多种属性，内核调度进程时，绝大多数的信息都来源于 task_struct。&lt;/p&gt;
+
+&lt;p&gt;而 namespace 为进程定义了一整套的命名空间，实现不同命名空间内进程之间的完全隔离。说到隔离，Docker 就有能力实现容器间的隔离，其实最终的原理正是通过 namespace 来实现的。&lt;/p&gt;
+
+&lt;p&gt;这部分内容比较底层，大家可以多多揣摩一下哈。&lt;/p&gt;
+
+&lt;h3 id=&quot;taskstruct--namespace-&quot;&gt;1.3 task_struct 和 namespace 的关系&lt;/h3&gt;
+
+&lt;p&gt;通俗一点来讲，Linux 内核在调度进程的时候，所有信息都来源于进程描述符 task_struct，并从 task_struct 中找到相应的命令空间信息。也就是说通过 task_struct，内核有能力找到这个进程的 namespace。&lt;/p&gt;
+
+&lt;p&gt;比如说：一个进程A要使用网络设备（网卡）实现网络通信。那在宿主机上有多个网络设备的时候，如何定位要具体的网络设备呢。很简单，Linux 内核首先找到进程A的进程描述符 task_struct，然后在 task_struct 中找到进程具体所在的网络命名空间（net namespace），netnamespace 中会有一个对象真正对应于具体的网络设备，那么关于改进程具体的网络通信，Linux 内核就会交给这个网络设备来完成。&lt;/p&gt;
+
+&lt;p&gt;看下图可以理解的更清楚：&lt;/p&gt;
+
+&lt;p&gt;在进程描述符 task_struct 中，有一个 nsproxy 会为进程代理所有的 namespace，具体的 nsproxy 会有多个指针指向具体的 namespace。具体由 nsproxy 代理的 namespace，有：uts_namespace, mnt_namespace,pid_namespace, ipc_namespace 和net namespace。&lt;/p&gt;
+
+&lt;p&gt;讲了这么多的namespace，大家肯定会有疑惑，namespace中到底包含了哪些内容：&lt;/p&gt;
+
+&lt;p&gt;具体可以看下图哦：&lt;/p&gt;
+
+&lt;p&gt;比如说，pidnamespace 可以认为是为 Linux 容器完成内部进程 PID 的管理。在 pidnamespace 中，会有很多的数据结构。其中有一个属性特别重要，那就是一个名为 child_reaper 的指针，执行一个 task_struct。顾名思义，这个属性可以实现对很多子进程进程清理。这个进程一般会被认为是容器的 init 进程（pid＝1），一旦这个进程退出，那么内核会给容器内其他的所有进程发送一个终止信号，确保容器的退出。&lt;/p&gt;
+
+&lt;p&gt;总结而言，就是容器 init 进程，决定容器的存活～&lt;/p&gt;
+
+&lt;p&gt;另外，像 mnt_namespace，它为容器实现了根目录的隔离视角，也就是传统意义上 chroot 的作用。该 mnt_namespace 中最重要的自然是 root 属性，定义了容器的根目录。&lt;/p&gt;
+
+&lt;p&gt;还有 uts_namespace，定义了容器的命名信息等。&lt;/p&gt;
+
+&lt;p&gt;以上的所有内容，就是为 Docker 原理准备的基本内容。总结一下，有 Linux 进程的 fork、exec、task_struct 以及 namespace。&lt;/p&gt;
+
+&lt;p&gt;下面，我们会来介绍 Linux 进程与 Docker 的关系。&lt;/p&gt;
+
+&lt;h2 id=&quot;part-2--docker--linux-&quot;&gt;Part 2  Docker 与 Linux 进程的关系&lt;/h2&gt;
+
+&lt;p&gt;第一部分讲了很多 Linux 进程的概念，我们今天的主题是 Docker，Docker 在哪里呢？&lt;/p&gt;
+
+&lt;p&gt;回到 Docker 最经典的三层架构：dockerclient、dockerdaemon 以及 docker container。DockerDaemon 作为守护进程管理着所有的容器，其实在创建容器的时候，DockerDaemon 仅仅是实现了一个 fork，然后在 fork 的过程中实现了 copy_namespaces。&lt;/p&gt;
+
+&lt;p&gt;换言之，Docker 容器的诞生仅仅是通过 fork 和 exec 一个进程而已。&lt;/p&gt;
+
+&lt;p&gt;具体解释原因前，我们来看看 Docker Daemon 的 fork 和我们程序员普通的 fork 有什么区别，为什么 Docker 的 fork，fork 出的是容器，而我们的却不叫容器呢？且看下图：&lt;/p&gt;
+
+&lt;p&gt;原因是 Docker Daemon 在 fork 容器进程的时候，传入了一些特殊的 flag 参数，而这些参数恰恰在内核执行 do_fork 函数时，被用来创建新的 namespace。&lt;/p&gt;
+
+&lt;p&gt;大家如果去看 Docker 的源码，可以发现 Docker 对于 namespace 的支持如下图：&lt;/p&gt;
+
+&lt;p&gt;其中 user_namespace 在 Docker 中仍然没有被支持，那说明 Docker 容器还不能支持用户 uid 的映射，容器的 root 和宿主机的 root 属于同一个 uid，均为 0。其实，这样是否会导致安全问题，肯定是大家最关心的。&lt;/p&gt;
+
+&lt;p&gt;回到 Docker 的 fork，DockerDaemon 一旦完成 fork，那么后面肯定还需要完成子进程的 exec。&lt;/p&gt;
+
+&lt;p&gt;容器进程被 fork 之后，进程描述符 task_struct 有了，新的命名空间也有了，但是进程还没有开始运行，还没有被 exec。因此，exec 的内容就是 Docker 的精髓，Docker 容器的重中之重。&lt;/p&gt;
+
+&lt;h2 id=&quot;part-3-docker--dockerinitentrypoint--cmd-&quot;&gt;Part 3 Docker 中 dockerinit，entrypoint 和 cmd 三者的关系&lt;/h2&gt;
+
+&lt;h3 id=&quot;dockerinitentrypoint--cmd-&quot;&gt;3.1 dockerinit，entrypoint 和 cmd 三者的初步介绍&lt;/h3&gt;
+
+&lt;p&gt;此时，我们进入 Docker 的很多细节部分了，围绕 Docker 容器的 exec，我们需要知道 exec 的内容到底是什么，因为 exec 的内容代表了 Docker 容器的运行逻辑到底是怎么样的。&lt;/p&gt;
+
+&lt;p&gt;先看下图：&lt;/p&gt;
+
+&lt;p&gt;Docker 的世界中，不知道大家是否听说过 dockerinit、entrypoint 和 cmd。相信大家使用 Dockerfile 打包自身应用的时候，肯定涉及过 entrypoint 和 cmd，然而一般会很少涉及到 dockerinit。&lt;/p&gt;
+
+&lt;p&gt;从功能的角度来介绍三者：&lt;/p&gt;
+
+&lt;p&gt;dockerinit：是在新 namespace 中第一个运行的内容，作用是设置新 namespace 中的挂载资源，初始化容器内的网络栈等。完成的属于容器层系统环境的初始化工作。&lt;/p&gt;
+
+&lt;p&gt;以网络 namespace 为例：当 DockerDaemon 创建容器时，仅仅是 fork 了一个进程，那么如何让这个进程的 net namespace 中包含一个可用的网络栈（虚拟网络设备 veth）呢？为容器内部初始化网络栈的角色就是 dockerinit，dockerinit 会获取 Docker Daemon 传递来的网络信息，并用来初始化这个容器的 net namespace。保证后续的进程拥有足够的网络能力。&lt;/p&gt;
+
+&lt;p&gt;entrypoint：由用户指定，完成容器内用户态配置的工作。&lt;/p&gt;
+
+&lt;p&gt;cmd：由用户指定，为容器的运行提供默认的参数，比如默认的运行启动入口等。&lt;/p&gt;
+
+&lt;p&gt;既然都属于在容器内部运行的内容，而且最终容器的角色要转移到用户指定的应用指定 cmd，而容器内的进程只有一个 init 进程（pid=1）,那么 dockerinit、entrypoint 和 cmd 三者与容器 init 进程之间的关系，会非常重要，毕竟 init 进程决定的容器的生命状态。&lt;/p&gt;
+
+&lt;p&gt;更为清晰的 Docker 容器进程图如下，其中包含 dockerinit、entrypoint 以及 cmd：&lt;/p&gt;
+
+&lt;p&gt;大家可以看到容器进程被 fork 出来之后，实现 exec 的时候，第一部分直接 exec 的是 dockerinit，而后是 entrypoint，最后是 cmd。&lt;/p&gt;
+
+&lt;p&gt;图中有一个非常重要的点是，三部分的内容会占用同一个 PID，整个流程不会有新的 pid 诞生。原因很简单，那就是 dockerinit 执行 entrypoint 的时候，使用的也是 exec 操作，确保进程 PID 不变，进程执行程序切换到 entrypoint。Entrypoint 到 cmd 的过程，原理也是如此。&lt;/p&gt;
+
+&lt;p&gt;流程的角度来讲，最终容器的 init进程（pid＝1）的角色能满足最终嫁接到用户指定应用的 cmd 处。当然图中也显示了，整个容器都处于全新的 namespace 中，也就是说容器与容器，容器与宿主机之间都是可以实现隔离的。&lt;/p&gt;
+
+&lt;h3 id=&quot;dockerdaemon--dockerinit&quot;&gt;3.2 DockerDaemon 与 dockerinit&lt;/h3&gt;
+
+&lt;p&gt;DockerDaemon 作为 fork 容器进程的发起者，自然是父进程，而 dockerinit 作为容器内第一个执行的内容，自然是子进程。其实在父子进程之间，还存在一些细枝末节，值得大家去深思与玩味。&lt;/p&gt;
+
+&lt;p&gt;简言之，Docker Daemon 与 dockerinit 还存在一些数据的交互。大家还记得 dockerinit 的作用吗？初始化新建的 namespace 内的一些重要资源。但是这些资源呢，又是 Docker Daemon 在宿主机上申请的，比如说虚拟网络设备对（veth pair）。DockerDaemon 在原始的命名空间中创建了这些内容之后，需要一种方式，把网络设备对的一个 veth 交给容器，那就是交给 dockerinit。&lt;/p&gt;
+
+&lt;p&gt;DockerDaemon 与 dockerinit 具体的通信形式如下：&lt;/p&gt;
+
+&lt;p&gt;看上图，我们可以发现最重要的字眼有两个：syncPipe 与 blocked。&lt;/p&gt;
+
+&lt;p&gt;前者可以称为同步管道，作用是协调 Docker Daemon 和 dockerinit 的运行顺序。&lt;/p&gt;
+
+&lt;p&gt;后者指的是：dockerinit 的运行会被阻塞住，直 dockerinit 从同步管道 syncPipe 中读到内容为止。&lt;/p&gt;
+
+&lt;p&gt;接下来，我们就详细介绍阻塞的原因与两者的协作运行的情况。&lt;/p&gt;
+
+&lt;p&gt;上图中，左边代表 Docker Daemon 的运行流程，右边代表 dockerinit 的运行流程。现在，我们一步一步详细介绍两者的运行流程，以便深入了解 Docker 容器的原理。&lt;/p&gt;
+
+&lt;p&gt;Docker Daemon 的流程如下：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create Command 创建容器的执行程序，也就是为 Docker 容器 exec 的内容，当然这部分内容自然是 dockerinit，毕竟 dockerinit 是 Docker 容器内第一个执行的内容。&lt;/li&gt;
+  &lt;li&gt;创建一个同步管道 syncPipe，自然是为了和马上要创建的 dockerinit 建立通信。&lt;/li&gt;
+  &lt;li&gt;将同步管道 syncPipe 的一端以文件描述符的形式，为即将创建的子进程准备。&lt;/li&gt;
+  &lt;li&gt;执行 command.Start(),也就是完成 fork 和 exec 两个步骤，此时 dockerinit 进程会以一个全新 PID 来运行，但是 dockerinit 由于自身程序逻辑的原因，由于同步管道 syncPipe 中没有内容，因此会被阻塞（block）住。&lt;/li&gt;
+  &lt;li&gt;DockerDaemon 为 dockerinit 设置 cgroups，保证 dockerinit 进程以及以后 dockerinit fork 出的子进程设置资源限制。此时 dockerinit 仍然处于阻塞状态。&lt;/li&gt;
+  &lt;li&gt;Docker Daemon 为容器初始化网络，在宿主机的 namespace 下创建一个虚拟网络设备对（veth pair）。此时 dockerinit 仍然处于阻塞状态。&lt;/li&gt;
+  &lt;li&gt;DockerDaemon 开始将网络设备的一端（veth）放入同步管道 syncPipe，开始与容器进程 dockerinit 实现同步。此时，dockerinit 读取到同步管道 syncPipe 中的内容，不再阻塞，开始运行自身的逻辑。（容器活啦！）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;以上7个步骤，属于 docker daemon 的运行逻辑，理解一下，下面就要 dockerinit 啦。&lt;/p&gt;
+
+&lt;p&gt;既然 Docker 容器已经开始活了，那我们从 dockerinit 的角度来看看容器做了一些什么操作。&lt;/p&gt;
+
+&lt;p&gt;如下图：&lt;/p&gt;
+
+&lt;p&gt;dockerinit 的运行流程如下：&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;初始化网络，也就是说把 Docker Daemon 通过同步管道传输来网络设备信息（veth）作为初始化自身 net namespace 的依据，完成配置，使得容器有独立的网络栈。
+
+设置路由等，容器内部也会存在路由记录，dockerinit 会实现配置。
+
+Mnt namespace 的根目录配置。
+
+Apparmor 或者 SELinux的安全配置。
+
+完成那些容器层系统配置之后，重要的内容来了。开始 exec entrypoint，在 PID 不变的情况下，开始执行 entrypoint。
+
+Entrypoint 在执行过程中，完成了执行命令之后，最后一步会实现 exec Cmd，在 PID 不变的情况下，开始执行 Cmd。
+
+Cmd 一般就是用户指定的应用程序。这个时候，就是在运行用户的应用程序啦。Docker 容器的 init 进程（pid＝1）开始由用户指定的应用 Cmd 接管。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;用户指定的应用，也就是 cmd，是容器的主进程，决定容器的存活。是不是很奇妙？&lt;/p&gt;
+
+&lt;h3 id=&quot;docker-&quot;&gt;3.3 Docker 容器的真实形态&lt;/h3&gt;
+
+&lt;p&gt;如果上述流程都走通的话，我们来看看 Docker 容器的真实形态。Docker 容器的基本架构可以参见下图：&lt;/p&gt;
+
+&lt;p&gt;上图中，会有几个点，大家注意下：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Docker Daemon与Docker容器的关系。&lt;/li&gt;
+  &lt;li&gt;Dockerinit,entrypoint以及cmd的关系&lt;/li&gt;
+  &lt;li&gt;Docker容器内进程最终呈现的树状关系图&lt;/li&gt;
+  &lt;li&gt;容器处于新的namespace，实现隔离&lt;/li&gt;
+  &lt;li&gt;容器受到cgroups的作用，实现资源限制&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You havemastered the root theory of Docker Container .&lt;/p&gt;
+
+&lt;p&gt;到这里的话，我本次分享的内容就接近尾声了。&lt;/p&gt;
+
+&lt;p&gt;总结本次分享，可以概括为以下三个部分：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;介绍 Linux 操作系统中进程管理的一些基本概念，如下 fork、exec、task_struct 和 namespace等；&lt;/li&gt;
+  &lt;li&gt;如何看待 Docker 容器与 Linux 进程的一些关系&lt;/li&gt;
+  &lt;li&gt;详细介绍 Docker Daemon 与 Docker 容器的细节关系，最终给大家展现 Docker 容器的本质框架图。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;答疑&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;我想问父进程问题会不会造成僵尸子进程，docker Desmond？僵尸进程的问题，Docker 容器是会存在的。原因主要是：Docker 容器的 init 进程和宿主机上的 init 进程，在运行逻辑上存在很大的差异，它没有能力去 wait 其他父进程先退出的子进程。&lt;/li&gt;
+  &lt;li&gt;另外 fork 过程中是否可以把其他命名空间挂进来实现，例如其他容器命名空间？这个问题的答案是完全可以。这个属于 Docker 中的高级功能了，比如说 kubernetes 中的 pod 概念，就是让一个 Docker 容器的 net namespace给pod 内的其他容器挂。&lt;/li&gt;
+  &lt;li&gt;docker 对于安全，网络，存储，备份，是怎么处理的？安全方面，我觉得目前市面上用docker 的安全隐患可能存在两点：&lt;/li&gt;
+  &lt;li&gt;是使用方式存在安全，这一点不容小觑，比如说不支持 docker 的一些特性，采用一些不安全，不加密，不受信的方式；&lt;/li&gt;
+  &lt;li&gt;docker 本质存在的安全，主要还是存在于 Docker 容器和宿主机共享内存的缘故，内核态的一些数据结构资源很难做到很好的隔离。
+网络的话，大家经常提，关键问题是：Docker 的网络到底应该由谁来完成，是不是应该由 docker 这个二进制文件内部逻辑来完成？其实未必，更多的要从 Docker 生态来看这个问题，价值会更大，这个话题不展开了。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;刚才提到为什么很难隔离。我简单说一下。大家可能认为隔离的物理资源，计算资源，是一个比较好的方式。但是共享同一个 Linux 内核，会导致一些内核态的资源无法隔离，简单一点，linux 内核管理的文件描述符资源，inotify 总数资源，pid 总数资源，都是需要考虑的点；还有 uid 权限的问题，其实都和无力资源无关，都属于内核资源。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;讲讲 kvm 与 docker 的区别，有人说 docker 会替代 kvm，你是如何理解这句话的？
+既然会回归到隔离问题，那么替代一说，我觉得 5 年内很难实现吧，但是 docker 的诞生会侵蚀 KVM 或者说虚拟机很多的应用场景。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在一台机器上模拟并发多个 dockerpush，daemon 是不是有什么限制，让 push 的过程是串行的？因为观察到，在一台机器上增大 docker push 的并发数，并没有增加机器上的资源的消耗而只是延长了 push 的时间。
+这个问题，可能就比较难说了。如果说是 push 多个完全没有任何镜像关系的镜像，那么理论上应该是可以实现并发的。加入 push 的镜像存在共有镜像的话，那么 docker daemon 不会并发执行。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;是不是完全可以认为 docker 容器的进程完全符合一个 Linux 普通进程的特性？
+可以这么理解吧，但是容器进程额外的东西才是最重要的嘛。隔离的环境，受限的资源，受限的权限等。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/container-runtime/use-linux-eye-to-see-docker/&quot;&gt;从Linux进程的角度看Docker&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 25, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Post with a Background Image]]></title>
+ <link rel="alternate" type="text/html" href="/background-image/" />
+  <id>/background-image</id>
+  <published>2013-10-26T00:00:00+00:00</published>
+  <updated>2013-10-26T00:00:00+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri></uri>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.&lt;/p&gt;
@@ -144,12 +1502,12 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
  <link rel="alternate" type="text/html" href="/code-highlighting-post/" />
   <id>/code-highlighting-post</id>
   <updated>2016-02-01T00:00:00-00:00</updated>
-  <published>2013-08-16T00:00:00+08:00</published>
+  <published>2013-08-16T00:00:00+00:00</published>
   
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -263,12 +1621,12 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
   <title type="html"><![CDATA[Sample Link Post]]></title>
  <link rel="alternate" type="text/html" href="http://mademistakes.com" />
   <id>/sample-link-post</id>
-  <published>2013-08-12T00:00:00+08:00</published>
-  <updated>2013-08-12T00:00:00+08:00</updated>
+  <published>2013-08-12T00:00:00+00:00</published>
+  <updated>2013-08-12T00:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
@@ -282,12 +1640,12 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
   <title type="html"><![CDATA[A Post with a Video]]></title>
  <link rel="alternate" type="text/html" href="/video-post/" />
   <id>/video-post</id>
-  <published>2013-06-25T00:00:00+08:00</published>
-  <updated>2013-06-25T00:00:00+08:00</updated>
+  <published>2013-06-25T00:00:00+00:00</published>
+  <updated>2013-06-25T00:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
     <uri></uri>
-    <email>martin@aws-faq.com</email>
+    <email>67120666@qq.com</email>
   </author>
   <content type="html">
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
@@ -299,375 +1657,6 @@ You can start using HBase 1.2 on Amazon EMR today. To learn more, read the Amazo
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
     &lt;p&gt;&lt;a href=&quot;/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
- <link rel="alternate" type="text/html" href="/readability-feature-post/" />
-  <id>/readability-feature-post</id>
-  <updated>2013-06-30T00:00:00-00:00</updated>
-  <published>2013-05-23T00:00:00+08:00</published>
-  
-  <author>
-    <name>Martin Liu</name>
-    <uri></uri>
-    <email>martin@aws-faq.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;This is a sample post with a large feature image up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[A Post with Images]]></title>
- <link rel="alternate" type="text/html" href="/sample-post-images/" />
-  <id>/sample-post-images</id>
-  <published>2013-05-22T00:00:00+08:00</published>
-  <updated>2013-05-22T00:00:00+08:00</updated>
-  <author>
-    <name>Martin Liu</name>
-    <uri></uri>
-    <email>martin@aws-faq.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h2 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-up&quot;&gt;One Up&lt;/h3&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;two-up&quot;&gt;Two Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;three-up&quot;&gt;Three Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;alternative-way&quot;&gt;Alternative way&lt;/h3&gt;
-
-&lt;p&gt;Another way to achieve the same result is to include &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery&lt;/code&gt; Liquid template. In this case you
-don’t have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.&lt;/p&gt;
-
-&lt;p&gt;Here is the block you might want to use:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-jinja&quot; data-lang=&quot;jinja&quot;&gt;{% capture images %}
-	/images/abstract-10.jpg
-	/images/abstract-11.jpg
-	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
-{% endcapture %}
-{% include gallery images=images caption=&quot;Test images&quot; cols=3 %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;caption&lt;/code&gt;: Sets the caption under the gallery (see &lt;code class=&quot;highlighter-rouge&quot;&gt;figcaption&lt;/code&gt; HTML tag above);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cols&lt;/code&gt;: Sets the number of columns of the gallery.
-Available values: [1..3].&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It will look something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;/images/abstract-10.jpg&quot;&gt;&lt;img src=&quot;/images/abstract-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;/images/abstract-11.jpg&quot;&gt;&lt;img src=&quot;/images/abstract-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png&quot;&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Test images&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
- <link rel="alternate" type="text/html" href="/readability-post/" />
-  <id>/readability-post</id>
-  <published>2012-05-22T00:00:00+08:00</published>
-  <updated>2012-05-22T00:00:00+08:00</updated>
-  <author>
-    <name>Martin Liu</name>
-    <uri></uri>
-    <email>martin@aws-faq.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Sample Post]]></title>
- <link rel="alternate" type="text/html" href="/sample-post/" />
-  <id>/sample-post</id>
-  <updated>2014-12-24T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00+08:00</published>
-  
-  <author>
-    <name>Martin Liu</name>
-    <uri></uri>
-    <email>martin@aws-faq.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;image-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Non Pygments code example&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn&#39;t it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
   </content>
 </entry>
 
