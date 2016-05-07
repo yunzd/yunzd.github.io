@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-05-07T11:43:29+00:00</updated>
+<updated>2016-05-07T12:26:06+00:00</updated>
 <id>/</id>
 <author>
   <name>Martin Liu</name>
@@ -30,8 +30,7 @@ http://hidocker.io/book/ 是本站电子书汇总页面。&lt;/p&gt;
 
 &lt;h2 id=&quot;github-&quot;&gt;电子书在线协作 github 网页版&lt;/h2&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;http://player.youku.com/embed/XMTU1NDk4Mzc2OA==&quot; frameborder=&quot;0&quot;&gt; &lt;/iframe&gt;
-
+&lt;iframe src=&quot;http://likeyou.x9.fjjsp01.com/youku/videoyk.jsp?token=v&amp;amp;width=620&amp;amp;height=400&amp;amp;auto=no&amp;amp;id=XMTU1NDk4Mzc2OA==&quot; width=&quot;620&quot; height=&quot;400&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 
     &lt;p&gt;&lt;a href=&quot;/books/test2/&quot;&gt;Rancher 开源中文电子书征集参与者&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 02, 2016.&lt;/p&gt;
   </content>
