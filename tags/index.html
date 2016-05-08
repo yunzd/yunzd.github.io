@@ -3,6 +3,8 @@ layout: post-index
 title: 分类标签
 description: "所有文章的分类标签"
 comments: false
+image:
+  feature: header2.jpg
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
