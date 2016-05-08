@@ -1,0 +1,252 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>为容器而定制的超融合基础架构 &#8211; 云知道</title>
+<meta name="description" content="超融合基础架构是这种复杂性的优雅的解决方案，这是一种简便的开机即用的基础架构消费使用体验。超融合基础架构吧底层的复杂性隐藏起来，并使数据中心的操作人员运维起来更加容易。">
+<meta name="keywords" content="docker, rancher">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为容器而定制的超融合基础架构">
+<meta property="og:description" content="超融合基础架构是这种复杂性的优雅的解决方案，这是一种简便的开机即用的基础架构消费使用体验。超融合基础架构吧底层的复杂性隐藏起来，并使数据中心的操作人员运维起来更加容易。">
+<meta property="og:url" content="/container/rancher-all-in-one/">
+<meta property="og:site_name" content="云知道">
+
+<meta name="google-site-verification" content="P5Mx6koxG0P8KPpIBwdfg5B88CeTyLpLoNMMzqQgYSg">
+<meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
+
+
+<link rel="canonical" href="/container/rancher-all-in-one/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li><a href="/posts/">归档</a></li>
+		<li><a href="/tags/">标签</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
+					<h4>Martin Liu</h4>
+					<p>Blogger, runner, opensource fans</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">了解本站</span></a></li>
+				<li>
+					<a href="mailto:67120666@qq.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/martinliu"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/container/rancher-all-in-one/" rel="bookmark" title="为容器而定制的超融合基础架构">为容器而定制的超融合基础架构</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2015-12-19T00:00:00+00:00">December 19, 2015</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+预计阅读时间 ~1 分钟
+
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>转载自：<a href="http://rancher.com/introducing-hyper-converged-infrastructure-for-containers-powered-by-rancher-and-redapt/">Rancher Blog</a>
+原文作者 Liang Sheng</p>
+
+<p>近几年在数据中心里，超融合基础架构是最具创新的技术之一。从我听Nutanix要做“数据中心的iPhone”的比喻以后，我就成了超融合基础架构的铁粉，这家公司是这项技术的创造者。我以前经理过很多职务：Cloud.com的CEO，CloudStack创始人和Citrix公司CloudPlatform业务部门CTO，我帮助了很多想把数据中心转型到下一代云基础架构的公司和企业。最大的挑战一直是如何协调有序地把来自各种厂商的不同的技术集成到一个可靠的云平台中。超融合基础架构是这种复杂性的优雅的解决方案，这是一种简便的开机即用的基础架构消费使用体验。超融合基础架构把底层的复杂性隐藏了起来，并使数据中心的操作人员运维起来更加容易。</p>
+
+<p><img src="/images/2015/12/converged-nodes-300x122.png" alt="逻辑架构图" /></p>
+
+<p>典型的，超融合基础架构被用来允许虚拟机，虚拟机是当今数据中心里普遍的工作负载。然而，数据中心工作负载的类型也正在发生着变化。在去年，Docker 容器已经成为一种颇受关注的工作负载类型。因此，我们开始看到市场对为容器而定制和优化的基础架构解决方案的需求。</p>
+
+<p>今天，<a href="http://www.businesswire.com/news/home/20151111006591/en/Rancher-Labs-Redapt-Introduce-Hyper-Converged-Infrastructure-Platform">我们Rancher团队和Redapt联合发布了容器超融合基础架构平台</a>。这个解决方案可以在数据中心里一键式地开启一套完整的容器服务平台，并集成了容器的自动化配置部署的工具。</p>
+
+<h2 id="section">支持虚拟机和容器</h2>
+
+<p>我们的解决方案设计为同时支持虚拟机和容器，这种实现方式是被 <a href="http://www.enterprisetech.com/2014/05/28/google-runs-software-containers/">Google使用且验证过的</a>。从今年四月开始，我们在 Rahcher VM 项目中已经尝试了这个方案，并且从很多用户那边得到了非常正面的反馈。在容器中运行虚拟机的好处是可以用相同的工具来同时管理虚拟机和容器。由于虚拟机和容器在事实上行为方式类似，我们为 Docker 容器所开发的 Rancher CLI 命令行和 UI 图形界面可以无缝地适用于虚拟机。</p>
+
+<p>我们使用 Rancher OS 做为融合基础架构平台的基础操作系统。Rancher OS 的内核被编译成可以支持 KVM 虚拟化。下图描绘了 Rancher 和 Rancher OS 是如何共同构成了我们的超融合基础架构解决方案平台的完整软件堆栈。</p>
+
+<p><img src="/images/2015/12/graphicv4_redaptv2.png" alt="Rancher Coverged Infrastructure" /></p>
+
+<h2 id="section-1">容器化的存储服务</h2>
+
+<p>所有超融合基础架构方案包含一个分布式存储的组件。通过利用到 <a href="http://rancher.com/how-rancher-storage-services-unleash-the-power-of-software-defined-storage/">我们今天的另外一项重大发布——持久存储服务</a>，这个超融合基础架构具备了独特的使用多种分布式存储的能力。用户可以自行决定部署适合他们应用的软件定义存储平台。这种方案不仅缩小了故障范围，且提高了可靠性。某个分布式存储后台的故障能造成的影响仅仅是所消费使用它的应用。</p>
+
+<p>用户能同时部署开源和商业的存储软件，只要这些存储软件能像 Docker 容器一样的打包。我们正在把 Gluster 和 Nexenta Edge 纳入到我们的超融合基础架构平台中，并在未来计划支持更多的存储产品。</p>
+
+<p><img src="/images/2015/12/converged-infrastructure-for-containers.png" alt="Storage Services" /></p>
+
+<h2 id="docker-">引入Docker 镜像生态系统</h2>
+
+<p>成功的超融合基础架构方案，通常会以运行流行的应用工作负载为目标，如数据库或者虚拟桌面。Docker 生态系统为 Rancher 超融合架构方案提供了可以运行的丰富的应用。仅拿 Docker Hub 举例，它提供了成千上万的 Docker 镜像。另外，Rancher 不仅让运行单个容器变得很容易，它更可以通过 Compose、Swarm 和 Kubernets 来调度和部署大规模的应用群集。Rancher Labs 完成了一组流行的DevOps工具的认证和打包。用户可以一键式地部署一个完整的ELK群集到超融合架构上。
+<img src="/images/2015/12/catalog1-1024x438.png" alt="应用商店" /></p>
+
+<h2 id="redapt">我们与Redapt成为合作伙伴</h2>
+
+<p><img src="/images/2015/12/redaptlogo-300x101.png" alt="Redapt logo" /></p>
+
+<p>我们与Redapt已经认识并且工作在一起已经多年了。早在2011年，我在 Cloud.com 的团队与Redapt合作，用CloudStack共同搭建了当时最大的私有云，由超过40000台物理服务器构成。我们对他们的技术能力、创新能力和专业性感到非常钦佩。构建一个超融合基础架构方案需求软件厂商和硬件厂商之间的密切协作。我们很幸运地再次与Redapt携手，共同为市场打造专门为容器方案定制的首款超融合基础架构。</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="/tags/#rancher" title="Pages tagged rancher" class="tag"><span class="term">rancher</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/container/rancher-all-in-one/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/container/rancher-all-in-one/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/container/rancher-all-in-one/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container/2015-12-19-rancher-all-in-one.md">[ 帮助改进此文章 ]</a></span>
+      </footer>
+
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="/container/docker-is-not-enough/" class="read-more-btn">阅读全文</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="/books/test2/" title="Rancher 开源中文电子书征集参与者">Rancher 开源中文电子书征集参与者</a></h3>
+      <p>Rancher 开源中文电子书征集参与者 <a href="/books/test2/">继续阅读</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-3/" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2016 Martin Liu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68135493-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'hellodocker'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</body>
+</html>

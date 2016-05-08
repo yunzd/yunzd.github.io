@@ -1,0 +1,349 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Container 101 - Bob Reselman &#8211; 云知道</title>
+<meta name="description" content="转播知识，分享创造价值">
+<meta name="keywords" content="docker">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Container 101 - Bob Reselman">
+<meta property="og:description" content="转播知识，分享创造价值">
+<meta property="og:url" content="/container/containers-101-bob-reselman/">
+<meta property="og:site_name" content="云知道">
+
+<meta name="google-site-verification" content="P5Mx6koxG0P8KPpIBwdfg5B88CeTyLpLoNMMzqQgYSg">
+<meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
+
+
+<link rel="canonical" href="/container/containers-101-bob-reselman/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li><a href="/posts/">归档</a></li>
+		<li><a href="/tags/">标签</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
+					<h4>Martin Liu</h4>
+					<p>Blogger, runner, opensource fans</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">了解本站</span></a></li>
+				<li>
+					<a href="mailto:67120666@qq.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/martinliu"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/container/containers-101-bob-reselman/" rel="bookmark" title="Container 101 - Bob Reselman">Container 101 - Bob Reselman</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2015-09-30T16:00:00+00:00">September 30, 2015</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+预计阅读时间 ~1 分钟
+
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>阅读提示：在看一些翻译文章的时候，需要看看是什么人？什么时候？在那里发布的文章？为什么发布这个文章？特别是对不熟悉的作者还是有必要去linkedin查一下这个人的工作记录，曾经的就职情况，曾经的出版物主要有那些？以上都是看看此人的江湖地位和背景，主要是看它写文章是否带有某种立场和角度；这年头毕竟枪文太多，还是需要有防胡悠的意识。</p>
+
+<p>作者简介：Bob Reselman 目前是Edmunds公司的技术流程架构师。Edmunds公司是一家知名发布商，专门发布高容量、高可用性、最先进的、基于Java的网站，这些网站专门面向汽车消费者。</p>
+
+<p><img src="/images/2015/10/Bob-Reselman.jpg" alt="Bob Reselman" /></p>
+
+<ul>
+  <li><a href="https://www.linkedin.com/in/bobreselman">Linkedin profile</a></li>
+</ul>
+
+<p>本文正文的出处：<a href="http://www.developer.com/design/containers-101.html">http://www.developer.com/design/containers-101.html</a> 下面是云头条的中文翻译。</p>
+
+<p>大概六个月前，我就开始注意到业界在容器方面的动静很大，容器被誉为是一种处理虚拟计算的新方法。我生性喜欢探究新技术，于是这几个开始研究容器技术的细枝末节。我可以告诉各位的是，容器是不会很快销声匿迹的一项重要技术。这个领域有许多玩家，新厂商一直在涌进来。如果你是与时俱进的开发人员，学会使用容器是职业生涯中必不可少的技能。</p>
+
+<p>所以，本着倡导一种优秀技术概念的宗旨，我想回答下列问题，为各位介绍容器技术的基本知识：</p>
+
+<ol>
+  <li>何谓容器？</li>
+  <li>容器有何特别之处？</li>
+  <li>该如何使用容器？</li>
+</ol>
+
+<p>我希望，回答这些问题后，你对容器有一个基本的了解和认识，以便开发和部署代码时可以开始使用容器。</p>
+
+<p>还是言归正传吧。</p>
+
+<h2 id="section">何谓容器？</h2>
+
+<p>容器技术是通过使用主机上的隔离进程，建立虚拟环境的一种方法。这种隔离进程就叫容器，它有自己的一套文件系统资源和从属进程。容器不会侵扰主机系统，主机系统也不会侵扰容器。</p>
+
+<p>容器在主机内核上运行（见图1）。一个名为容器管理器的组件确保容器可以在主机上运行（文章后面对容器管理器会有详细介绍）。</p>
+
+<p><img src="/images/2015/10/Contain1.jpg" alt="图1：" /></p>
+
+<ul>
+  <li>图1：容器提供了运行孤立进程的功能，孤立进程在共享环境下有自己的资源。</li>
+</ul>
+
+<h2 id="section-1">容器有何特别之处？</h2>
+
+<p>想了解什么让容器如此特别，我们就需要审视虚拟机这个概念。虚拟机是一个模拟计算机的软件。虚拟机的优点在于，可以大大提高使用硬件的效率。你可以让好多虚拟机在单单一个硬件上运行（见图2）。</p>
+
+<p><img src="/images/2015/10/Contain2.gif" alt="图2" /></p>
+
+<ul>
+  <li>图2：如果你使用虚拟机，针对每个虚拟机的资源分配是固定的。</li>
+</ul>
+
+<p>然而，虚拟机技术有其缺点。不妨看一下图2。你会注意到，在图中，三个虚拟机在一台计算机上运行，该计算机配备48 GB内存、12核处理器和3TB磁盘存储空间。每个虚拟机被分配了16 GB内存、4核和1TB存储空间。到目前为此很好。但是这里有个缺点。无论任何一个虚拟机使用它的全部资源，还是只是一小部分资源，硬件分配是静态的。换句话说，如果其中一个虚拟机使用的内存从不超过1GB，只存储100MB的文件系统，该虚拟机仍占用4 GB内存和整整1TB的存储空间，尽管该虚拟机只使用25%的内存和1%的存储空间。这就不太好。</p>
+
+<p>另一方面，容器并不死死占用资源。你构建一个容器时，不用为它分配内存、处理器或存储空间。事实上，容器以共享方式使用主机上的内存、处理器和存储空间。只要物理机处理得了，可以将好多个容器装入到该物理机上。容器只有在需要资源时才占用所需的那部分资源。不存在资源分配是固定的说法。</p>
+
+<p>好处不止这些。运行容器的硬件通常使用轻量版Linux作为操作系统。这个轻量级主机操作系统提供了内核级服务。CoreOS是流行的主机操作系统之一。还有其他主机操作系统，比如Ubuntu Snappy和Red Hat Atomic。</p>
+
+<p>你在构建容器时，可以添加所选择的操作系统；比如说，你想使用Ubuntu。容器里面的Ubuntu操作系统会充分利用主机内核，不过会有属于Ubuntu一部分的程序包。比如说，虽然内核对软件包管理一无所知，但Ubuntu会提供软件包管理工具apt-get。此外，你可以配置容器，以便使用特殊的Web服务器和脚本解释器等等。结果就是，你获得了虚拟机提供的环境配置，又不因静态分配而死死占用主机系统上的资源。另外，容器会有一个主机里面可见的IP地址。因而，主机可以通过容器的IP地址，直接访问容器（见图3）。</p>
+
+<p><img src="/images/2015/10/Contain3.jpg" alt="图3" /></p>
+
+<ul>
+  <li>图3：容器共享主机资源，并充分利用主机操作系统提供的内核级服务。</li>
+</ul>
+
+<h2 id="windows">附文：使用Windows怎么样？</h2>
+
+<p>容器面临的一个约束是，无法混合搭配多个操作系统。在虚拟机领域，让Windows主机支持运行Linux的虚拟机或者让OS X系统运行Windows虚拟机相当常见。而容器就不是这样了；原因是，就本身而言，容器使用主机内核。因而，你要做到操作系统相互匹配。也就是说，Linux容器在Linux主机上运行。你可以在Windows Server（直至Windows Server 2016）上运行Windows容器。另外，还有Windows版的容器管理器：Docker。</p>
+
+<p>要是你发现自己需要在Windows上运行Linux容器，总是可以在Windows下启动Linux虚拟机，使用Linux虚拟机作为主机系统。</p>
+
+<h2 id="section-2">该如何使用容器？</h2>
+
+<p>为了使用容器，你就要明白三个概念。第一个概念是容器管理器。第二个是了解容器层架构。第三个是容器注册中心。</p>
+
+<h3 id="section-3">容器管理器</h3>
+
+<p>容器管理器是一种工具，可用来构建容器、部署容器，让容器在主机上运行。截至本文截稿时，市面上最流行的容器管理器是Docker和Rocket。</p>
+
+<p>容器管理器的工作方式如下：假设你用PHP编写了一个短小的Hello World Web应用程序。你要创建一个容器配置文件，你会在其中描述应用程序所需的PHP文件。同样在该配置文件中，你要定义应用程序所需的各层。在这里，假设你的应用程序需要PHP 5.6解释器，你想要在Apache网站服务器下运行。到时就可以通过容器管理器，发出命令来运行你的应用程序。容器管理器在后台会执行这些操作：</p>
+
+<ol>
+  <li>读取配置文件，确定需要从注册中心获得的各层；</li>
+  <li>创建容器映像；</li>
+  <li>添加应用程序源文件；以及</li>
+  <li>在主机上启动容器（见图4）。</li>
+</ol>
+
+<p><img src="/images/2015/10/Contain4.jpg" alt="图4" /></p>
+
+<ul>
+  <li>图4：配置文件、映像和注册中心都是容器生态系统的一部分。</li>
+</ul>
+
+<p>听起来觉得很简单？你可能会问：“层是什么？映像是什么？注册中心是什么？怎么回事？”这些问题提得好，有必要回答。下面我就逐一回答。</p>
+
+<h3 id="section-4">了解层和映像</h3>
+
+<p>容器由一个个层组成。层就是容器映像（没错，容器由其他容器组成这个概念一开始可能让人困惑）。可能先是操作系统底层。然后，你声明其他层，比如说Web服务器和脚本运行时环境。一旦定义好了容器，就可以在已定义容器的基础上构建映像。映像是容器的模板，你可以在一个或多个主机上重复使用它。</p>
+
+<p>图5表明了主机运行CoreOS、使用Docker作为容器管理器的一种场景。有三个容器在主机上运行。一个容器使用Debian作为基本的操作系统层，Apache用作网站服务器，PHP 5.5用作脚本运行时环境，还使用自定义PHP应用程序（已为它构建了容器）。另一个容器用于额外的自定义PHP应用程序，使用nginx作为网站服务器，PHP 5.6作为脚本解释器，它们都在RHEL基本映像上运行。最后，第三个容器有一个JSP应用程序在Tomcat和Apache上运行，位于Ubuntu基本映像上。</p>
+
+<p><img src="/images/2015/10/Contain5.jpg" alt="图5" /></p>
+
+<ul>
+  <li>图5：容器映像可以定义某个特殊主机为基本映像，然后分别为网站服务器、脚本运行时环境和脚本文件添加层。</li>
+</ul>
+
+<p>正如你所见，每个容器都不一样。不过，它们都作为孤立进程而并行驻留在主机上，可以利用CoreOS内核。没有实施硬件分配机制。所有环境资源都可以共享。</p>
+
+<h3 id="section-5">了解注册中心</h3>
+
+<p>容器映像存储在注册中心里面。对熟悉Java框架的人而言，注册中心概念好比是Maven注册中心概念。而.NET环境中的类似技术就是NuGet服务器。</p>
+
+<p>有许多公开的注册中心，你可以将容器映像存储在里面。Docker有Docker Hub，还有其他公开的注册中心。另外，如今出现了越来越多的私有注册中心提供商。</p>
+
+<p>使用注册中心几乎自动会收到神奇效果。你告诉容器管理器运行容器后，它会检查配置文件，确定容器需要哪几个层，然后检查注册中心上面的所需层映像，或者是默认注册中心，或者是你定义的注册中心。容器管理器会组装你的容器从注册中心需要获取的几个层，然后将容器装入到主机上。</p>
+
+<p>使用注册中心让你在容器映像方面拥有高度可重用性。另外，使用容器映像意味着，你可以扩展应用程序，如下文所示。</p>
+
+<h3 id="section-6">扩展容器</h3>
+
+<p>容器在需要根据需求扩增或缩减资源的动态环境下表现很出色。不像虚拟机要花很长时间才能装入到主机环境，容器可以迅速装入。装入迅速，加上无所不在的容器注册中心，这意味着你可以迅速构建起高可用性、负载均衡的环境。</p>
+
+<p>请看一下图6。该图显示了基于容器的应用程序集群环境。如今，让负载均衡系统协调从同一映像生成的许多容器之间的负载相当常见。实际上，负载均衡系统本身可以是个容器。换句话说，你可以使用nxginx容器作为负载均衡系统，负责协调相同应用程序节点组成的集群之间的流量。</p>
+
+<p><img src="/images/2015/10/Contain6.jpg" alt="图6" /></p>
+
+<ul>
+  <li>图6：你可以使用充当负载均衡系统的容器来管理应用程序容器集群。</li>
+</ul>
+
+<h2 id="section-7">现在怎么办？</h2>
+
+<p>容器生态系统在迅速发展壮大。比如说，有谷歌的开源项目Kubernetes，该项目提供了一个平台，可用于在企业层面，跨主机集群部署和扩展应用程序容器。另一个开源项目etcd让你可以共享容器之间的键值信息。如果你需要让容器使用统一的数据存储区或缓存，共享键值信息就很重要。还有fleet，它确保了这一点：如果你在诸多机器上运行许多同样的容器，其中一个机器出现故障，容器可以转移到另一个机器上。这在大规模计算环境下是一种非常有效的技术；在这种环境下，你的容器始终运行至关重要。这方面的项目和产品在迅速涌现。</p>
+
+<p>正如我在文章开头所说，容器不会很快销声匿迹。实际上，微软、谷歌、IBM、红帽、亚马逊及其他许多知名科技公司已联合起来，组建了开放容器项目（Open Container Initiative），这是在Linux基金会下面成立的。设想一下：微软与Linux领导厂商合作。所以，如果雷德蒙德的人全力搭上容器这趟快车，容器进入到你我的世界只是个时间问题。所以，如果你还没有开始接触容器，现在正是时候。</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/container/containers-101-bob-reselman/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/container/containers-101-bob-reselman/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/container/containers-101-bob-reselman/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container/2015-10-01-containers-101-bob-reselman.md">[ 帮助改进此文章 ]</a></span>
+      </footer>
+
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="/container/container-tech-stack/" class="read-more-btn">阅读全文</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="/books/test2/" title="Rancher 开源中文电子书征集参与者">Rancher 开源中文电子书征集参与者</a></h3>
+      <p>Rancher 开源中文电子书征集参与者 <a href="/books/test2/">继续阅读</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-3/" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2016 Martin Liu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68135493-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'hellodocker'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</body>
+</html>

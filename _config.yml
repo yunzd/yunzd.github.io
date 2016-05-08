@@ -1,6 +1,6 @@
 title:            云知道
-description:      速递新知，解析本质，通过分享生产价值
-disqus_shortname:
+description:      转播知识，分享创造价值
+disqus_shortname: hellodocker
 reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
@@ -10,13 +10,13 @@ url:
 # Owner/author information
 owner:
   name:           Martin Liu
-  avatar:         avatar.jpg
-  bio:            "Blogger，Opensource fans，Runner"
-  email:          martin@aws-faq.com
+  avatar:         head-200-200.jpg
+  bio:            "Blogger, runner, opensource fans"
+  email:          67120666@qq.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:  zliu
+  twitter:
   facebook:
-  github:  martinliu
+  github:         martinliu
   stackexchange:
   linkedin:
   instagram:
@@ -29,13 +29,13 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+google_analytics: UA-68135493-1
+google_verify: P5Mx6koxG0P8KPpIBwdfg5B88CeTyLpLoNMMzqQgYSg
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+bing_verify: 12F570013342D1F8B60A455D09221C1D
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Shanghai
+timezone:    Aisa/Shanghai
 future:      true
 highlighter: rouge
 markdown:    kramdown
@@ -51,7 +51,7 @@ sass:
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
-paginate: 10
+paginate: 5
 
 kramdown:
   auto_ids: true
@@ -78,4 +78,4 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", ".sass-cache"]

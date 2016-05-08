@@ -1,0 +1,374 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Container技术栈概述 &#8211; 云知道</title>
+<meta name="description" content="转播知识，分享创造价值">
+<meta name="keywords" content="docker">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Container技术栈概述">
+<meta property="og:description" content="转播知识，分享创造价值">
+<meta property="og:url" content="/container/container-tech-stack/">
+<meta property="og:site_name" content="云知道">
+
+<meta name="google-site-verification" content="P5Mx6koxG0P8KPpIBwdfg5B88CeTyLpLoNMMzqQgYSg">
+<meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
+
+
+<link rel="canonical" href="/container/container-tech-stack/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="//fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li><a href="/posts/">归档</a></li>
+		<li><a href="/tags/">标签</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
+					<h4>Martin Liu</h4>
+					<p>Blogger, runner, opensource fans</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">了解本站</span></a></li>
+				<li>
+					<a href="mailto:67120666@qq.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				
+				
+				
+				
+				<li>
+					<a href="https://github.com/martinliu"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/container/container-tech-stack/" rel="bookmark" title="Container技术栈概述">Container技术栈概述</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2015-09-30T00:00:00+00:00">September 30, 2015</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+预计阅读时间 ~1 分钟
+
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>应用架构驱动着基础设施架构的发展。下一代应用架构聚焦于社交、移动、大数据、智能硬件，驱动应用向着更好的用户体验发展，也对传统的技术架构产生了冲击。</p>
+
+<p>本文我们将看下新一代技术架构的元素，以及公司在下一代应用和基础设施中，应当如何进行架构选型。</p>
+
+<p>在过去的6-12个月里，Container技术引起了企业的CIO、架构师和开发人员的极大兴趣。</p>
+
+<ul>
+  <li>Container技术引起CIO兴趣的原因在于，他们找到了向现代应用框架快速转型的方法，从而驱动业务的发展。</li>
+  <li>对于架构师来说，Container技术增强了应用的可移植性，适用于混合云架构。</li>
+  <li>而开发人员通过Container技术，可以快速地应用微服务架构，增强应用的可扩展性。</li>
+</ul>
+
+<p>DockerCon 和 Red Hat Summit 中，都曾讨论过这一趋势。但是每种新技术，都会带来新的挑战和利弊权衡。本文将对container技术架构中的元素逐一进行分析。</p>
+
+<p>下图为Docker技术人员 Patrick Chanezon 总结的Container技术栈：</p>
+
+<p><img src="/images/2015/09/docker-stack.png" alt="docker tech stack" /></p>
+
+<p>在深入了解Container技术架构之前，有必要先理解以下几个基本问题：
+   * Container技术非常适用于分布式应用框架中，这意味着底层的Container基础架构必须是模块化和非常灵活的；
+   * 以下所探讨的核心概念，很多来源于如今的虚拟化架构，比如服务发现（Service Discovery），集群管理（Cluster Management）和资源调度（Resource Scheduling）；
+   * 围绕整个container技术架构的公司生态也在快速发展，多数情况下，他们都从单一的工具开始，慢慢发展为一个全栈服务。</p>
+
+<h2 id="container">深入Container技术架构</h2>
+
+<p>从单一的Container到服务于产品的架构，需要一系列的工具和配置。从这些工具和配置上，我们可以看出下一代基于Container的应用需要哪些组件：</p>
+
+<p>首先，要进行以下声明：
+  * 所有这些组件都不是硬件的，也不依赖于云服务；
+  * 在实现时，可能会结合一些组件到一个软件中；
+  * 并非所有组件都是必须的。</p>
+
+<p>下面是对整个技术栈自下而上的分析。</p>
+
+<h3 id="devops">DevOps工具</h3>
+
+<p>叫“开发工具”和“运维工具”更加直观，他们运行在本地机器上，用来启动Container，虚拟机或初始化应用包。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Hashicorp Vagrant，Docker Machine，VMware AppCatalyst, Shippable, Wercker
+</code></pre>
+</div>
+
+<h3 id="vm">物理宿主机（或VM）</h3>
+
+<p>Container实际运行的机器，可能是一个本地的笔记本电脑，一个数据服务器或一个公有云实例。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>VMware ESX，Microsoft Hyper-V，KVM，LXD
+</code></pre>
+</div>
+
+<h3 id="container-os">Container OS</h3>
+
+<p>负责和底层物理宿主机交互的操作系统（Linux或Windows），还负责提供所有container共享的OS级别的服务。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>CoreOS，RedHat Atomic Host，Rancher OS，Canonical Snappy，VMware Photo
+</code></pre>
+</div>
+
+<h3 id="container-runtime">Container Runtime</h3>
+
+<p>创建、启动、停止、销毁Container的软件层。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker，Rkt，Lattice
+</code></pre>
+</div>
+
+<h3 id="container-1">Container</h3>
+
+<p>管理着应用和Container OS之间的交互。也有人将其类比为虚拟机，但是container并不包含一个完整的操作系统。</p>
+
+<h3 id="marketplace">Marketplace/镜像管理</h3>
+
+<p>储存和管理container镜像的服务器（自己搭建或采用云端的SaaS应用）。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker Registry，CoreOS Registry
+</code></pre>
+</div>
+
+<h3 id="configuration-management">配置管理（Configuration Management）</h3>
+
+<p>管理和自动化配置文件和部署的工具。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>比如Ansible，Chef，Puppet，Docker Compose，Terraform
+</code></pre>
+</div>
+
+<h3 id="container-networking">Container Networking</h3>
+
+<p>SDN，管理container之间包路由的网络框架。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker Networking，WeaveWorks，Flannel (CoreOS), Calico
+</code></pre>
+</div>
+
+<h3 id="container-2">Container集群管理</h3>
+
+<p>帮助建立Container集群，形成服务，管理集群资源，保障可用性。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker Swarm, Hashicorp Serf
+</code></pre>
+</div>
+
+<h3 id="section">服务发现</h3>
+
+<p>随着更多的元素/微服务 被加入到应用中，找到这些服务并确认其是否可用变得很困难。服务发现可以在其加入网络中时，管理广播和服务许可。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker Swarm, Hashicorp Serf
+</code></pre>
+</div>
+
+<h3 id="container-">Container 调度</h3>
+
+<p>这项服务保障了container在宿主机中处于最高效的位置，容量规划，失败时重启container，需求变化时扩展应用等。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Kubernetes，Mesos
+</code></pre>
+</div>
+
+<h3 id="section-1">应用调度</h3>
+
+<p>和container调度的功能类似，是一系列面向应用的服务，描述应用被部署时所需的资源，时间，依赖等。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Marathon，Chronos，Hadoop，Spark
+</code></pre>
+</div>
+
+<h3 id="section-2">安全</h3>
+
+<p>在container架构中，同样需要所有的安全组件，从OS到认证服务，到数据管理。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>CoreOS Linux，Intel Clear Containers，Docker Notary，Hashicorp Vault, OpenSCAP, Twistlock, Scalock, Conjur, Lynis
+</code></pre>
+</div>
+
+<h3 id="section-3">日志管理</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker logs, logspout
+</code></pre>
+</div>
+
+<h3 id="section-4">监控/可视化</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>Docker ps/top/stats, Docker stats API, sysdig, cAdvisor, Weave Scope
+</code></pre>
+</div>
+
+<h3 id="container-3">Container实现——灵活性，交互性以及挑战</h3>
+
+<p>对于企业来说，Container技术的挑战之一在于，选择Container技术栈意味着舍弃传统的，由ISV提供的一站式“单块架构”，通常会令企业望而生畏。</p>
+
+<p>第二个挑战在于，初创公司常常将个人项目作为工具，许多情况下，要么是某公司在主导这个项目，要么由一个开源社区主导。</p>
+
+<p>第三个挑战在于许多工具是彼此协作和可替代的。许多早期用户会试用不同项目的组件，而不是由一个供应商或开源项目提供的技术栈。短期来讲，有助于早期采用者实现灵活性和技术的多样性。长期来看，不利于企业对稳定环境的需求，同时也会增加对新技术的学习成本。相关的公有云服务，比如Amazon Elastic Cloud Services和 Google Container Engine，可以帮助用户屏蔽技术上的复杂性。</p>
+
+<h2 id="section-5">总结</h2>
+
+<p>Container技术和架构产生和发展都很迅速。许多初创企业都在驱动新工具和框架的产生，能够将合适的架构组件组合起来的技术，将为企业带来很多优势。不管基于已有的基础架构还是公有云，随着更多的解决方案级别的产品被推向市场，Container技术的发展脉络也将逐步清晰。</p>
+
+<p>本文译自wikibon文章《Evolving Container Architectures》，原文请点击 <a href="http://wikibon.com/evolving-container-architectures/">阅读原文</a></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/container/container-tech-stack/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/container/container-tech-stack/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/container/container-tech-stack/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container/2015-09-30-container-tech-stack.md">[ 帮助改进此文章 ]</a></span>
+      </footer>
+
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="/container/redhat-openshift-v3-paas/" class="read-more-btn">阅读全文</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="/books/test2/" title="Rancher 开源中文电子书征集参与者">Rancher 开源中文电子书征集参与者</a></h3>
+      <p>Rancher 开源中文电子书征集参与者 <a href="/books/test2/">继续阅读</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-3/" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h4>
+        <span>发布于 April 25, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2016 Martin Liu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68135493-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'hellodocker'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</body>
+</html>
