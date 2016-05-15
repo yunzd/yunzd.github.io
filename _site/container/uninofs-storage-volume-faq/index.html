@@ -6,25 +6,30 @@
 <head>
 <meta charset="utf-8">
 <title>FAQ： 关于 Union Filesystems, Storage 和 Volumes &#8211; 云知道</title>
-<meta name="description" content="转播精选知识，分享创造价值">
+<meta name="description" content="分享创造价值, 转播知识精华">
 <meta name="keywords" content="docker">
 
-
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yzd.io/images/">
+<meta name="twitter:title" content="FAQ： 关于 Union Filesystems, Storage 和 Volumes">
+<meta name="twitter:description" content="分享创造价值, 转播知识精华">
+<meta name="twitter:creator" content="@zliu">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FAQ： 关于 Union Filesystems, Storage 和 Volumes">
-<meta property="og:description" content="转播精选知识，分享创造价值">
-<meta property="og:url" content="/container/uninofs-storage-volume-faq/">
+<meta property="og:description" content="分享创造价值, 转播知识精华">
+<meta property="og:url" content="http://yzd.io/container/uninofs-storage-volume-faq/">
 <meta property="og:site_name" content="云知道">
 
-<meta name="google-site-verification" content="P5Mx6koxG0P8KPpIBwdfg5B88CeTyLpLoNMMzqQgYSg">
+<meta name="google-site-verification" content="DxU8FigBXmBKSOyiIr11sF7OqgJAR0FbAxEtV3bMnks">
 <meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
 
 
-<link rel="canonical" href="/container/uninofs-storage-volume-faq/">
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
+<link rel="canonical" href="http://yzd.io/container/uninofs-storage-volume-faq/">
+<link href="http://yzd.io/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -32,28 +37,28 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="http://yzd.io/assets/css/main.css">
 <!-- Webfonts -->
 <link href="//fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 
 <meta http-equiv="cleartype" content="on">
 
 <!-- Load Modernizr -->
-<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+<script src="http://yzd.io/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 
 <!-- Icons -->
 <!-- 16x16 -->
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="http://yzd.io/favicon.ico">
 <!-- 32x32 -->
-<link rel="shortcut icon" href="/favicon.png">
+<link rel="shortcut icon" href="http://yzd.io/favicon.png">
 <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="http://yzd.io/images/apple-touch-icon-precomposed.png">
 <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://yzd.io/images/apple-touch-icon-72x72-precomposed.png">
 <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://yzd.io/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://yzd.io/images/apple-touch-icon-144x144-precomposed.png">
 
 
 
@@ -65,22 +70,24 @@
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 	<button class="dl-trigger">Open Menu</button>
 	<ul class="dl-menu">
-		<li><a href="/">首页</a></li>
-		<li><a href="/posts/">归档</a></li>
-		<li><a href="/tags/">标签</a></li>
+		<li><a href="http://yzd.io/">首页</a></li>
+		<li><a href="http://yzd.io/posts/">归档</a></li>
+		<li><a href="http://yzd.io/tags/">标签</a></li>
 		<li>
 			<a href="#">关于</a>
 			<ul class="dl-submenu">
 				<li>
-					<img src="/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
+					<img src="http://yzd.io/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
 					<h4>Martin Liu</h4>
 					<p>Blogger, runner, opensource fans</p>
 				</li>
-				<li><a href="/about/"><span class="btn btn-inverse">了解本站</span></a></li>
+				<li><a href="http://yzd.io/about/"><span class="btn btn-inverse">了解本站</span></a></li>
 				<li>
 					<a href="mailto:67120666@qq.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
 				</li>
-				
+				<li>
+					<a href="https://twitter.com/zliu"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
 				
 				
 				
@@ -105,7 +112,7 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="/container/uninofs-storage-volume-faq/" rel="bookmark" title="FAQ： 关于 Union Filesystems, Storage 和 Volumes">FAQ： 关于 Union Filesystems, Storage 和 Volumes</a></h1>
+          <h1 class="entry-title"><a href="http://yzd.io/container/uninofs-storage-volume-faq/" rel="bookmark" title="FAQ： 关于 Union Filesystems, Storage 和 Volumes">FAQ： 关于 Union Filesystems, Storage 和 Volumes</a></h1>
         
         <h2><span class="entry-date date published"><time datetime="2015-10-01T16:00:00+00:00">October 01, 2015</time></span></h2>
         
@@ -206,13 +213,13 @@
 <p>来源：<a href="http://blog.docker.com/2015/10/docker-basics-webinar-qa/">http://blog.docker.com/2015/10/docker-basics-webinar-qa/</a></p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a></span>
+        <span class="entry-tags"><a href="http://yzd.io/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a></span>
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/container/uninofs-storage-volume-faq/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/container/uninofs-storage-volume-faq/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=/container/uninofs-storage-volume-faq/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://yzd.io/container/uninofs-storage-volume-faq/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://yzd.io/container/uninofs-storage-volume-faq/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://yzd.io/container/uninofs-storage-volume-faq/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
         <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container/2015-10-02-uninofs-storage-volume-faq.md">[ 帮助改进此文章 ]</a></span>
@@ -223,23 +230,23 @@
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="/container/containers-101-bob-reselman/" class="read-more-btn">阅读全文</a>
+      <a href="http://yzd.io/container/containers-101-bob-reselman/" class="read-more-btn">阅读全文</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="/books/test2/" title="Rancher 开源中文电子书征集参与者">Rancher 开源中文电子书征集参与者</a></h3>
-      <p>Rancher 开源中文电子书征集参与者 <a href="/books/test2/">继续阅读</a></p>
+      <h3><a href="http://yzd.io/container/container-usercase-all-in-one/" title="容器应用案例大全">容器应用案例大全</a></h3>
+      <p>均聚所有目前能看到的使用案例介绍，来源是各种技术论坛和大会 <a href="http://yzd.io/container/container-usercase-all-in-one/">继续阅读</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="/aws/aws-weekly-update-3/" title="AWS Weekly Update 3">AWS Weekly Update 3</a></h4>
-        <span>发布于 April 25, 2016</span>
+        <h4><a href="http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher/" title="线上会议-Rancer中的Kubernetes技术预览">线上会议-Rancer中的Kubernetes技术预览</a></h4>
+        <span>发布于 March 07, 2016</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
-        <h4><a href="/aws/aws-weekly-update-2/" title="AWS Weekly Update 2">AWS Weekly Update 2</a></h4>
-        <span>发布于 April 25, 2016</span>
+        <h4><a href="http://yzd.io/container/rancher-all-in-one/" title="为容器而定制的超融合基础架构">为容器而定制的超融合基础架构</a></h4>
+        <span>发布于 December 19, 2015</span>
       </div><!-- /.list-item -->
     
   </div><!-- /.read-more-list -->
@@ -255,8 +262,8 @@
 </div><!-- /.footer-wrapper -->
 
 <script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="/assets/js/scripts.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://yzd.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://yzd.io/assets/js/scripts.min.js"></script>
 
 
 <!-- Asynchronous Google Analytics snippet -->
@@ -266,7 +273,7 @@
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-68135493-1', 'auto');  
+  ga('create', 'UA-77731594-1', 'auto');  
   ga('require', 'linkid', 'linkid.js');
   ga('send', 'pageview');
 </script>
@@ -275,7 +282,7 @@
 
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'hellodocker'; // required: replace example with your forum shortname
+        var disqus_shortname = 'yzd'; // required: replace example with your forum shortname
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {
