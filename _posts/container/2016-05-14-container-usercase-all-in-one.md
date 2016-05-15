@@ -4,7 +4,7 @@ title: 容器应用案例大全
 modified:
 categories: container
 description: 均聚所有目前能看到的使用案例介绍，来源是各种技术论坛和大会
-tags: [ docker, usecase]
+tags: [ docker, use-case]
 image:
   feature: RockyMtFox_ZH-CN11501547462_1920x1080.jpg
   credit: bing.com
@@ -36,5 +36,6 @@ date: 2016-05-14T06:46:04+00:00
 
 [^1]: CCTC 中国云计算技术大会 *http://cctc.csdn.net/*
 [^2]: CCTC 中国云计算技术大会 *http://geek.csdn.net/news/detail/74030*
+
 
 
