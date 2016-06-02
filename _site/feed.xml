@@ -2,26 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">云知道</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2016-05-15T15:12:01+00:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://yzd.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://yzd.io" />
+<updated>2016-06-02T05:48:08+00:00</updated>
+<id>http://yzd.io/</id>
 <author>
   <name>Martin Liu</name>
-  <uri>/</uri>
+  <uri>http://yzd.io/</uri>
   <email>67120666@qq.com</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[5月 Rancher 线上 Meetup 回顾]]></title>
+ <link rel="alternate" type="text/html" href="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" />
+  <id>http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box</id>
+  <published>2016-06-02T03:04:57+00:00</published>
+  <updated>2016-06-02T03:04:57+00:00</updated>
+  <author>
+    <name>Martin Liu</name>
+    <uri>http://yzd.io</uri>
+    <email>67120666@qq.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;本文是6月线上 meetup 的预热篇，想法是把 Rancher 官方的内容回顾一遍，并结合国情；看看有什么观点可以一起探讨的。&lt;/p&gt;
+
+&lt;h2 id=&quot;rancher--meetup-&quot;&gt;5月 Rancher 线上 Meetup 回顾&lt;/h2&gt;
+&lt;p&gt;通过翻墙，我把视频和 ppt 都搬了回来。视频上传到了腾讯，ppt 进了百度盘。&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;视频在这里&lt;/h2&gt;
+&lt;p&gt;在线观看。&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;iframe class=&quot;video_iframe&quot; style=&quot;z-index:1;&quot; src=&quot;http://v.qq.com/iframe/player.html?vid=h0304qdm5so&amp;amp;width=660&amp;amp;height=400&amp;amp;auto=0&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;400&quot; width=&quot;660&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;下载在这里&lt;/h2&gt;
+&lt;p&gt;下载地址： &lt;a href=&quot;http://pan.baidu.com/s/1nv5wjEx&quot;&gt;http://pan.baidu.com/s/1nv5wjEx&lt;/a&gt;&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/&quot;&gt;5月 Rancher 线上 Meetup 回顾&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on June 02, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[容器应用案例大全]]></title>
- <link rel="alternate" type="text/html" href="/container/container-usercase-all-in-one/" />
-  <id>/container/container-usercase-all-in-one</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/container-usercase-all-in-one/" />
+  <id>http://yzd.io/container/container-usercase-all-in-one</id>
   <published>2016-05-14T06:46:04+00:00</published>
   <updated>2016-05-14T06:46:04+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -56,7 +86,7 @@
     &lt;tr&gt;
       &lt;td&gt;国民生银行&lt;/td&gt;
       &lt;td&gt;银行&lt;/td&gt;
-      &lt;td&gt;Docker重塑互联网系统新架构&lt;sup id=&quot;fnref:1:2&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&quot;fnref:2:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
+      &lt;td&gt;Docker重塑互联网系统新架构&lt;sup id=&quot;fnref:1:2&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/td&gt;
       &lt;td&gt;docker cmdb&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -78,26 +108,26 @@
       &lt;p&gt;CCTC 中国云计算技术大会 &lt;em&gt;http://cctc.csdn.net/&lt;/em&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:1:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:1:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;CCTC 中国云计算技术大会 &lt;em&gt;http://geek.csdn.net/news/detail/74030&lt;/em&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; &lt;a href=&quot;#fnref:2:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;PPT 下载 &lt;em&gt;http://download.csdn.net/index.php/mobile//source/download/heyc861221/9521802&lt;/em&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt; &lt;a href=&quot;#fnref:2:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/container-usercase-all-in-one/&quot;&gt;容器应用案例大全&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on May 14, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/container-usercase-all-in-one/&quot;&gt;容器应用案例大全&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on May 14, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[线上会议-Rancer中的Kubernetes技术预览]]></title>
- <link rel="alternate" type="text/html" href="/cluster-management/introducing-kubernetes-environments-in-rancher/" />
-  <id>/cluster-management/introducing-kubernetes-environments-in-rancher</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher/" />
+  <id>http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher</id>
   <updated>2016-03-07 03:48:54 +0000T00:00:00-00:00</updated>
   <published>2016-03-07T00:00:00+00:00</published>
   
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -122,20 +152,20 @@
 
 &lt;p&gt;百度网盘下载：  &lt;a href=&quot;http://pan.baidu.com/s/1c1eLivQ&quot;&gt;http://pan.baidu.com/s/1c1eLivQ&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/cluster-management/introducing-kubernetes-environments-in-rancher/&quot;&gt;线上会议-Rancer中的Kubernetes技术预览&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on March 07, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher/&quot;&gt;线上会议-Rancer中的Kubernetes技术预览&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on March 07, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[为容器而定制的超融合基础架构]]></title>
- <link rel="alternate" type="text/html" href="/container/rancher-all-in-one/" />
-  <id>/container/rancher-all-in-one</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/rancher-all-in-one/" />
+  <id>http://yzd.io/container/rancher-all-in-one</id>
   <published>2015-12-19T00:00:00+00:00</published>
   <updated>2015-12-19T00:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -177,20 +207,20 @@
 
 &lt;p&gt;我们与Redapt已经认识并且工作在一起已经多年了。早在2011年，我在 Cloud.com 的团队与Redapt合作，用CloudStack共同搭建了当时最大的私有云，由超过40000台物理服务器构成。我们对他们的技术能力、创新能力和专业性感到非常钦佩。构建一个超融合基础架构方案需求软件厂商和硬件厂商之间的密切协作。我们很幸运地再次与Redapt携手，共同为市场打造专门为容器方案定制的首款超融合基础架构。&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/rancher-all-in-one/&quot;&gt;为容器而定制的超融合基础架构&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on December 19, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/rancher-all-in-one/&quot;&gt;为容器而定制的超融合基础架构&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on December 19, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[仅Docker还不够]]></title>
- <link rel="alternate" type="text/html" href="/container/docker-is-not-enough/" />
-  <id>/container/docker-is-not-enough</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/docker-is-not-enough/" />
+  <id>http://yzd.io/container/docker-is-not-enough</id>
   <published>2015-10-04T16:00:00+00:00</published>
   <updated>2015-10-04T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -329,20 +359,20 @@ https://www.openshift.com/blogs/openshift-v3-platform-combines-docker-kubernetes
 
 &lt;p&gt;From : https://www.cloudssky.com/en/blog/Docker-Is-Not-Enough/&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/docker-is-not-enough/&quot;&gt;仅Docker还不够&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/docker-is-not-enough/&quot;&gt;仅Docker还不够&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[为什么微软欲10亿收购Mesosphere]]></title>
- <link rel="alternate" type="text/html" href="/cluster-management/why-microsoft-want-to-buy-mesophere/" />
-  <id>/cluster-management/why-microsoft-want-to-buy-mesophere</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/cluster-management/why-microsoft-want-to-buy-mesophere/" />
+  <id>http://yzd.io/cluster-management/why-microsoft-want-to-buy-mesophere</id>
   <published>2015-10-04T16:00:00+00:00</published>
   <updated>2015-10-04T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -377,20 +407,20 @@ https://www.openshift.com/blogs/openshift-v3-platform-combines-docker-kubernetes
 &lt;p&gt;来自：2015-08-19 福布斯记者 Alex Konrad
 http://www.forbes.com/sites/alexkonrad/2015/08/18/why-microsoft-could-reportedly-want-to-buy-cloud-startup-mesosphere-even-at-1-billion/#rd&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/cluster-management/why-microsoft-want-to-buy-mesophere/&quot;&gt;为什么微软欲10亿收购Mesosphere&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/cluster-management/why-microsoft-want-to-buy-mesophere/&quot;&gt;为什么微软欲10亿收购Mesosphere&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[国内Docker服务和产品初探]]></title>
- <link rel="alternate" type="text/html" href="/container/china-docker-service-product-overview/" />
-  <id>/container/china-docker-service-product-overview</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/china-docker-service-product-overview/" />
+  <id>http://yzd.io/container/china-docker-service-product-overview</id>
   <published>2015-10-03T16:00:00+00:00</published>
   <updated>2015-10-03T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -487,20 +517,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
 
 &lt;p&gt;文章来源：&lt;a href=&quot;http://dockone.io/article/707&quot;&gt;http://dockone.io/article/707&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/china-docker-service-product-overview/&quot;&gt;国内Docker服务和产品初探&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/china-docker-service-product-overview/&quot;&gt;国内Docker服务和产品初探&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on October 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[FAQ： 关于 Union Filesystems, Storage 和 Volumes]]></title>
- <link rel="alternate" type="text/html" href="/container/uninofs-storage-volume-faq/" />
-  <id>/container/uninofs-storage-volume-faq</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/uninofs-storage-volume-faq/" />
+  <id>http://yzd.io/container/uninofs-storage-volume-faq</id>
   <published>2015-10-01T16:00:00+00:00</published>
   <updated>2015-10-01T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -590,20 +620,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
 
 &lt;p&gt;来源：&lt;a href=&quot;http://blog.docker.com/2015/10/docker-basics-webinar-qa/&quot;&gt;http://blog.docker.com/2015/10/docker-basics-webinar-qa/&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/uninofs-storage-volume-faq/&quot;&gt;FAQ： 关于 Union Filesystems, Storage 和 Volumes&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on October 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/uninofs-storage-volume-faq/&quot;&gt;FAQ： 关于 Union Filesystems, Storage 和 Volumes&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on October 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Container 101 - Bob Reselman]]></title>
- <link rel="alternate" type="text/html" href="/container/containers-101-bob-reselman/" />
-  <id>/container/containers-101-bob-reselman</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/containers-101-bob-reselman/" />
+  <id>http://yzd.io/container/containers-101-bob-reselman</id>
   <published>2015-09-30T16:00:00+00:00</published>
   <updated>2015-09-30T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -742,20 +772,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
 
 &lt;p&gt;正如我在文章开头所说，容器不会很快销声匿迹。实际上，微软、谷歌、IBM、红帽、亚马逊及其他许多知名科技公司已联合起来，组建了开放容器项目（Open Container Initiative），这是在Linux基金会下面成立的。设想一下：微软与Linux领导厂商合作。所以，如果雷德蒙德的人全力搭上容器这趟快车，容器进入到你我的世界只是个时间问题。所以，如果你还没有开始接触容器，现在正是时候。&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/containers-101-bob-reselman/&quot;&gt;Container 101 - Bob Reselman&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/containers-101-bob-reselman/&quot;&gt;Container 101 - Bob Reselman&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Container技术栈概述]]></title>
- <link rel="alternate" type="text/html" href="/container/container-tech-stack/" />
-  <id>/container/container-tech-stack</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/container-tech-stack/" />
+  <id>http://yzd.io/container/container-tech-stack</id>
   <published>2015-09-30T00:00:00+00:00</published>
   <updated>2015-09-30T00:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -919,20 +949,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
 
 &lt;p&gt;本文译自wikibon文章《Evolving Container Architectures》，原文请点击 &lt;a href=&quot;http://wikibon.com/evolving-container-architectures/&quot;&gt;阅读原文&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/container-tech-stack/&quot;&gt;Container技术栈概述&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/container-tech-stack/&quot;&gt;Container技术栈概述&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[红帽的OpenShift V3进入市场]]></title>
- <link rel="alternate" type="text/html" href="/container/redhat-openshift-v3-paas/" />
-  <id>/container/redhat-openshift-v3-paas</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/redhat-openshift-v3-paas/" />
+  <id>http://yzd.io/container/redhat-openshift-v3-paas</id>
   <published>2015-09-29T16:00:00+00:00</published>
   <updated>2015-09-29T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -1048,20 +1078,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
   &lt;li&gt;路线选择：红帽是一家开源公司，是社区驱动的。而Pivotal在CloudFoundry产品上越来越趋向于传统的专有软件公司，就是说它所有的东西，从底层技术到中间技术，再到上层技术，都自成体系。其实传统公司有传统公司的优势，但开源公司有开源的优势，只不过红帽一直保持开源的思路，通过开源的方式，充分把企业客户提出的要求，在上游社区中得以体现。这样的社区可以保证例如OpenShift这样的应用服务，不仅来自于红帽，也有来自于其它社区的合作伙伴以及ISV的贡献。&lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/redhat-openshift-v3-paas/&quot;&gt;红帽的OpenShift V3进入市场&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 29, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/redhat-openshift-v3-paas/&quot;&gt;红帽的OpenShift V3进入市场&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 29, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Docker官方进军中国]]></title>
- <link rel="alternate" type="text/html" href="/container/docker-come-to-china/" />
-  <id>/container/docker-come-to-china</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container/docker-come-to-china/" />
+  <id>http://yzd.io/container/docker-come-to-china</id>
   <published>2015-09-26T16:00:00+00:00</published>
   <updated>2015-09-26T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -1127,20 +1157,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
   &lt;li&gt;GitHub上Docker相关的项目32000+&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container/docker-come-to-china/&quot;&gt;Docker官方进军中国&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container/docker-come-to-china/&quot;&gt;Docker官方进军中国&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Docker 1.8发布带来的新工具]]></title>
- <link rel="alternate" type="text/html" href="/container-runtime/docker-1-8-release/" />
-  <id>/container-runtime/docker-1-8-release</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container-runtime/docker-1-8-release/" />
+  <id>http://yzd.io/container-runtime/docker-1-8-release</id>
   <published>2015-09-26T16:00:00+00:00</published>
   <updated>2015-09-26T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -1175,20 +1205,20 @@ Host C &amp;lt;–(管控)—&lt;/p&gt;
 &lt;p&gt;转帖：http://www.infoq.com/cn/news/2015/09/Docker-1-8
 原文：http://www.infoq.com/news/2015/08/Docker-1-8&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container-runtime/docker-1-8-release/&quot;&gt;Docker 1.8发布带来的新工具&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container-runtime/docker-1-8-release/&quot;&gt;Docker 1.8发布带来的新工具&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[从Linux进程的角度看Docker]]></title>
- <link rel="alternate" type="text/html" href="/container-runtime/use-linux-eye-to-see-docker/" />
-  <id>/container-runtime/use-linux-eye-to-see-docker</id>
+ <link rel="alternate" type="text/html" href="http://yzd.io/container-runtime/use-linux-eye-to-see-docker/" />
+  <id>http://yzd.io/container-runtime/use-linux-eye-to-see-docker</id>
   <published>2015-09-25T16:00:00+00:00</published>
   <updated>2015-09-25T16:00:00+00:00</updated>
   <author>
     <name>Martin Liu</name>
-    <uri></uri>
+    <uri>http://yzd.io</uri>
     <email>67120666@qq.com</email>
   </author>
   <content type="html">
@@ -1416,7 +1446,7 @@ Cmd 一般就是用户指定的应用程序。这个时候，就是在运行用�
   &lt;/li&gt;
 &lt;/ol&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/container-runtime/use-linux-eye-to-see-docker/&quot;&gt;从Linux进程的角度看Docker&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;&quot;&gt;云知道&lt;/a&gt; on September 25, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://yzd.io/container-runtime/use-linux-eye-to-see-docker/&quot;&gt;从Linux进程的角度看Docker&lt;/a&gt; was originally published by Martin Liu at &lt;a href=&quot;http://yzd.io&quot;&gt;云知道&lt;/a&gt; on September 25, 2015.&lt;/p&gt;
   </content>
 </entry>
 
