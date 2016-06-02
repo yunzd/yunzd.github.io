@@ -6,7 +6,7 @@ categories: devops
 description:
 tags: [rancher, devops, docker, vm, jenkins]
 image:
-  feature: abstract-3.jpg
+  feature: meetup.jpg
   credit:
   creditlink:
 comments: true
@@ -25,7 +25,7 @@ date: 2016-06-02T03:04:57+00:00
 
 
 ## 下载在这里
-下载地址： http://pan.baidu.com/s/1nv5wjEx
+下载地址： [http://pan.baidu.com/s/1nv5wjEx](http://pan.baidu.com/s/1nv5wjEx)
 
 
 
