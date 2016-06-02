@@ -5,30 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Docker 1.8发布带来的新工具 &#8211; 云知道</title>
+<title>5月 Rancher 线上 Meetup 回顾 &#8211; 云知道</title>
 <meta name="description" content="分享创造价值, 转播知识精华">
-<meta name="keywords" content="docker">
+<meta name="keywords" content="rancher, devops, docker, vm, jenkins">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yzd.io/images/">
-<meta name="twitter:title" content="Docker 1.8发布带来的新工具">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://yzd.io/images/abstract-3.jpg">
+
+<meta name="twitter:title" content="5月 Rancher 线上 Meetup 回顾">
 <meta name="twitter:description" content="分享创造价值, 转播知识精华">
 <meta name="twitter:creator" content="@zliu">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker 1.8发布带来的新工具">
+<meta property="og:title" content="5月 Rancher 线上 Meetup 回顾">
 <meta property="og:description" content="分享创造价值, 转播知识精华">
-<meta property="og:url" content="http://yzd.io/container-runtime/docker-1-8-release/">
+<meta property="og:url" content="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/">
 <meta property="og:site_name" content="云知道">
 
 <meta name="google-site-verification" content="DxU8FigBXmBKSOyiIr11sF7OqgJAR0FbAxEtV3bMnks">
 <meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
 
 
-<link rel="canonical" href="http://yzd.io/container-runtime/docker-1-8-release/">
+<link rel="canonical" href="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/">
 <link href="http://yzd.io/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -70,7 +71,7 @@
 
 </head>
 
-<body id="post" >
+<body id="post" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -112,15 +113,22 @@
 
 
 
+<div class="entry-header">
+  
+  <div class="entry-image">
+    <img src="http://yzd.io/images/abstract-3.jpg" alt="5月 Rancher 线上 Meetup 回顾">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
 
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://yzd.io/container-runtime/docker-1-8-release/" rel="bookmark" title="Docker 1.8发布带来的新工具">Docker 1.8发布带来的新工具</a></h1>
+          <h1 class="entry-title"><a href="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" rel="bookmark" title="5月 Rancher 线上 Meetup 回顾">5月 Rancher 线上 Meetup 回顾</a></h1>
         
-        <h2><span class="entry-date date published"><time datetime="2015-09-26T16:00:00+00:00">September 26, 2015</time></span></h2>
+        <h2><span class="entry-date date published"><time datetime="2016-06-02T03:04:57+00:00">June 02, 2016</time></span></h2>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
@@ -132,48 +140,30 @@
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>Docker公司宣布Docker 1.8发布，该版本包括工具的新增和更新，同时带来了新的引擎特性。Docker工具箱（Docker Toolbox）提供了打包的系统，目标是成为“获取和使用Docker开发环境运行的最快方式”，并替换Boot2Docker。Docker内容信任（Docker Content Trust）是Docker引擎最重大的变化，它提供了镜像签名和验证。</p>
+      <p>本文是6月线上 meetup 的预热篇，想法是把 Rancher 官方的内容回顾一遍，并结合国情；看看有什么观点可以一起探讨的。</p>
 
-<p>Docker工具箱为Windows和Mac用户捆绑了这些组件：</p>
+<h2 id="rancher--meetup-">5月 Rancher 线上 Meetup 回顾</h2>
+<p>通过翻墙，我把视频和 ppt 都搬了回来。视频上传到了腾讯，ppt 进了百度盘。</p>
 
-<ul>
-  <li>VirtualBox：运行包含Docker引擎的轻量Linux虚拟机</li>
-  <li>Docker Machine：一个配置工具，用于将Docker安装到VirtualBox（同样可以将Docker安装到多个云服务上）。</li>
-  <li>操作系统使用的Docker客户端</li>
-  <li>Kitematic：Docker图形用户界面</li>
-  <li>Mac版本包括Docker Compose合成工具（来自他们为Fig收购的Orchard Labs），帮助多容器应用配置。</li>
-</ul>
+<h2 id="section">视频在这里</h2>
+<p>在线观看。</p>
+<p style="text-align: center"><iframe class="video_iframe" style="z-index:1;" src="http://v.qq.com/iframe/player.html?vid=h0304qdm5so&amp;width=660&amp;height=400&amp;auto=0" allowfullscreen="" frameborder="0" height="400" width="660"></iframe></p>
 
-<p>安装指南为使用Boot2Docker或者已经安装VirtualBox的用户提供了迁移指导。在Windows和Mac系统上使用其他虚拟化环境的，如Hyper-V、Parallels、VMware工作站或Fusion平台，没有包括在迁移指导内（和这些平台的潜在冲突也没有提及）。Windows 10暂时还不支持。</p>
+<h2 id="section-1">下载在这里</h2>
+<p>下载地址： http://pan.baidu.com/s/1nv5wjEx</p>
 
-<p>Docker内容信任基于Notary项目，它是更新框架（The Update Framework，TUF）的一种“自以为是的实现”，是一个“可以添加到软件更新器上的弹性安全框架”。它通过使用签名，为在不安全介质上分发镜像提供安全保障。它同样提供了新鲜度保证，因此当有人在下载一个镜像时，能够知道不会获取到可能包含隐患的旧版本。这套系统使用了三种密钥类型：用于离线保存的根内容信任密钥、每个镜像仓库独立的标签密钥和时间戳密钥。当内容信任开启时（目前由环境变量控制），离线密钥和标签密钥在镜像第一次推送是自动生成。该系统还没有完全集成到Docker Hub服务上，因此自动构建无法签名。Docker Hub中的库镜像（如Ubuntu）目前已经签名，对推送到Docker Hub的用户镜像也可以进行签名了。Docker公司的David Lawrence提供一个在线聚会上录制的演示。</p>
-
-<p><img src="/images/2015/09/1ContentTrustKeys.jpg" alt="docker Notary" /></p>
-
-<p>Docker引擎更新后，将对卷插件的支持从“实验性”改成了“稳定”，表明存储能够和生态系统提供者提供的存储介质集成，如Blockbridge、Ceph、ClusterHQ、EMC和Portworx。日志驱动增加了一些特性，包括对Graylog扩展日志格式(Graylog Extended Log Format，GELF)支持、Fluentd和syslogd结合（从1.6版本开始支持）。由于有推送镜像相关缺陷，Docker 1.8.1已经发布，用于替换Docker 1.8.0。</p>
-
-<p>由于docker二进制文件同时充当了客户端和后台，一些努力已经花费在在区分这两个角色和明确各自文档上。最显著的区别是“-d”命令行开关已经被废弃，转而使用“daemon”参数，后者也有了自己的帮助文档。目前也支持通过“docker cp”命令从宿主机向容器复制文件（之前版本已经支持从容器向宿主机复制文件）。</p>
-
-<p>对于Linux用户，Debian和Ubuntu发行版有了新的apt仓库，RHEL、CentOS和Fedora有了新的yum仓库。两个仓库中的安装包，都从“lxc-docker”重命名称了“docker-engine”，主要考虑到Docker已经抛弃LXC作为默认执行驱动16个月，避免因此产生迷惑。切换到新的仓库需要特别小心，因为一些Docker配置文件中的自定义内容可能会丢失，且需要列出当前运行的容器时“docker”命令可能会不存在。</p>
-
-<p>Docker的流程控制工具也已经更新，Compose升级到1.4版本，Machine和Swarm发布了0.4版本。这些工具新版本有许多功能提升，包括一些为了工具箱实现的功能，其中一些功能将会吸引那些通过类似Mesos将Docker运行在大规模集群中的用户。2.1版本的Docker注册中心已经发布，提供了更快的操作和一些新特性。</p>
-
-<p>此次发布的重要主题是安全和易用性。前者主要针对大企业用户，后者主要目的是让更多开发者上手Docker。Docker将会找到自己的方式运行在Windows Server 2016上，对此现在已经有技术预览版。因此Docker公司无疑将会把目光投向Windows用户群。</p>
-
-<p>转帖：http://www.infoq.com/cn/news/2015/09/Docker-1-8
-原文：http://www.infoq.com/news/2015/08/Docker-1-8</p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"><a href="http://yzd.io/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a></span>
+        <span class="entry-tags"><a href="http://yzd.io/tags/#rancher" title="Pages tagged rancher" class="tag"><span class="term">rancher</span></a><a href="http://yzd.io/tags/#devops" title="Pages tagged devops" class="tag"><span class="term">devops</span></a><a href="http://yzd.io/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="http://yzd.io/tags/#vm" title="Pages tagged vm" class="tag"><span class="term">vm</span></a><a href="http://yzd.io/tags/#jenkins" title="Pages tagged jenkins" class="tag"><span class="term">jenkins</span></a></span>
         
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://yzd.io/container-runtime/docker-1-8-release/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://yzd.io/container-runtime/docker-1-8-release/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=http://yzd.io/container-runtime/docker-1-8-release/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
   </ul>
 </div><!-- /.social-share -->
-        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container-runtime/2015-09-27-docker-1-8-release.md">[ 帮助改进此文章 ]</a></span>
+        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/devops/2016-06-02-rancher-may-online-meetup-rancher-dev-in-a-box.md">[ 帮助改进此文章 ]</a></span>
       </footer>
 
     </div><!-- /.entry-content -->
@@ -181,23 +171,23 @@
     <div class="read-more">
   
     <div class="read-more-header">
-      <a href="http://yzd.io/container-runtime/use-linux-eye-to-see-docker/" class="read-more-btn">阅读全文</a>
+      <a href="http://yzd.io/container/container-usercase-all-in-one/" class="read-more-btn">阅读全文</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="5月 Rancher 线上 Meetup 回顾">5月 Rancher 线上 Meetup 回顾</a></h3>
-      <p>本文是6月线上 meetup 的预热篇，想法是把 Rancher 官方的内容回顾一遍，并结合国情；看看有什么观点可以一起探讨的。## 5月 Rancher 线上 Meetup 回顾通过翻墙，我把视频和 ppt 都搬了回来。视频上传到了腾讯，ppt 进了百度盘。## 视频在这...&hellip; <a href="http://yzd.io/devops/rancher-may-online-meetup-rancher-dev-in-a-box/">继续阅读</a></p>
+      <h3><a href="http://yzd.io/container/container-usercase-all-in-one/" title="容器应用案例大全">容器应用案例大全</a></h3>
+      <p>均聚所有目前能看到的使用案例介绍，来源是各种技术论坛和大会 <a href="http://yzd.io/container/container-usercase-all-in-one/">继续阅读</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="http://yzd.io/container/container-usercase-all-in-one/" title="容器应用案例大全">容器应用案例大全</a></h4>
-        <span>发布于 May 14, 2016</span>
+        <h4><a href="http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher/" title="线上会议-Rancer中的Kubernetes技术预览">线上会议-Rancer中的Kubernetes技术预览</a></h4>
+        <span>发布于 March 07, 2016</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
-        <h4><a href="http://yzd.io/cluster-management/introducing-kubernetes-environments-in-rancher/" title="线上会议-Rancer中的Kubernetes技术预览">线上会议-Rancer中的Kubernetes技术预览</a></h4>
-        <span>发布于 March 07, 2016</span>
+        <h4><a href="http://yzd.io/container/rancher-all-in-one/" title="为容器而定制的超融合基础架构">为容器而定制的超融合基础架构</a></h4>
+        <span>发布于 December 19, 2015</span>
       </div><!-- /.list-item -->
     
   </div><!-- /.read-more-list -->

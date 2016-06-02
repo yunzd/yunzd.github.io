@@ -25,7 +25,7 @@ date: 2016-05-14T06:46:04+00:00
 ------- | ------- | ------- | ------- 
 广发证券 | 证券  |  广发证券基于大规模Docker集群<br>的OpenTrading证券交易云实践之路[^1] [^2] | Rancher  
 长安汽车 | 制造  | 容器化技术在长安汽车的实践[^1][^2] | Kubernets Mesos<br> Marathon cSphere 
-国民生银行| 银行 |Docker重塑互联网系统新架构[^1] [^2] | docker cmdb 
+国民生银行| 银行 |Docker重塑互联网系统新架构[^1] | docker cmdb 
 用户名称 | 行业  |  演讲议题 |   技术概要
 
 
@@ -35,7 +35,7 @@ date: 2016-05-14T06:46:04+00:00
 本表格的原文在 github 上，欢迎点击下面的链接共同维护，欢迎提 pull request。
 
 [^1]: CCTC 中国云计算技术大会 *http://cctc.csdn.net/*
-[^2]: CCTC 中国云计算技术大会 *http://geek.csdn.net/news/detail/74030*
+[^2]: PPT 下载 *http://download.csdn.net/index.php/mobile//source/download/heyc861221/9521802*
 
 
 
