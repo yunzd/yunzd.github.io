@@ -1,0 +1,527 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>程序猿的容器微数据中心 &#8211; 云知道</title>
+<meta name="description" content="分享创造价值, 转播知识精华">
+<meta name="keywords" content="rancher, docker, virutalbox, mac, git">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/">
+<meta name="twitter:title" content="程序猿的容器微数据中心">
+<meta name="twitter:description" content="分享创造价值, 转播知识精华">
+<meta name="twitter:creator" content="@zliu">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="程序猿的容器微数据中心">
+<meta property="og:description" content="分享创造价值, 转播知识精华">
+<meta property="og:url" content="/devops/dev-in-a-box/">
+<meta property="og:site_name" content="云知道">
+
+<meta name="google-site-verification" content="DxU8FigBXmBKSOyiIr11sF7OqgJAR0FbAxEtV3bMnks">
+<meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
+
+
+<link rel="canonical" href="/devops/dev-in-a-box/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<link href="http://fonts.useso.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="/">首页</a></li>
+		<li><a href="/posts/">归档</a></li>
+		<li><a href="/tags/">标签</a></li>
+		<li>
+			<a href="#">关于</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="/images/head-200-200.jpg" alt="Martin Liu photo" class="author-photo">
+					<h4>Martin Liu</h4>
+					<p>Blogger, runner, opensource fans</p>
+				</li>
+				<li><a href="/about/"><span class="btn btn-inverse">了解本站</span></a></li>
+				<li>
+					<a href="mailto:67120666@qq.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/zliu"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+				</li>
+				
+				
+				
+				<li>
+					<a href="https://github.com/martinliu"><i class="fa fa-fw fa-github"></i> GitHub</a>
+				</li>
+				
+				
+				
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        
+          <h1 class="entry-title"><a href="/devops/dev-in-a-box/" rel="bookmark" title="程序猿的容器微数据中心">程序猿的容器微数据中心</a></h1>
+        
+        <h2><span class="entry-date date published"><time datetime="2016-06-19T07:06:11+00:00">June 19, 2016</time></span></h2>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+预计阅读时间 ~5 分钟
+
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      <p>简介是这样的。</p>
+
+<p>[TOC]</p>
+
+<h2 id="section">说明</h2>
+
+<h2 id="rancher-">创建 Rancher 服务器</h2>
+
+<h3 id="section-1">生成虚拟机</h3>
+<p>用 docker-machine 创建 rancher 服务器。</p>
+
+<p><code class="highlighter-rouge">docker-machine create rancher --driver virtualbox --virtualbox-cpu-count "1" --virtualbox-disk-size "8000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/boot2docker.iso &amp;&amp; eval $(docker-machine env rancher)</code></p>
+
+<h2 id="rancher--1">导入 Rancher 服务器镜像</h2>
+
+<p><code class="highlighter-rouge">docker images
+docker load &lt; ~/Downloads/rancher-all/rancher-server-stable.tar
+docker images
+docker run -d --restart=always --name rancher-srv -p 8080:8080 rancher/server:stable 
+docker logs -f rancher-srv</code></p>
+
+<p>docker-machine ip rancher</p>
+
+<p>open http://Rancher_Server_IP:8080</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>echo “ifconfig eth1 192.168.99.50 netmask 255.255.255.0 broadcast 192.168.99.255 up”</td>
+      <td>docker-machine ssh rancher sudo tee /var/lib/boot2docker/bootsync.sh &gt; /dev/null</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>docker-machine restart 
+docker-machine ls
+docker-machine regenerate-certs rancher -f
+docker-machine ls
+eval $(docker-machine env rancher)</p>
+
+<p>docker ps
+docker load &lt; ~/Downloads/rancher-all/rancher-server-stable.tar
+docker images
+docker run -d –restart=always –name rancher-srv -p 8080:8080 rancher/server:stable 
+docker logs -f rancher-srv
+open http://192.168.99.50:8080</p>
+
+<p>docker-machine create node1 –driver virtualbox –virtualbox-cpu-count “1” –virtualbox-disk-size “80000” –virtualbox-memory “2048” –virtualbox-boot2docker-url=/Users/martin/Downloads/boot2docker.iso</p>
+
+<p>echo “ifconfig eth1 192.168.99.60 netmask 255.255.255.0 broadcast 192.168.99.255 up” | docker-machine ssh node1 sudo tee /var/lib/boot2docker/bootsync.sh &gt; /dev/null
+docker-machine regenerate-certs node1 -f
+docker-machine ssh ndoe1
+sudo mkdir /mnt/sda1/var/lib/rancher</p>
+
+<p>docker@node1:/mnt/sda1/var/lib/boot2docker$ cat bootsync.sh
+ifconfig eth1 192.168.99.60 netmask 255.255.255.0 broadcast 192.168.99.255 up</p>
+
+<p>sudo mkdir /mnt/sda1/var/lib/rancher/
+sudo ln -s /mnt/sda1/var/lib/rancher/ /var/lib/</p>
+
+<p>docker load &lt; ~/Downloads/rancher-all/rancher-agent-v1.0.1.tar
+docker load &lt; ~/Downloads/rancher-all/rancher-agent-instance-v0.8.1.tar
+docker load &lt; ~/Downloads/rancher-all/jenkins.tar</p>
+
+<p>docker run -d –privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.0.1 http://192.168.99.50:8080/v1/scripts/B589B8DC7898DD0378C9:1466244000000:WBES1W1ZZUwhj2xHb9GKb8ra0dQ</p>
+
+<p>docker load &lt; ~/Downloads/rancher-all/jenkins.tar</p>
+
+<p>docker run -d –name jekins –privileged -p 9001:8080 -v /var/lib/docker/:/var/lib/docker/ -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker  -v /lib64/libdevmapper.so.1.02:/usr/lib/libdevmapper.so.1.02  –label io.rancher.container.network=true jenkins</p>
+
+<p>docker-machine create mirror –driver virtualbox –virtualbox-cpu-count “1” –virtualbox-disk-size “8000” –virtualbox-memory “512” –virtualbox-boot2docker-url=/Users/martin/Downloads/boot2docker.iso</p>
+
+<p>docker load &lt; ~/Downloads/rancher-all/registry.tar
+docker run -d -p 80:5000 –restart=always –name registry registry:2</p>
+
+<h2 id="rancher-agent-">容器运行节点 Rancher Agent 节点</h2>
+<p>使用 <code class="highlighter-rouge">docker-machine</code> 命令创建容器运行节点。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create node1 --driver virtualbox --engine-insecure-registry 192.168.99.20:5000 --virtualbox-cpu-count "1" --virtualbox-disk-size "80000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/boot2docker.iso &amp;&amp; eval $(docker-machine env node1)
+</code></pre>
+</div>
+
+<p>测试运行一个容器，使用 mirror 中的 busybox 镜像。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>docker pull 192.168.99.20:5000/busybox:latest 
+</code></pre>
+</div>
+
+<p>在界面上运行一个 busybox 容器。</p>
+
+<p>加载 Rancher Agent 的镜像</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>docker load &lt; ~/Downloads/rancher-all/rancher-agent-v1.0.1.tar
+docker load &lt; ~/Downloads/rancher-all/rancher-agent-instance-v0.8.1.tar
+</code></pre>
+</div>
+
+<p>注册容器节点到 Rancher Server。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>docker run -d --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.0.1 http://192.168.99.102:8080/v1/scripts/CC8E5E4C452801B868CE:1466431200000:U4dxw4pmwyMmEJ2M9ib8lgxwnBQ
+</code></pre>
+</div>
+
+<blockquote>
+  <p>注意：以上命令需要到您的 Rancher Server 的页面上获取，否则参数都是不对的。</p>
+</blockquote>
+
+<p>现在在 Hosts 页面上应该能看到该刚创建的节点。在页面上创建一个最小化的容器（如 busybox），来拉起 Network Agent 容器。</p>
+
+<h2 id="section-2">构建和测试代码</h2>
+<p>下载投票实例程序。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/martinliu/example-voting-app.git
+</code></pre>
+</div>
+
+<p>进入该程序的目录，修改所有 image 的来源镜像库，修改为指向本地的 mirror 服务器。
+1. result/tests/Dcokerfile -&gt; FROM 192.168.99.20:5000/node
+2. result/Dockerfile -&gt; FROM 192.168.99.20:5000/node:5.11.0-slim
+3. vote/Dockerfile -&gt; FROM 192.168.99.20:5000/python:2.7-alpine
+4. worker/Dockerfile -&gt; FROM 192.168.99.20:5000/microsoft/dotnet:1.0.0-preview1
+5. docker-compose.yml -&gt; image: 192.168.99.20:5000/redis:alpine
+6. docker-compose.yml -&gt; image: 192.168.99.20:5000/postgres:9.4</p>
+
+<p>由于以上应用在构建的过程中需要在线安装各种软件包，最好先翻墙，确认你有足够稳定的国外的互联网访问，建议翻墙到美国，然后在执行项目的构建命令。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ping facebook.com
+64 bytes from 173.252.90.132: icmp_seq=0 ttl=79 time=4187.066 ms
+64 bytes from 173.252.90.132: icmp_seq=1 ttl=79 time=3186.904 ms
+64 bytes from 173.252.90.132: icmp_seq=2 ttl=79 time=2515.415 ms
+64 bytes from 173.252.90.132: icmp_seq=6 ttl=79 time=296.457 ms
+64 bytes from 173.252.90.132: icmp_seq=7 ttl=79 time=410.215 ms
+^C
+--- facebook.com ping statistics ---
+8 packets transmitted, 5 packets received, 37.5% packet loss
+round-trip min/avg/max/stddev = 296.457/2119.211/4187.066/1537.275 ms
+
+</code></pre>
+</div>
+
+<p>以上结果表明，翻墙成功，以上结果显示翻墙的效果比较差，延迟和丢包都比较严重，可能到只构建的时候下载软件包失败。</p>
+
+<p>构建投票应用成功的完整过程示例文件 <a href="build.txt">build.txt</a> 。</p>
+
+<p>构建完毕之后，可以检查一下是否生产了目标镜像文件，如果输出如下所示，则表明本次本地的项目集成构建成功。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ docker images                                                                                                                            
+REPOSITORY                            TAG                 IMAGE ID            CREATED             SIZE
+examplevotingapp_result               latest              9bb4126b0905        5 minutes ago       225.8 MB
+examplevotingapp_worker               latest              292396a5aba4        6 minutes ago       644.1 MB
+examplevotingapp_vote                 latest              28052191beea        10 minutes ago      68.31 MB
+
+</code></pre>
+</div>
+
+<p>在当前 node1 节点上做本地的集成结果的功能测试，用 docker-compose 启动这个项目。先检查 compose 文件，然后运行 up。</p>
+
+<p>```$ docker-compose config                                                                                                                    <br />
+networks: {}
+services:
+  db:
+    image: 192.168.99.20:5000/postgres:9.4
+  redis:
+    image: 192.168.99.20:5000/redis:alpine
+    ports:
+    - ‘6379’
+  result:
+    build:
+      context: /Users/martin/Documents/GitHub/example-voting-app/result
+    command: nodemon –debug server.js
+    ports:
+    - 5001:80
+    - 5858:5858
+    volumes:
+    - /Users/martin/Documents/GitHub/example-voting-app/result:/app:rw
+  vote:
+    build:
+      context: /Users/martin/Documents/GitHub/example-voting-app/vote
+    command: python app.py
+    ports:
+    - 5000:80
+    volumes:
+    - /Users/martin/Documents/GitHub/example-voting-app/vote:/app:rw
+  worker:
+    build:
+      context: /Users/martin/Documents/GitHub/example-voting-app/worker
+version: ‘2.0’
+volumes: {}</p>
+
+<p>$ docker-compose up                                                                                                                          <br />
+Recreating examplevotingapp_vote_1
+Recreating examplevotingapp_worker_1
+Starting examplevotingapp_db_1
+Starting examplevotingapp_redis_1
+Recreating examplevotingapp_result_1
+Attaching to examplevotingapp_db_1, examplevotingapp_redis_1, examplevotingapp_worker_1, examplevotingapp_result_1, examplevotingapp_vote_1
+redis_1   |                 <em>.</em>
+redis_1   |            <em>.-<code class="highlighter-rouge">__ ''-._
+redis_1   |       _.-</code>    <code class="highlighter-rouge">.  </code></em>.  ‘’-._           Redis 3.2.1 (00000000/0) 64 bit
+redis_1   |   .-<code class="highlighter-rouge">.-</code><code class="highlighter-rouge">.  </code><code class="highlighter-rouge">\/    _.,_ ''-._
+db_1      | LOG:  database system was shut down at 2016-06-20 09:58:19 UTC
+redis_1   |  (    '      ,       .-`  | `,    )     Running in standalone mode
+redis_1   |  |`-._`-...-` __...-.</code>-.<em>|’<code class="highlighter-rouge"> _.-'|     Port: 6379
+redis_1   |  |    </code>-.</em>   <code class="highlighter-rouge">._    /     _.-'    |     PID: 1
+redis_1   |   </code>-._    <code class="highlighter-rouge">-._  </code>-./  <em>.-‘    _.-‘
+redis_1   |  |<code class="highlighter-rouge">-._</code>-.</em>    <code class="highlighter-rouge">-.__.-'    _.-'_.-'|
+redis_1   |  |    </code>-.<em><code class="highlighter-rouge">-._        _.-'_.-'    |           http://redis.io
+redis_1   |   </code>-.</em>    <code class="highlighter-rouge">-._</code>-.<strong>.-‘<em>.-‘    _.-‘
+redis_1   |  |<code class="highlighter-rouge">-._</code>-.</em>    <code class="highlighter-rouge">-.__.-'    _.-'_.-'|
+db_1      | LOG:  MultiXact member wraparound protections are now enabled
+redis_1   |  |    </code>-.<em><code class="highlighter-rouge">-._        _.-'_.-'    |
+redis_1   |   </code>-.</em>    <code class="highlighter-rouge">-._</code>-.</strong>.-‘_.-‘    _.-‘
+db_1      | LOG:  database system is ready to accept connections
+redis_1   |       <code class="highlighter-rouge">-._    </code>-.<strong>.-‘    _.-‘
+redis_1   |           <code class="highlighter-rouge">-._        _.-'
+redis_1   |               </code>-.</strong>.-‘
+redis_1   |
+redis_1   | 1:M 20 Jun 10:13:36.216 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+redis_1   | 1:M 20 Jun 10:13:36.216 # Server started, Redis version 3.2.1
+redis_1   | 1:M 20 Jun 10:13:36.216 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add ‘vm.overcommit_memory = 1’ to /etc/sysctl.conf and then reboot or run the command ‘sysctl vm.overcommit_memory=1’ for this to take effect.
+db_1      | LOG:  autovacuum launcher started
+redis_1   | 1:M 20 Jun 10:13:36.216 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command ‘echo never &gt; /sys/kernel/mm/transparent_hugepage/enabled’ as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+redis_1   | 1:M 20 Jun 10:13:36.216 * The server is now ready to accept connections on port 6379
+vote_1    |  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+vote_1    |  * Restarting with stat
+result_1  | [nodemon] 1.9.2
+result_1  | [nodemon] to restart at any time, enter <code class="highlighter-rouge">rs</code>
+result_1  | [nodemon] watching: <em>.</em>
+result_1  | [nodemon] starting <code class="highlighter-rouge">node --debug server.js</code>
+result_1  | Debugger listening on port 5858
+vote_1    |  * Debugger is active!
+vote_1    |  * Debugger pin code: 139-254-286
+worker_1  | Found redis at 172.19.0.2
+result_1  | Mon, 20 Jun 2016 10:13:40 GMT body-parser deprecated bodyParser: use individual json/urlencoded middlewares at server.js:67:9
+result_1  | Mon, 20 Jun 2016 10:13:40 GMT body-parser deprecated undefined extended: provide extended option at ../node_modules/body-parser/index.js:105:29
+result_1  | App running on port 80
+result_1  | Connected to db</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+打开浏览器测试 vote 应用。
+
+</code></pre>
+</div>
+<p>open http://192.168.99.114:5000</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+正常显示结果如下图所示：
+![voting](/images/voting-1.jpg)
+
+
+打开浏览器测试 result 应用。
+
+</code></pre>
+</div>
+<p>open http://192.168.99.114:5001</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+正常显示结果如下图所示：
+![result](/images/result-1.jpg)
+
+
+在 Rancher 的 hosts 界面中应该看到这些运行的容器。
+![voting-in-ranche](/images/voting-in-rancher-1.jpg)
+
+
+至此所有关于应用构建和功能测试的过程完成，按 ctl + c 结束 docker-compose up 的运行。
+
+</code></pre>
+</div>
+<p>^CGracefully stopping… (press Ctrl+C again to force)
+Stopping examplevotingapp_worker_1 … done
+Stopping examplevotingapp_result_1 … done
+Stopping examplevotingapp_vote_1 … done
+Stopping examplevotingapp_db_1 … done
+Stopping examplevotingapp_redis_1 … done</p>
+
+<p>```</p>
+
+<h2 id="rancher-compose-">安装 rancher-compose 命令</h2>
+<p>在Rancher 的界面右下角，点击 Download CLI， 把压缩包下载到程序代码目录，解压缩后得到 rancher-compose 可执行文件。</p>
+
+<h2 id="rancher-composeyml-">构建 rancher-compose.yml 文件</h2>
+<p>参考 docker-compose.yml 文件构建 rancher-compose.yml 文件如下。</p>
+
+<h2 id="api-key">创建 API Key</h2>
+
+<p>Access key  9F4FCAC33A8F44856CA1
+Security Key ZbERnGaNSjKqTTXhRBUJD3JBumP9eyTvC7PGmaL1</p>
+
+<p>./rancher-compose –url http://192.168.99.104:8080 –access-key 9F4FCAC33A8F44856CA1 –secret-key ZbERnGaNSjKqTTXhRBUJD3JBumP9eyTvC7PGmaL1 -p voting-app up –pull -d –upgrade pyapp</p>
+
+<p>./rancher-compose –url http://192.168.99.104:8080 –access-key 9F4FCAC33A8F44856CA1 –secret-key ZbERnGaNSjKqTTXhRBUJD3JBumP9eyTvC7PGmaL1 voting-app up –pull -d –upgrade votingapp</p>
+
+<h2 id="flask-demo">测试flask demo</h2>
+
+<p>加载相关镜像
+docker load &lt; ~/Downloads/redis.tar
+docker load &lt; ~/Downloads/python-with-flask-redis.tar</p>
+
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="/tags/#rancher" title="Pages tagged rancher" class="tag"><span class="term">rancher</span></a><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="/tags/#virutalbox" title="Pages tagged virutalbox" class="tag"><span class="term">virutalbox</span></a><a href="/tags/#mac" title="Pages tagged mac" class="tag"><span class="term">mac</span></a><a href="/tags/#git" title="Pages tagged git" class="tag"><span class="term">git</span></a></span>
+        
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/devops/dev-in-a-box/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/devops/dev-in-a-box/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=/devops/dev-in-a-box/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/devops/2016-06-19-dev-in-a-box.md">[ 帮助改进此文章 ]</a></span>
+      </footer>
+
+    </div><!-- /.entry-content -->
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" class="read-more-btn">阅读全文</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="/container/dockercon-2016-d1-keynote/" title="DockerCon 2016 D1 Keynote">DockerCon 2016 D1 Keynote</a></h3>
+      <p>看点：开场乌龟引起了喵星人大战，首次有吉祥物开启的科技盛会。和往常一样 CEO 和 CTO 挑大梁将首日 keynote。所罗门提出了 Docker 技术发展的三个核心方向和着眼点，并在每个方向上做了新技术发布。1. 开发者体验提升， 正式发布 Docker for Mac...&hellip; <a href="/container/dockercon-2016-d1-keynote/">继续阅读</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="5月 Rancher 线上 Meetup 回顾">5月 Rancher 线上 Meetup 回顾</a></h4>
+        <span>发布于 June 02, 2016</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="/container/container-usercase-all-in-one/" title="容器应用案例大全">容器应用案例大全</a></h4>
+        <span>发布于 May 14, 2016</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2016 Martin Liu. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77731594-1', 'auto');  
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+</script>
+
+
+
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'yzd'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script'); s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</body>
+</html>
