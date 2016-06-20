@@ -5,30 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>从Linux进程的角度看Docker &#8211; 云知道</title>
+<title>分享创造价值, 转播知识精华 &#8211; 云知道</title>
 <meta name="description" content="分享创造价值, 转播知识精华">
-<meta name="keywords" content="docker, Linux">
+<meta name="keywords" content="Docker, linux, cloud, paas, iaas, puppet">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="/images/">
-<meta name="twitter:title" content="从Linux进程的角度看Docker">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/images/header2.jpg">
+
+<meta name="twitter:title" content="分享创造价值, 转播知识精华">
 <meta name="twitter:description" content="分享创造价值, 转播知识精华">
 <meta name="twitter:creator" content="@zliu">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="从Linux进程的角度看Docker">
+<meta property="og:title" content="分享创造价值, 转播知识精华">
 <meta property="og:description" content="分享创造价值, 转播知识精华">
-<meta property="og:url" content="/container-runtime/use-linux-eye-to-see-docker/">
+<meta property="og:url" content="/page4/">
 <meta property="og:site_name" content="云知道">
 
 <meta name="google-site-verification" content="DxU8FigBXmBKSOyiIr11sF7OqgJAR0FbAxEtV3bMnks">
 <meta name="msvalidate.01" content="12F570013342D1F8B60A455D09221C1D">
 
 
-<link rel="canonical" href="/container-runtime/use-linux-eye-to-see-docker/">
+<link rel="canonical" href="/page4/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="云知道 Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -70,7 +71,7 @@
 
 </head>
 
-<body id="post" >
+<body id="post-index" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -111,28 +112,43 @@
 </nav><!-- /.dl-menuwrapper -->
 
 
-
+<div class="entry-header">
+  
+  
+    <div class="entry-image">
+      <img src="/images/header2.jpg" alt="分享创造价值, 转播知识精华">
+    </div><!-- /.entry-image -->
+  
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>云知道</h1>
+      <h2>分享创造价值, 转播知识精华</h2>
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
 
 <div id="main" role="main">
-  <article class="hentry">
-    <header class="header-title">
-      <div class="header-title-wrap">
+  
+<article class="hentry">
+  <header>
+    
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2015-09-25T16:00:00+00:00"><a href="/container-runtime/use-linux-eye-to-see-docker/">September 25, 2015</a></time></span><span class="author vcard"><span class="fn"><a href="/about/" title="About Martin Liu">Martin Liu</a></span></span>
+      
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
         
-          <h1 class="entry-title"><a href="/container-runtime/use-linux-eye-to-see-docker/" rel="bookmark" title="从Linux进程的角度看Docker">从Linux进程的角度看Docker</a></h1>
-        
-        <h2><span class="entry-date date published"><time datetime="2015-09-25T16:00:00+00:00">September 25, 2015</time></span></h2>
-        
-        <p class="entry-reading-time">
-          <i class="fa fa-clock-o"></i>
-          
 预计阅读时间 ~3 分钟
 
-        </p><!-- /.entry-reading-time -->
-        
-      </div><!-- /.header-title-wrap -->
-    </header>
-    <div class="entry-content">
-      <p>整个分享过程中有以下几个关键词：Linux、Docker、fork、exec、task_struct、namespace 以及 dockerinit。分享内容可能比较底层，但对大家理解 Docker 的本质会很有帮助，大家要有耐心哦。</p>
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="/container-runtime/use-linux-eye-to-see-docker/" rel="bookmark" title="从Linux进程的角度看Docker" itemprop="url">从Linux进程的角度看Docker</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>整个分享过程中有以下几个关键词：Linux、Docker、fork、exec、task_struct、namespace 以及 dockerinit。分享内容可能比较底层，但对大家理解 Docker 的本质会很有帮助，大家要有耐心哦。</p>
 
 <p>分享的内容包含三部分：</p>
 
@@ -356,46 +372,61 @@ Cmd 一般就是用户指定的应用程序。这个时候，就是在运行用�
   </li>
 </ol>
 
-      <footer class="entry-meta">
-        <span class="entry-tags"><a href="/tags/#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="/tags/#Linux" title="Pages tagged Linux" class="tag"><span class="term">Linux</span></a></span>
-        
-        <div class="social-share">
-  <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=/container-runtime/use-linux-eye-to-see-docker/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=/container-runtime/use-linux-eye-to-see-docker/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-    <li class="googleplus"><a href="https://plus.google.com/share?url=/container-runtime/use-linux-eye-to-see-docker/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
-  </ul>
-</div><!-- /.social-share -->
-        <span class="entry-tags">  <a  href="https://github.com/yunzd/yunzd.github.io/blob/master/_posts/container-runtime/2015-09-26-use-linux-eye-to-see-docker.md">[ 帮助改进此文章 ]</a></span>
-      </footer>
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
 
-    </div><!-- /.entry-content -->
-    <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    <div class="read-more">
-  
-    <div class="read-more-header">
-      <a href="" class="read-more-btn">阅读全文</a>
-    </div><!-- /.read-more-header -->
-    <div class="read-more-content">
-      <h3><a href="/container/dockercon-2016-d1-keynote/" title="DockerCon 2016 D1 Keynote">DockerCon 2016 D1 Keynote</a></h3>
-      <p>看点：开场乌龟引起了喵星人大战，首次有吉祥物开启的科技盛会。和往常一样 CEO 和 CTO 挑大梁将首日 keynote。所罗门提出了 Docker 技术发展的三个核心方向和着眼点，并在每个方向上做了新技术发布。1. 开发者体验提升， 正式发布 Docker for Mac...&hellip; <a href="/container/dockercon-2016-d1-keynote/">继续阅读</a></p>
-    </div><!-- /.read-more-content -->
-  
-  <div class="read-more-list">
+
+
+<div class="pagination">
+  <ul class="inline-list">
     
-      <div class="list-item">
-        <h4><a href="/devops/dev-in-a-box/" title="程序猿的容器微数据中心">程序猿的容器微数据中心</a></h4>
-        <span>发布于 June 19, 2016</span>
-      </div><!-- /.list-item -->
     
-      <div class="list-item">
-        <h4><a href="/devops/rancher-may-online-meetup-rancher-dev-in-a-box/" title="5月 Rancher 线上 Meetup 回顾">5月 Rancher 线上 Meetup 回顾</a></h4>
-        <span>发布于 June 02, 2016</span>
-      </div><!-- /.list-item -->
+      
+        <li><a href="/page3/" class="btn">前一页</a></li>
+      
     
-  </div><!-- /.read-more-list -->
-</div><!-- /.read-more -->
-  </article>
+
+    
+    
+      <li><a href="">1</a></li>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+        
+        
+        
+        <li><a href="/page2/">2</a></li>
+      
+    
+      
+        
+        
+        
+        <li><a href="/page3/">3</a></li>
+      
+    
+
+    
+    
+
+    
+      <li><strong class="current-page">4</strong></li>
+    
+
+    
+    
+  </ul>
+</div>
+
+
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
@@ -423,29 +454,7 @@ Cmd 一般就是用户指定的应用程序。这个时候，就是在运行用�
 </script>
 
 
-
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'yzd'; // required: replace example with your forum shortname
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function () {
-            var s = document.createElement('script'); s.async = true;
-            s.type = 'text/javascript';
-            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-        }());
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+          
 
 </body>
 </html>
