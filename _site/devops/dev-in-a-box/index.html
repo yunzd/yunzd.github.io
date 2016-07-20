@@ -201,9 +201,15 @@ https://github.com/docker/example-voting-app</p>
 
 <h3 id="section-2">生成虚拟机</h3>
 
-<p>用 docker-machine 创建 rancher 服务器。</p>
+<p>用 docker-machine 创建 rancher 服务器，使用boot2docker镜像。</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create rancher --driver virtualbox --virtualbox-cpu-count "1" --virtualbox-disk-size "8000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/1.12.0-rc2/boot2docker.iso &amp;&amp; eval $(docker-machine env rancher)
+<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create rancher --driver virtualbox --virtualbox-cpu-count "1" --virtualbox-disk-size "8000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/docker/boot2docker1.12.0-rc4.iso  &amp;&amp; eval $(docker-machine env rancher)
+</code></pre>
+</div>
+
+<p>用 docker-machine 创建 rancher 服务器，使用RancherOS镜像。</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create node1 --driver virtualbox --virtualbox-cpu-count "1" --virtualbox-disk-size "8000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/rancheros.iso &amp;&amp; eval $(docker-machine env rancher)
 </code></pre>
 </div>
 
@@ -223,42 +229,16 @@ docker-machine ip rancher</p>
 <p>用浏览器打开Rancher 服务器的登录页面。
 open http://Rancher_Server_IP:8080</p>
 
-<p>下面是一些如何让虚拟机保持固定 IP 和 rancher 容器存储的数据持久存在的代码，我没有测试成功，留下大家一起搞，成功了，给我一个回复。另外还有关于稿 jekins 和 mirror 的代码。</p>
-
-<div class="highlighter-rouge"><pre class="highlight"><code>echo "ifconfig eth1 192.168.99.60 netmask 255.255.255.0 broadcast 192.168.99.255 up" | docker-machine ssh node1 sudo tee /var/lib/boot2docker/bootsync.sh &gt; /dev/null
-docker-machine regenerate-certs node1 -f
-docker-machine ssh ndoe1
-sudo mkdir /mnt/sda1/var/lib/rancher 
-
-
-docker@node1:/mnt/sda1/var/lib/boot2docker$ cat bootsync.sh
-ifconfig eth1 192.168.99.60 netmask 255.255.255.0 broadcast 192.168.99.255 up
-
-sudo mkdir /mnt/sda1/var/lib/rancher/
-sudo ln -s /mnt/sda1/var/lib/rancher/ /var/lib/
-
-
-
-docker load &lt; ~/Downloads/rancher-all/jenkins.tar
-
-docker run -d --name jekins --privileged -p 9001:8080 -v /var/lib/docker/:/var/lib/docker/ -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker  -v /lib64/libdevmapper.so.1.02:/usr/lib/libdevmapper.so.1.02  --label io.rancher.container.network=true jenkins
-
-
-docker-machine create mirror --driver virtualbox --virtualbox-cpu-count "1" --virtualbox-disk-size "8000" --virtualbox-memory "512" --virtualbox-boot2docker-url=/Users/martin/Downloads/boot2docker.iso 
-
-docker load &lt; ~/Downloads/rancher-all/registry.tar
-docker run -d -p 80:5000 --restart=always --name registry registry:2
-</code></pre>
-</div>
-
 <h2 id="rancher-agent-">容器运行节点 Rancher Agent 节点</h2>
 
 <h3 id="node1-">创建 node1 虚拟机</h3>
 <p>使用 <code class="highlighter-rouge">docker-machine</code> 命令创建容器运行节点。</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create node1 --driver virtualbox --engine-insecure-registry 192.168.99.20:5000 --virtualbox-cpu-count "1" --virtualbox-disk-size "80000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/1.12.0-rc2/boot2docker.iso 
+<div class="highlighter-rouge"><pre class="highlight"><code>docker-machine create node1 --driver virtualbox --engine-insecure-registry 192.168.99.20:5000 --virtualbox-cpu-count "1" --virtualbox-disk-size "80000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/docker/boot2docker1.12.0-rc4.iso 
 
 docker-machine create node2 --driver virtualbox --engine-insecure-registry 192.168.99.20:5000 --virtualbox-cpu-count "1" --virtualbox-disk-size "80000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/1.12.0-rc2/boot2docker.iso 
+
+docker-machine create node3 --driver virtualbox --engine-insecure-registry 192.168.99.20:5000 --virtualbox-cpu-count "1" --virtualbox-disk-size "80000" --virtualbox-memory "1024" --virtualbox-boot2docker-url=/Users/martin/Downloads/rancheros.iso
 </code></pre>
 </div>
 
